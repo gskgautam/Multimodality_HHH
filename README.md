@@ -50,7 +50,7 @@ Use Python 3.10.12. Open-weight commands use the installed Ollama service and ex
 
 ## 2. Install the Dataset Locally
 
-Download the project-format 1,416-record dataset ZIP from the repository release asset (URL: (https://github.com/gskgautam/multimodality/releases/download/ch3ef-full1416-v1.0/ch3ef_full1416.zip)). It contains the records and images used by the evaluation scripts. Reviewer workbooks and private joint-label files are excluded.
+Download the project-format 1,416-record dataset ZIP from the repository release asset (URL: [GitHub release](https://github.com/gskgautam/multimodality/releases/download/ch3ef-full1416-v1.0/ch3ef_full1416.zip)). It contains the records and images used by the evaluation scripts. Reviewer workbooks and private joint-label files are excluded.
 
 From the repository root:
 
