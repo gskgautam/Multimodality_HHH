@@ -12,7 +12,7 @@ Method/OrchCircuit/final/      Selector implementation and figure analyses
 README.md                      Setup and folder-by-folder run guide
 ~~~
 
-The primary comparison includes 15 completed open-weight baselines. Each has a folder and `run.py` launcher under `Baselines/Open/`; ten use the shared Ollama runner, while five retain model-specific adapters. The three incomplete/replaced candidates (InternVL3.5 2B, LLaVA-OneVision-2 8B and Molmo2 8B) are not counted as completed baselines. The nine hosted launchers are under `Baselines/Closed/`.
+The primary comparison includes 15 completed open-weight baselines. Each has a folder and `run.py` launcher under `Baselines/Open/`; ten use the shared Ollama runner, while five retain model-specific adapters. The nine hosted launchers are under `Baselines/Closed/`.
 
 | Size group | Completed open-weight models |
 |---|---|
@@ -26,7 +26,7 @@ Large or sensitive files—including model weights and raw responses, API creden
 
 ## 1. Prepare the Environment
 
-The runners locate the project root from the checkout. For double-anonymous review, clone the anonymous repository URL provided with the submission. To download the dataset release from the terminal, install [GitHub CLI](https://github.com/cli/cli#installation) if needed and authenticate once:
+The runners locate the project root from the checkout. To download the dataset release from the terminal, install [GitHub CLI](https://github.com/cli/cli#installation) if needed and authenticate once:
 
 ~~~bash
 gh auth login
@@ -50,9 +50,7 @@ Use Python 3.10.12. Open-weight commands use the installed Ollama service and ex
 
 ## 2. Install the Dataset Locally
 
-Download the project-format 1,416-record dataset ZIP from the anonymous repository release asset (URL supplied with the review). It contains the records and images used by the evaluation scripts. Reviewer workbooks and private joint-label files are excluded.
-
-The upstream [OpenLAMM Ch3Ef dataset card](https://huggingface.co/datasets/openlamm/Ch3Ef) declares Apache License 2.0 and describes 1,002 annotated samples in a different layout. Use the project release below for exact reproduction of this repository’s 1,416-record runs; do not substitute the upstream layout.
+Download the project-format 1,416-record dataset ZIP from the repository release asset (URL: (https://github.com/gskgautam/multimodality/releases/download/ch3ef-full1416-v1.0/ch3ef_full1416.zip)). It contains the records and images used by the evaluation scripts. Reviewer workbooks and private joint-label files are excluded.
 
 From the repository root:
 
