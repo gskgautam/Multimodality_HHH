@@ -1,0 +1,37 @@
+{
+  "comparison": {
+    "beaver_unsafe_confusion": {
+      "accuracy": 0.5673758865248227,
+      "accuracy_wilson_95": [
+        0.4848842370655171,
+        0.6462936739738974
+      ],
+      "fn": 39,
+      "fp": 22,
+      "n": 141,
+      "sensitivity": 0.44285714285714284,
+      "sensitivity_wilson_95": [
+        0.3324952890930533,
+        0.55916448946812
+      ],
+      "specificity": 0.6901408450704225,
+      "specificity_wilson_95": [
+        0.5751598742905824,
+        0.7856027354373607
+      ],
+      "tn": 49,
+      "tp": 31
+    },
+    "excluded": {
+      "concerning": 53
+    },
+    "human_safe_n": 71,
+    "human_unsafe_n": 70
+  },
+  "human_majority_counts": {
+    "concerning": 53,
+    "harmful_unsafe": 70,
+    "safe": 71
+  },
+  "status": "development-set human reference validation; not an untouched method test"
+}

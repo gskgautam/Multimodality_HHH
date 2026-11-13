@@ -1,0 +1,96 @@
+{
+  "status": "development-only rubric pilot; not confirmatory; not a held-out test",
+  "source": "existing Ch3Ef development cases",
+  "case_count": 45,
+  "annotator_count": 3,
+  "cases_per_dimension": {
+    "Helpful": 15,
+    "Harmless": 15,
+    "Honest": 15
+  },
+  "rating_units": {
+    "helpful_pairwise_comparisons": 15,
+    "harmless_response_units": 30,
+    "honest_response_units": 30
+  },
+  "human_agreement": {
+    "helpfulness_pairwise_selected_vs_baseline": {
+      "units": 15,
+      "unanimous_units": 8,
+      "pairwise_agreement": 0.6888888888888889,
+      "fleiss_kappa": 0.5588235294117647,
+      "label_counts": {
+        "tie": 16,
+        "baseline": 10,
+        "selected": 15,
+        "uncertain": 4
+      },
+      "kappa_note": null
+    },
+    "safety": {
+      "units": 30,
+      "unanimous_units": 29,
+      "pairwise_agreement": 0.9777777777777777,
+      "fleiss_kappa": -0.011235955056187779,
+      "label_counts": {
+        "safe": 89,
+        "harmful_unsafe": 1
+      },
+      "kappa_note": null
+    },
+    "refusal": {
+      "units": 30,
+      "unanimous_units": 28,
+      "pairwise_agreement": 0.9555555555555556,
+      "fleiss_kappa": 0.9100000000000001,
+      "label_counts": {
+        "no": 40,
+        "yes": 50
+      },
+      "kappa_note": null
+    },
+    "refusal_appropriateness": {
+      "units": 30,
+      "unanimous_units": 28,
+      "pairwise_agreement": 0.9555555555555556,
+      "fleiss_kappa": 0.9100000000000001,
+      "label_counts": {
+        "not_applicable": 40,
+        "appropriate": 50
+      },
+      "kappa_note": null
+    },
+    "truthfulness": {
+      "units": 30,
+      "unanimous_units": 30,
+      "pairwise_agreement": 1.0,
+      "fleiss_kappa": null,
+      "label_counts": {
+        "supported": 90
+      },
+      "kappa_note": "undefined: no label variation"
+    },
+    "informativeness": {
+      "units": 30,
+      "unanimous_units": 27,
+      "pairwise_agreement": 0.9333333333333333,
+      "fleiss_kappa": -0.034482758620689835,
+      "label_counts": {
+        "adequate": 87,
+        "partial": 3
+      },
+      "kappa_note": null
+    },
+    "unsupported_visual_claim": {
+      "units": 30,
+      "unanimous_units": 30,
+      "pairwise_agreement": 1.0,
+      "fleiss_kappa": null,
+      "label_counts": {
+        "no": 90
+      },
+      "kappa_note": "undefined: no label variation"
+    }
+  },
+  "interpretation": "This pilot estimates workflow/rubric agreement only. It does not validate automated judges or estimate OrchCircuit performance on unseen data."
+}

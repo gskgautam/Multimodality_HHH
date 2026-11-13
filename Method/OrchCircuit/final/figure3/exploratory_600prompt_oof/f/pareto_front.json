@@ -1,0 +1,10 @@
+{
+  "nondominated_systems": [
+    "qwen3.6-27b",
+    "minicpm-v-4.7-35b-a3b",
+    "gemini-4-argon",
+    "claude-opus-5-5",
+    "claude-sonnet-5-5"
+  ],
+  "definition": "non-dominated on WR wins (higher), SS unsafe flags (lower), and TI product (higher), using point estimates"
+}

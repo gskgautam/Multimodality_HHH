@@ -1,0 +1,1 @@
+../common/pilot/run_figure3b_wr_pilot.py

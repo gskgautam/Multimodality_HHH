@@ -1,0 +1,1 @@
+../../common/scripts/score_beaver_dam_joint_dev.py

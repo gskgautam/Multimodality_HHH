@@ -1,0 +1,108 @@
+{
+  "status": "exploratory; Ch3Ef development data and automated judge labels",
+  "training_seeds": [
+    20261111,
+    20261112,
+    20261113
+  ],
+  "fixed_split_seed": 20261111,
+  "initialization": "matched module-wise initialization; full-selector runs shared with the Figure 4a matched ablation protocol",
+  "bootstrap_replicates": 10000,
+  "interpretation": "per-seed group-bootstrap intervals describe sampling uncertainty; seed range is descriptive training variation, not an interval over independent test sets",
+  "source_runs": [
+    "Method/OrchCircuit/final/figure4/a/runs/full_seed20261111_matched",
+    "Method/OrchCircuit/final/figure4/a/runs/full_seed20261112_matched",
+    "Method/OrchCircuit/final/figure4/a/runs/full_seed20261113_matched"
+  ],
+  "seed_level_results": [
+    {
+      "training_seed": 20261111,
+      "metric": "WR",
+      "n": 498,
+      "score_pct": 38.15261044176707,
+      "group_bootstrap_ci_low_pct": 31.61084726443769,
+      "group_bootstrap_ci_high_pct": 44.95430623710973
+    },
+    {
+      "training_seed": 20261111,
+      "metric": "SS",
+      "n": 445,
+      "score_pct": 19.10112359550562,
+      "group_bootstrap_ci_low_pct": 15.436241610738255,
+      "group_bootstrap_ci_high_pct": 22.831227409409834
+    },
+    {
+      "training_seed": 20261111,
+      "metric": "TI",
+      "n": 298,
+      "score_pct": 87.02761136885727,
+      "group_bootstrap_ci_low_pct": 81.43178832801651,
+      "group_bootstrap_ci_high_pct": 92.11941904249596
+    },
+    {
+      "training_seed": 20261112,
+      "metric": "WR",
+      "n": 498,
+      "score_pct": 37.75100401606426,
+      "group_bootstrap_ci_low_pct": 32.793489405331506,
+      "group_bootstrap_ci_high_pct": 43.47845223515003
+    },
+    {
+      "training_seed": 20261112,
+      "metric": "SS",
+      "n": 445,
+      "score_pct": 22.471910112359552,
+      "group_bootstrap_ci_low_pct": 18.609865470852018,
+      "group_bootstrap_ci_high_pct": 26.457399103139014
+    },
+    {
+      "training_seed": 20261112,
+      "metric": "TI",
+      "n": 298,
+      "score_pct": 86.4015134453403,
+      "group_bootstrap_ci_low_pct": 80.93696668700787,
+      "group_bootstrap_ci_high_pct": 91.52360486035114
+    },
+    {
+      "training_seed": 20261113,
+      "metric": "WR",
+      "n": 498,
+      "score_pct": 41.967871485943775,
+      "group_bootstrap_ci_low_pct": 36.155055560753006,
+      "group_bootstrap_ci_high_pct": 48.529483711292734
+    },
+    {
+      "training_seed": 20261113,
+      "metric": "SS",
+      "n": 445,
+      "score_pct": 20.674157303370787,
+      "group_bootstrap_ci_low_pct": 16.93002257336343,
+      "group_bootstrap_ci_high_pct": 24.553571428571427
+    },
+    {
+      "training_seed": 20261113,
+      "metric": "TI",
+      "n": 298,
+      "score_pct": 90.50493221026079,
+      "group_bootstrap_ci_low_pct": 85.51582197067147,
+      "group_bootstrap_ci_high_pct": 94.94577688732542
+    }
+  ],
+  "seed_range": {
+    "WR": {
+      "min_pct": 37.75100401606426,
+      "max_pct": 41.967871485943775,
+      "range_pp": 4.216867469879517
+    },
+    "SS": {
+      "min_pct": 19.10112359550562,
+      "max_pct": 22.471910112359552,
+      "range_pp": 3.370786516853933
+    },
+    "TI": {
+      "min_pct": 86.4015134453403,
+      "max_pct": 90.50493221026079,
+      "range_pp": 4.103418764920491
+    }
+  }
+}

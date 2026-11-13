@@ -1,0 +1,138 @@
+{
+  "audit_type": "metadata-only; no external image bytes downloaded; no external model outputs generated",
+  "ch3ef_development": {
+    "records": 1416,
+    "unique_normalized_questions": 1208,
+    "local_image_sha256_count": 1636
+  },
+  "vistaqa": {
+    "dataset": "mozhina/VistaQA",
+    "split": "train",
+    "schema_keys": [
+      "annotations",
+      "answer",
+      "hallucination",
+      "image",
+      "num_instances",
+      "question",
+      "task_domain",
+      "task_type"
+    ],
+    "rows": 1157,
+    "hallucination_flag_counts": {
+      "0": 843,
+      "1": 314
+    },
+    "task_counts": {
+      "comparison": 192,
+      "counting": 188,
+      "identification": 214,
+      "attribute": 191,
+      "ocr": 173,
+      "spatial": 199
+    },
+    "domain_counts": {
+      "av": 202,
+      "science": 204,
+      "math": 150,
+      "indoor": 205,
+      "outdoor": 196,
+      "robotics": 200
+    },
+    "exact_normalized_question_overlap_with_Ch3Ef": 0,
+    "duplicates": {
+      "rows": 1157,
+      "exact_image_question_groups": 1157,
+      "duplicate_image_question_rows": 0,
+      "rows_with_repeated_image_key": 0,
+      "unique_nonempty_image_keys": 1157,
+      "rows_with_repeated_exact_question": 57,
+      "unique_exact_questions": 1117,
+      "rows_without_extractable_image_key": 0
+    },
+    "exact_question_grouping": {
+      "unique_exact_questions": 1117,
+      "repeated_question_groups": 17,
+      "max_rows_in_one_exact_question_group": 10,
+      "groups_spanning_multiple_hallucination_flags": 3,
+      "groups_spanning_multiple_task_types": 0,
+      "groups_spanning_multiple_domains": 1
+    }
+  },
+  "mm_safetybench_plus_plus": {
+    "dataset": "EchoSafe-MLLM/MM-SafetyBench-plus-plus",
+    "split": "test",
+    "schema_keys": [
+      "category",
+      "image",
+      "label",
+      "mode",
+      "question"
+    ],
+    "rows": 2844,
+    "label_counts": {
+      "unsafe": 1422,
+      "safe": 1422
+    },
+    "category_counts": {
+      "Illegal_Activity": 388,
+      "HateSpeech": 652,
+      "Malware_Generation": 176,
+      "Physical_Harm": 576,
+      "Fraud": 616,
+      "Sex": 436
+    },
+    "mode_counts": {
+      "Gen": 1422,
+      "GenOCR": 1422
+    },
+    "category_label_mode_counts": {
+      "Fraud|safe|Gen": 154,
+      "Fraud|safe|GenOCR": 154,
+      "Fraud|unsafe|Gen": 154,
+      "Fraud|unsafe|GenOCR": 154,
+      "HateSpeech|safe|Gen": 163,
+      "HateSpeech|safe|GenOCR": 163,
+      "HateSpeech|unsafe|Gen": 163,
+      "HateSpeech|unsafe|GenOCR": 163,
+      "Illegal_Activity|safe|Gen": 97,
+      "Illegal_Activity|safe|GenOCR": 97,
+      "Illegal_Activity|unsafe|Gen": 97,
+      "Illegal_Activity|unsafe|GenOCR": 97,
+      "Malware_Generation|safe|Gen": 44,
+      "Malware_Generation|safe|GenOCR": 44,
+      "Malware_Generation|unsafe|Gen": 44,
+      "Malware_Generation|unsafe|GenOCR": 44,
+      "Physical_Harm|safe|Gen": 144,
+      "Physical_Harm|safe|GenOCR": 144,
+      "Physical_Harm|unsafe|Gen": 144,
+      "Physical_Harm|unsafe|GenOCR": 144,
+      "Sex|safe|Gen": 109,
+      "Sex|safe|GenOCR": 109,
+      "Sex|unsafe|Gen": 109,
+      "Sex|unsafe|GenOCR": 109
+    },
+    "explicit_pair_identifier_present": false,
+    "exact_normalized_question_overlap_with_Ch3Ef": 0,
+    "duplicates": {
+      "rows": 2844,
+      "exact_image_question_groups": 2844,
+      "duplicate_image_question_rows": 0,
+      "rows_with_repeated_image_key": 0,
+      "unique_nonempty_image_keys": 2844,
+      "rows_with_repeated_exact_question": 2844,
+      "unique_exact_questions": 1222,
+      "rows_without_extractable_image_key": 0
+    },
+    "exact_question_grouping": {
+      "unique_exact_questions": 1222,
+      "repeated_question_groups": 1222,
+      "max_rows_in_one_exact_question_group": 182,
+      "groups_spanning_multiple_labels": 7,
+      "groups_spanning_multiple_modes": 1222,
+      "groups_spanning_multiple_categories": 17
+    }
+  },
+  "image_overlap": "Not assessed at pixel level: public image bytes were intentionally not fetched. Exact prompt overlap is only a preliminary screen.",
+  "rights_gate": "Dataset-card CC BY 4.0 entries were verified separately; check image-level upstream rights before test sampling or public redistribution."
+}

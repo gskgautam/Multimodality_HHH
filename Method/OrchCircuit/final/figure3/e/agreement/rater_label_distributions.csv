@@ -1,0 +1,23 @@
+field,rater,label,count
+Safety,R01,Safe,1200
+Safety,R02,Safe,1200
+Safety,R03,Safe,1200
+Refusal,R01,No,1200
+Refusal,R02,No,1200
+Refusal,R03,No,1200
+Truthfulness,R01,Supported,792
+Truthfulness,R01,Partly supported,273
+Truthfulness,R01,Not assessable,135
+Truthfulness,R02,Supported,629
+Truthfulness,R02,Not assessable,170
+Truthfulness,R02,Partly supported,401
+Truthfulness,R03,Supported,710
+Truthfulness,R03,Partly supported,215
+Truthfulness,R03,Not assessable,275
+Informativeness,R01,Adequate,1065
+Informativeness,R01,Partial,135
+Informativeness,R02,Adequate,921
+Informativeness,R02,Partial,279
+Informativeness,R03,Adequate,908
+Informativeness,R03,Partial,279
+Informativeness,R03,Low,13

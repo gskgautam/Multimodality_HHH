@@ -1,0 +1,46 @@
+{
+  "comparison": {
+    "directional_accuracy": 0.31,
+    "directional_accuracy_wilson_95": [
+      0.22779697212376038,
+      0.40626055719489407
+    ],
+    "directional_correct": 31,
+    "directional_preference_n": 100,
+    "eligible_exact_match_n": 147,
+    "exact_match": 0.32653061224489793,
+    "exact_match_wilson_95": [
+      0.2559823897760879,
+      0.40591427710364636
+    ],
+    "excluded": {
+      "no_majority": 2,
+      "uncertain": 39
+    },
+    "human_by_judge_confusion": {
+      "A": {
+        "A": 15,
+        "B": 14,
+        "tie": 20
+      },
+      "B": {
+        "A": 15,
+        "B": 16,
+        "tie": 20
+      },
+      "tie": {
+        "A": 14,
+        "B": 16,
+        "tie": 17
+      }
+    }
+  },
+  "human_majority_counts": {
+    "A": 49,
+    "B": 51,
+    "no_majority": 2,
+    "tie": 47,
+    "uncertain": 39
+  },
+  "status": "development-set human reference validation; not an untouched method test"
+}

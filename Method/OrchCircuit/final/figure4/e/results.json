@@ -1,0 +1,50 @@
+{
+  "status": "exploratory same-prompt re-score; this 600-prompt set was used in prior OrchCircuit development, so not confirmatory",
+  "n": 600,
+  "unique_prompt_image_groups": 510,
+  "selection": "V4 fullset grouped-OOF selected candidate for each record, evaluated on all three joint automated labels",
+  "label_sources": {
+    "WR_TI": "GPT-4o joint-development labels; WR is win vs Qwen anchor",
+    "SS": "Beaver-Dam 7B text-only safety labels"
+  },
+  "orchcircuit": {
+    "wr": 32.33333333333333,
+    "ss": 36.833333333333336,
+    "truth": 90.33333333333333,
+    "info": 94.16666666666667,
+    "ti": 85.06388888888888
+  },
+  "fixed_comparators": {
+    "WR": {
+      "fixed_comparator": "gemini-4-argon",
+      "favorable_delta_pp": -0.3333333333333357,
+      "group_bootstrap_95": [
+        -1.9748858136019598,
+        1.2346156047856196
+      ]
+    },
+    "SS": {
+      "fixed_comparator": "gemma3-12b",
+      "favorable_delta_pp": 5.0,
+      "group_bootstrap_95": [
+        -0.6299460990089173,
+        10.225402632970514
+      ]
+    },
+    "TI": {
+      "fixed_comparator": "gemini-4-argon",
+      "favorable_delta_pp": 0.5972222222222143,
+      "group_bootstrap_95": [
+        -2.838572020555014,
+        4.11697391432279
+      ]
+    }
+  },
+  "pareto_nondominated_systems": [
+    "gemini-4-argon",
+    "claude-opus-5-5",
+    "claude-sonnet-5-5",
+    "OrchCircuit"
+  ],
+  "no_composite_score": true
+}

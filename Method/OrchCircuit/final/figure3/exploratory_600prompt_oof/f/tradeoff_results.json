@@ -1,0 +1,256 @@
+{
+  "status": "exploratory grouped out-of-fold development analysis; not confirmatory",
+  "n": 600,
+  "group_count": 510,
+  "directions": {
+    "WR": "maximize",
+    "SS": "minimize unsafe flags",
+    "TI": "maximize product of truthful and informative rates"
+  },
+  "systems": {
+    "OrchCircuit": {
+      "n": 600,
+      "WR": 26.0,
+      "SS": 40.0,
+      "truthful": 86.0,
+      "informative": 90.33333333333333,
+      "TI": 77.68666666666667
+    },
+    "lfm3-vl-2b": {
+      "n": 600,
+      "WR": 18.333333333333332,
+      "SS": 49.0,
+      "truthful": 69.5,
+      "informative": 81.16666666666667,
+      "TI": 56.41083333333333
+    },
+    "qwen3.5-2b": {
+      "n": 600,
+      "WR": 22.0,
+      "SS": 45.5,
+      "truthful": 75.83333333333333,
+      "informative": 83.16666666666667,
+      "TI": 63.06805555555555
+    },
+    "gemma4-e2b": {
+      "n": 600,
+      "WR": 14.666666666666666,
+      "SS": 47.66666666666667,
+      "truthful": 63.5,
+      "informative": 76.66666666666667,
+      "TI": 48.68333333333334
+    },
+    "qwen2.5-vl-7b": {
+      "n": 600,
+      "WR": 0.0,
+      "SS": 41.833333333333336,
+      "truthful": 76.16666666666667,
+      "informative": 85.16666666666667,
+      "TI": 64.86861111111112
+    },
+    "qwen3-vl-8b": {
+      "n": 600,
+      "WR": 25.0,
+      "SS": 40.166666666666664,
+      "truthful": 82.83333333333334,
+      "informative": 89.83333333333333,
+      "TI": 74.41194444444446
+    },
+    "minicpm-v-4.5-8b": {
+      "n": 600,
+      "WR": 17.666666666666668,
+      "SS": 45.83333333333333,
+      "truthful": 70.5,
+      "informative": 79.5,
+      "TI": 56.0475
+    },
+    "gemma3-12b": {
+      "n": 600,
+      "WR": 23.833333333333336,
+      "SS": 41.833333333333336,
+      "truthful": 77.33333333333333,
+      "informative": 84.83333333333334,
+      "TI": 65.60444444444444
+    },
+    "gemma-4-12b": {
+      "n": 600,
+      "WR": 24.333333333333336,
+      "SS": 41.333333333333336,
+      "truthful": 80.16666666666666,
+      "informative": 86.5,
+      "TI": 69.34416666666665
+    },
+    "pixtral-12b": {
+      "n": 600,
+      "WR": 18.333333333333332,
+      "SS": 46.166666666666664,
+      "truthful": 74.83333333333333,
+      "informative": 82.66666666666667,
+      "TI": 61.862222222222215
+    },
+    "gemma3-27b": {
+      "n": 600,
+      "WR": 24.333333333333336,
+      "SS": 44.666666666666664,
+      "truthful": 80.0,
+      "informative": 86.5,
+      "TI": 69.2
+    },
+    "qwen3.6-27b": {
+      "n": 600,
+      "WR": 29.333333333333332,
+      "SS": 39.0,
+      "truthful": 85.5,
+      "informative": 90.66666666666666,
+      "TI": 77.52
+    },
+    "qwen3.8-27b": {
+      "n": 600,
+      "WR": 26.666666666666668,
+      "SS": 41.333333333333336,
+      "truthful": 85.5,
+      "informative": 90.5,
+      "TI": 77.3775
+    },
+    "qwen3.5-35b-a3b": {
+      "n": 600,
+      "WR": 26.0,
+      "SS": 43.666666666666664,
+      "truthful": 83.33333333333334,
+      "informative": 89.66666666666666,
+      "TI": 74.72222222222223
+    },
+    "qwen3.6-35b-a3b": {
+      "n": 600,
+      "WR": 27.166666666666668,
+      "SS": 39.5,
+      "truthful": 85.5,
+      "informative": 90.5,
+      "TI": 77.3775
+    },
+    "minicpm-v-4.7-35b-a3b": {
+      "n": 600,
+      "WR": 28.000000000000004,
+      "SS": 39.5,
+      "truthful": 85.33333333333334,
+      "informative": 91.83333333333333,
+      "TI": 78.36444444444446
+    },
+    "gpt-6.1-terra": {
+      "n": 600,
+      "WR": 24.333333333333336,
+      "SS": 52.166666666666664,
+      "truthful": 84.83333333333334,
+      "informative": 89.83333333333333,
+      "TI": 76.20861111111113
+    },
+    "gpt-6.1-sol": {
+      "n": 600,
+      "WR": 27.833333333333332,
+      "SS": 48.16666666666667,
+      "truthful": 86.66666666666667,
+      "informative": 91.16666666666666,
+      "TI": 79.0111111111111
+    },
+    "gpt-6-luna": {
+      "n": 600,
+      "WR": 28.166666666666668,
+      "SS": 44.333333333333336,
+      "truthful": 84.16666666666667,
+      "informative": 90.0,
+      "TI": 75.75
+    },
+    "gemini-4-argon": {
+      "n": 600,
+      "WR": 32.666666666666664,
+      "SS": 41.833333333333336,
+      "truthful": 90.5,
+      "informative": 93.33333333333333,
+      "TI": 84.46666666666667
+    },
+    "gemini-3.8-flash": {
+      "n": 600,
+      "WR": 30.166666666666668,
+      "SS": 41.833333333333336,
+      "truthful": 88.66666666666667,
+      "informative": 92.16666666666666,
+      "TI": 81.72111111111111
+    },
+    "gemini-3.6-flash": {
+      "n": 600,
+      "WR": 28.833333333333332,
+      "SS": 44.333333333333336,
+      "truthful": 88.66666666666667,
+      "informative": 93.0,
+      "TI": 82.46000000000001
+    },
+    "claude-opus-5-5": {
+      "n": 600,
+      "WR": 33.5,
+      "SS": 42.66666666666667,
+      "truthful": 88.83333333333333,
+      "informative": 93.16666666666666,
+      "TI": 82.76305555555555
+    },
+    "claude-sonnet-5-5": {
+      "n": 600,
+      "WR": 33.666666666666664,
+      "SS": 43.5,
+      "truthful": 89.83333333333333,
+      "informative": 93.83333333333333,
+      "TI": 84.2936111111111
+    },
+    "claude-haiku-5-5": {
+      "n": 600,
+      "WR": 28.999999999999996,
+      "SS": 44.0,
+      "truthful": 86.0,
+      "informative": 90.83333333333333,
+      "TI": 78.11666666666666
+    },
+    "Fixed best-WR model": {
+      "n": 600,
+      "WR": 32.83333333333333,
+      "SS": 43.5,
+      "truthful": 88.5,
+      "informative": 92.66666666666666,
+      "TI": 82.00999999999999
+    },
+    "Fixed constrained model": {
+      "n": 600,
+      "WR": 30.166666666666668,
+      "SS": 43.0,
+      "truthful": 85.16666666666667,
+      "informative": 90.33333333333333,
+      "TI": 76.93388888888889
+    },
+    "Qwen anchor": {
+      "n": 600,
+      "WR": 0.0,
+      "SS": 41.833333333333336,
+      "truthful": 76.16666666666667,
+      "informative": 85.16666666666667,
+      "TI": 64.86861111111112
+    },
+    "Uniform random candidate": {
+      "n": 600,
+      "WR": 24.74305555555555,
+      "SS": 43.74305555555556,
+      "truthful": 81.83333333333334,
+      "informative": 88.1875,
+      "TI": 72.16677083333335
+    }
+  },
+  "pareto_frontier": [
+    "qwen3.6-27b",
+    "minicpm-v-4.7-35b-a3b",
+    "gemini-4-argon",
+    "claude-opus-5-5",
+    "claude-sonnet-5-5"
+  ],
+  "caveats": [
+    "These prompts were used during earlier OrchCircuit development and variant comparisons; OOF is not a fresh confirmatory test.",
+    "Automated labels are not ground truth. Figure 3a-d found limited agreement for some automated judge outcomes.",
+    "Results do not establish improved human-rated answer correctness or general HHH performance."
+  ]
+}

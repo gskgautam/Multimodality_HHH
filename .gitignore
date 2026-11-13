@@ -1,0 +1,67 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+
+# Python, notebooks, editor and OS files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# Server-only heavyweight assets and runtimes
+/models/
+/tools/ollama-v0.40.13/
+/logs/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# Dataset payloads and archives (keep dataset documentation tracked)
+/datasets/raw/
+/Datasets/Ch3EF/data/
+/Datasets/Ch3EF/*.tar.gz
+/Datasets/Ch3EF/*.zip
+/Datasets/HumaniBench/confirmatory_figure3ef_PRIVATE/
+
+# Generated baseline and judge run artifacts
+/evaluations/
+/results/
+/Baselines/**/runs/
+/Baselines/**/outputs/
+/Baselines/**/logs/
+/Baselines/**/judge_calls.jsonl
+/Baselines/Open/*.log
+
+# Server-only full-coverage reports and private local outputs
+/Baselines/Open/server-only/
+/Baselines/Closed/server-only/
+
+# OrchCircuit caches, checkpoints, and generated runs
+/Method/**/runs/
+/Method/**/data/
+/Method/**/checkpoints/
+/Method/**/__pycache__/
+/Method/OrchCircuit/final/data_selected_answer/
+
+# Figure 3 raw reviewer workbooks, identity maps, and private analyses
+/Method/OrchCircuit/final/figure3/e/private/
+/Method/OrchCircuit/final/figure3/archive_PRIVATE/
+/Method/OrchCircuit/final/figure3/reviewer_forms_PRIVATE/
+/Method/OrchCircuit/final/figure3/b/judge_outputs.jsonl
+/Method/OrchCircuit/final/figure3/common/pilot/figure3b_wr_gpt4o_pilot.jsonl
+/Method/OrchCircuit/final/figure3/common/human_validation_20261113/figure3a_d_human_validation_results.json
+/Method/OrchCircuit/final/figure3/common/source_audit/*.json
+
+# Figure 4 private human rating packet
+/Method/OrchCircuit/final/figure4/b/human_rating_packet_PRIVATE/
+
+# Item-level external source audit manifests (keep only aggregate audit summaries)
+/Method/OrchCircuit/final/figure4/b/source_audit/image_overlap_audit.json
+/Method/OrchCircuit/final/figure4/b/source_audit/mm_safetybench_external_test_manifest.jsonl

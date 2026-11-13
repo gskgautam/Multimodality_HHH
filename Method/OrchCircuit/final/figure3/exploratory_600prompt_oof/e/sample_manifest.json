@@ -1,0 +1,3644 @@
+{
+  "purpose": "development-only joint automated-label training set; not confirmatory",
+  "seed": 20261112,
+  "selection": "200 randomly sampled all-24-valid prompts from each original Ch3Ef dimension (Helpful, Harmless, Honest); stratified by original dimension, using only the 1,241 common-feature orders",
+  "selected_n": 600,
+  "dimension_counts": {
+    "Helpful": 200,
+    "Harmless": 200,
+    "Honest": 200
+  },
+  "orders": [
+    1,
+    5,
+    8,
+    14,
+    16,
+    18,
+    19,
+    22,
+    25,
+    29,
+    31,
+    32,
+    36,
+    38,
+    42,
+    43,
+    44,
+    45,
+    49,
+    50,
+    56,
+    58,
+    59,
+    61,
+    67,
+    72,
+    74,
+    78,
+    80,
+    81,
+    86,
+    87,
+    89,
+    91,
+    94,
+    96,
+    97,
+    104,
+    105,
+    106,
+    107,
+    110,
+    111,
+    113,
+    115,
+    117,
+    121,
+    125,
+    127,
+    130,
+    136,
+    141,
+    144,
+    145,
+    146,
+    148,
+    150,
+    154,
+    155,
+    156,
+    157,
+    158,
+    163,
+    165,
+    166,
+    167,
+    169,
+    170,
+    171,
+    181,
+    187,
+    189,
+    192,
+    194,
+    202,
+    203,
+    205,
+    210,
+    211,
+    212,
+    213,
+    214,
+    216,
+    219,
+    220,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    229,
+    231,
+    232,
+    233,
+    235,
+    238,
+    240,
+    241,
+    243,
+    245,
+    250,
+    257,
+    258,
+    261,
+    263,
+    265,
+    267,
+    269,
+    270,
+    276,
+    279,
+    282,
+    288,
+    291,
+    297,
+    299,
+    311,
+    320,
+    322,
+    324,
+    326,
+    327,
+    333,
+    336,
+    341,
+    346,
+    350,
+    352,
+    354,
+    357,
+    375,
+    376,
+    377,
+    383,
+    388,
+    389,
+    391,
+    402,
+    430,
+    433,
+    435,
+    440,
+    443,
+    446,
+    449,
+    450,
+    453,
+    454,
+    456,
+    462,
+    466,
+    472,
+    475,
+    478,
+    480,
+    481,
+    483,
+    484,
+    487,
+    488,
+    493,
+    494,
+    496,
+    497,
+    500,
+    504,
+    509,
+    513,
+    523,
+    526,
+    530,
+    531,
+    532,
+    533,
+    545,
+    550,
+    552,
+    553,
+    558,
+    559,
+    569,
+    573,
+    576,
+    578,
+    579,
+    581,
+    583,
+    585,
+    586,
+    587,
+    589,
+    594,
+    595,
+    598,
+    610,
+    620,
+    621,
+    622,
+    623,
+    626,
+    627,
+    628,
+    629,
+    630,
+    635,
+    641,
+    643,
+    648,
+    651,
+    653,
+    654,
+    658,
+    659,
+    660,
+    661,
+    662,
+    665,
+    667,
+    669,
+    670,
+    679,
+    683,
+    684,
+    688,
+    690,
+    691,
+    692,
+    694,
+    696,
+    698,
+    700,
+    704,
+    705,
+    709,
+    710,
+    717,
+    721,
+    722,
+    724,
+    728,
+    729,
+    730,
+    731,
+    733,
+    737,
+    738,
+    739,
+    740,
+    742,
+    749,
+    752,
+    753,
+    754,
+    756,
+    759,
+    764,
+    766,
+    769,
+    770,
+    772,
+    774,
+    777,
+    781,
+    782,
+    783,
+    784,
+    785,
+    790,
+    798,
+    800,
+    808,
+    811,
+    820,
+    821,
+    824,
+    825,
+    830,
+    832,
+    840,
+    841,
+    842,
+    844,
+    846,
+    847,
+    852,
+    857,
+    861,
+    862,
+    863,
+    864,
+    866,
+    867,
+    868,
+    870,
+    871,
+    872,
+    873,
+    874,
+    875,
+    876,
+    879,
+    881,
+    882,
+    885,
+    888,
+    889,
+    891,
+    894,
+    898,
+    902,
+    904,
+    906,
+    907,
+    908,
+    909,
+    911,
+    915,
+    916,
+    918,
+    921,
+    922,
+    923,
+    925,
+    926,
+    931,
+    934,
+    936,
+    937,
+    938,
+    940,
+    941,
+    942,
+    945,
+    947,
+    948,
+    950,
+    953,
+    954,
+    955,
+    956,
+    959,
+    960,
+    962,
+    963,
+    964,
+    965,
+    966,
+    967,
+    974,
+    976,
+    979,
+    980,
+    984,
+    991,
+    992,
+    993,
+    999,
+    1002,
+    1004,
+    1005,
+    1009,
+    1011,
+    1014,
+    1019,
+    1022,
+    1024,
+    1031,
+    1032,
+    1034,
+    1036,
+    1038,
+    1039,
+    1043,
+    1045,
+    1047,
+    1050,
+    1051,
+    1056,
+    1057,
+    1058,
+    1061,
+    1066,
+    1067,
+    1068,
+    1070,
+    1074,
+    1078,
+    1081,
+    1083,
+    1084,
+    1086,
+    1087,
+    1088,
+    1089,
+    1091,
+    1094,
+    1095,
+    1096,
+    1107,
+    1113,
+    1115,
+    1117,
+    1123,
+    1124,
+    1125,
+    1126,
+    1127,
+    1128,
+    1130,
+    1131,
+    1134,
+    1135,
+    1136,
+    1137,
+    1138,
+    1139,
+    1141,
+    1142,
+    1144,
+    1147,
+    1148,
+    1149,
+    1150,
+    1151,
+    1152,
+    1154,
+    1155,
+    1156,
+    1157,
+    1158,
+    1159,
+    1160,
+    1161,
+    1163,
+    1164,
+    1167,
+    1168,
+    1169,
+    1172,
+    1174,
+    1175,
+    1176,
+    1177,
+    1178,
+    1179,
+    1180,
+    1182,
+    1183,
+    1184,
+    1185,
+    1186,
+    1187,
+    1188,
+    1190,
+    1191,
+    1193,
+    1194,
+    1195,
+    1196,
+    1197,
+    1198,
+    1199,
+    1200,
+    1201,
+    1202,
+    1204,
+    1205,
+    1206,
+    1207,
+    1208,
+    1209,
+    1212,
+    1214,
+    1215,
+    1216,
+    1217,
+    1220,
+    1223,
+    1224,
+    1225,
+    1226,
+    1227,
+    1228,
+    1229,
+    1231,
+    1232,
+    1234,
+    1235,
+    1236,
+    1237,
+    1238,
+    1240,
+    1241,
+    1242,
+    1245,
+    1246,
+    1248,
+    1249,
+    1250,
+    1251,
+    1252,
+    1257,
+    1259,
+    1261,
+    1263,
+    1265,
+    1266,
+    1267,
+    1268,
+    1270,
+    1271,
+    1272,
+    1273,
+    1274,
+    1275,
+    1276,
+    1279,
+    1282,
+    1283,
+    1284,
+    1285,
+    1286,
+    1287,
+    1288,
+    1289,
+    1295,
+    1296,
+    1297,
+    1300,
+    1301,
+    1302,
+    1303,
+    1305,
+    1306,
+    1310,
+    1311,
+    1312,
+    1313,
+    1314,
+    1315,
+    1318,
+    1320,
+    1321,
+    1325,
+    1326,
+    1328,
+    1329,
+    1331,
+    1333,
+    1336,
+    1338,
+    1340,
+    1341,
+    1342,
+    1343,
+    1344,
+    1347,
+    1348,
+    1352,
+    1353,
+    1354,
+    1355,
+    1357,
+    1358,
+    1362,
+    1363,
+    1365,
+    1366,
+    1367,
+    1368,
+    1369,
+    1370,
+    1372,
+    1374,
+    1376,
+    1377,
+    1379,
+    1381,
+    1382,
+    1384,
+    1385,
+    1386,
+    1387,
+    1390,
+    1392,
+    1393,
+    1394,
+    1396,
+    1398,
+    1399,
+    1400,
+    1401,
+    1402,
+    1404,
+    1405,
+    1406,
+    1407,
+    1408,
+    1413
+  ],
+  "record_ids": [
+    {
+      "sample_order": 1,
+      "dimension": "Helpful",
+      "record_id": 0
+    },
+    {
+      "sample_order": 5,
+      "dimension": "Helpful",
+      "record_id": 4
+    },
+    {
+      "sample_order": 8,
+      "dimension": "Helpful",
+      "record_id": 7
+    },
+    {
+      "sample_order": 14,
+      "dimension": "Helpful",
+      "record_id": 13
+    },
+    {
+      "sample_order": 16,
+      "dimension": "Helpful",
+      "record_id": 15
+    },
+    {
+      "sample_order": 18,
+      "dimension": "Helpful",
+      "record_id": 17
+    },
+    {
+      "sample_order": 19,
+      "dimension": "Helpful",
+      "record_id": 18
+    },
+    {
+      "sample_order": 22,
+      "dimension": "Helpful",
+      "record_id": 21
+    },
+    {
+      "sample_order": 25,
+      "dimension": "Helpful",
+      "record_id": 24
+    },
+    {
+      "sample_order": 29,
+      "dimension": "Helpful",
+      "record_id": 28
+    },
+    {
+      "sample_order": 31,
+      "dimension": "Helpful",
+      "record_id": 30
+    },
+    {
+      "sample_order": 32,
+      "dimension": "Helpful",
+      "record_id": 31
+    },
+    {
+      "sample_order": 36,
+      "dimension": "Helpful",
+      "record_id": 35
+    },
+    {
+      "sample_order": 38,
+      "dimension": "Helpful",
+      "record_id": 37
+    },
+    {
+      "sample_order": 42,
+      "dimension": "Helpful",
+      "record_id": 41
+    },
+    {
+      "sample_order": 43,
+      "dimension": "Helpful",
+      "record_id": 42
+    },
+    {
+      "sample_order": 44,
+      "dimension": "Helpful",
+      "record_id": 43
+    },
+    {
+      "sample_order": 45,
+      "dimension": "Helpful",
+      "record_id": 44
+    },
+    {
+      "sample_order": 49,
+      "dimension": "Helpful",
+      "record_id": 48
+    },
+    {
+      "sample_order": 50,
+      "dimension": "Helpful",
+      "record_id": 49
+    },
+    {
+      "sample_order": 56,
+      "dimension": "Helpful",
+      "record_id": 55
+    },
+    {
+      "sample_order": 58,
+      "dimension": "Helpful",
+      "record_id": 57
+    },
+    {
+      "sample_order": 59,
+      "dimension": "Helpful",
+      "record_id": 58
+    },
+    {
+      "sample_order": 61,
+      "dimension": "Helpful",
+      "record_id": 60
+    },
+    {
+      "sample_order": 67,
+      "dimension": "Helpful",
+      "record_id": 66
+    },
+    {
+      "sample_order": 72,
+      "dimension": "Helpful",
+      "record_id": 71
+    },
+    {
+      "sample_order": 74,
+      "dimension": "Helpful",
+      "record_id": 73
+    },
+    {
+      "sample_order": 78,
+      "dimension": "Helpful",
+      "record_id": 77
+    },
+    {
+      "sample_order": 80,
+      "dimension": "Helpful",
+      "record_id": 79
+    },
+    {
+      "sample_order": 81,
+      "dimension": "Helpful",
+      "record_id": 80
+    },
+    {
+      "sample_order": 86,
+      "dimension": "Helpful",
+      "record_id": 85
+    },
+    {
+      "sample_order": 87,
+      "dimension": "Helpful",
+      "record_id": 86
+    },
+    {
+      "sample_order": 89,
+      "dimension": "Helpful",
+      "record_id": 88
+    },
+    {
+      "sample_order": 91,
+      "dimension": "Helpful",
+      "record_id": 90
+    },
+    {
+      "sample_order": 94,
+      "dimension": "Helpful",
+      "record_id": 93
+    },
+    {
+      "sample_order": 96,
+      "dimension": "Helpful",
+      "record_id": 95
+    },
+    {
+      "sample_order": 97,
+      "dimension": "Helpful",
+      "record_id": 96
+    },
+    {
+      "sample_order": 104,
+      "dimension": "Helpful",
+      "record_id": 103
+    },
+    {
+      "sample_order": 105,
+      "dimension": "Helpful",
+      "record_id": 104
+    },
+    {
+      "sample_order": 106,
+      "dimension": "Helpful",
+      "record_id": 105
+    },
+    {
+      "sample_order": 107,
+      "dimension": "Helpful",
+      "record_id": 106
+    },
+    {
+      "sample_order": 110,
+      "dimension": "Helpful",
+      "record_id": 109
+    },
+    {
+      "sample_order": 111,
+      "dimension": "Helpful",
+      "record_id": 110
+    },
+    {
+      "sample_order": 113,
+      "dimension": "Helpful",
+      "record_id": 112
+    },
+    {
+      "sample_order": 115,
+      "dimension": "Helpful",
+      "record_id": 114
+    },
+    {
+      "sample_order": 117,
+      "dimension": "Helpful",
+      "record_id": 116
+    },
+    {
+      "sample_order": 121,
+      "dimension": "Helpful",
+      "record_id": 120
+    },
+    {
+      "sample_order": 125,
+      "dimension": "Helpful",
+      "record_id": 124
+    },
+    {
+      "sample_order": 127,
+      "dimension": "Helpful",
+      "record_id": 126
+    },
+    {
+      "sample_order": 130,
+      "dimension": "Helpful",
+      "record_id": 129
+    },
+    {
+      "sample_order": 136,
+      "dimension": "Helpful",
+      "record_id": 135
+    },
+    {
+      "sample_order": 141,
+      "dimension": "Helpful",
+      "record_id": 140
+    },
+    {
+      "sample_order": 144,
+      "dimension": "Helpful",
+      "record_id": 143
+    },
+    {
+      "sample_order": 145,
+      "dimension": "Helpful",
+      "record_id": 144
+    },
+    {
+      "sample_order": 146,
+      "dimension": "Helpful",
+      "record_id": 145
+    },
+    {
+      "sample_order": 148,
+      "dimension": "Helpful",
+      "record_id": 147
+    },
+    {
+      "sample_order": 150,
+      "dimension": "Helpful",
+      "record_id": 149
+    },
+    {
+      "sample_order": 154,
+      "dimension": "Helpful",
+      "record_id": 153
+    },
+    {
+      "sample_order": 155,
+      "dimension": "Helpful",
+      "record_id": 154
+    },
+    {
+      "sample_order": 156,
+      "dimension": "Helpful",
+      "record_id": 155
+    },
+    {
+      "sample_order": 157,
+      "dimension": "Helpful",
+      "record_id": 156
+    },
+    {
+      "sample_order": 158,
+      "dimension": "Helpful",
+      "record_id": 157
+    },
+    {
+      "sample_order": 163,
+      "dimension": "Helpful",
+      "record_id": 162
+    },
+    {
+      "sample_order": 165,
+      "dimension": "Helpful",
+      "record_id": 164
+    },
+    {
+      "sample_order": 166,
+      "dimension": "Helpful",
+      "record_id": 165
+    },
+    {
+      "sample_order": 167,
+      "dimension": "Helpful",
+      "record_id": 166
+    },
+    {
+      "sample_order": 169,
+      "dimension": "Helpful",
+      "record_id": 168
+    },
+    {
+      "sample_order": 170,
+      "dimension": "Helpful",
+      "record_id": 169
+    },
+    {
+      "sample_order": 171,
+      "dimension": "Helpful",
+      "record_id": 170
+    },
+    {
+      "sample_order": 181,
+      "dimension": "Helpful",
+      "record_id": 180
+    },
+    {
+      "sample_order": 187,
+      "dimension": "Helpful",
+      "record_id": 186
+    },
+    {
+      "sample_order": 189,
+      "dimension": "Helpful",
+      "record_id": 188
+    },
+    {
+      "sample_order": 192,
+      "dimension": "Helpful",
+      "record_id": 191
+    },
+    {
+      "sample_order": 194,
+      "dimension": "Helpful",
+      "record_id": 193
+    },
+    {
+      "sample_order": 202,
+      "dimension": "Helpful",
+      "record_id": 201
+    },
+    {
+      "sample_order": 203,
+      "dimension": "Helpful",
+      "record_id": 202
+    },
+    {
+      "sample_order": 205,
+      "dimension": "Helpful",
+      "record_id": 204
+    },
+    {
+      "sample_order": 210,
+      "dimension": "Helpful",
+      "record_id": 209
+    },
+    {
+      "sample_order": 211,
+      "dimension": "Helpful",
+      "record_id": 210
+    },
+    {
+      "sample_order": 212,
+      "dimension": "Helpful",
+      "record_id": 211
+    },
+    {
+      "sample_order": 213,
+      "dimension": "Helpful",
+      "record_id": 212
+    },
+    {
+      "sample_order": 214,
+      "dimension": "Helpful",
+      "record_id": 213
+    },
+    {
+      "sample_order": 216,
+      "dimension": "Helpful",
+      "record_id": 215
+    },
+    {
+      "sample_order": 219,
+      "dimension": "Helpful",
+      "record_id": 218
+    },
+    {
+      "sample_order": 220,
+      "dimension": "Helpful",
+      "record_id": 219
+    },
+    {
+      "sample_order": 222,
+      "dimension": "Helpful",
+      "record_id": 221
+    },
+    {
+      "sample_order": 223,
+      "dimension": "Helpful",
+      "record_id": 222
+    },
+    {
+      "sample_order": 224,
+      "dimension": "Helpful",
+      "record_id": 223
+    },
+    {
+      "sample_order": 225,
+      "dimension": "Helpful",
+      "record_id": 224
+    },
+    {
+      "sample_order": 226,
+      "dimension": "Helpful",
+      "record_id": 225
+    },
+    {
+      "sample_order": 227,
+      "dimension": "Helpful",
+      "record_id": 226
+    },
+    {
+      "sample_order": 229,
+      "dimension": "Helpful",
+      "record_id": 228
+    },
+    {
+      "sample_order": 231,
+      "dimension": "Helpful",
+      "record_id": 230
+    },
+    {
+      "sample_order": 232,
+      "dimension": "Helpful",
+      "record_id": 231
+    },
+    {
+      "sample_order": 233,
+      "dimension": "Helpful",
+      "record_id": 232
+    },
+    {
+      "sample_order": 235,
+      "dimension": "Helpful",
+      "record_id": 234
+    },
+    {
+      "sample_order": 238,
+      "dimension": "Helpful",
+      "record_id": 237
+    },
+    {
+      "sample_order": 240,
+      "dimension": "Helpful",
+      "record_id": 239
+    },
+    {
+      "sample_order": 241,
+      "dimension": "Helpful",
+      "record_id": 240
+    },
+    {
+      "sample_order": 243,
+      "dimension": "Helpful",
+      "record_id": 242
+    },
+    {
+      "sample_order": 245,
+      "dimension": "Helpful",
+      "record_id": 244
+    },
+    {
+      "sample_order": 250,
+      "dimension": "Helpful",
+      "record_id": 249
+    },
+    {
+      "sample_order": 257,
+      "dimension": "Helpful",
+      "record_id": 256
+    },
+    {
+      "sample_order": 258,
+      "dimension": "Helpful",
+      "record_id": 257
+    },
+    {
+      "sample_order": 261,
+      "dimension": "Helpful",
+      "record_id": 260
+    },
+    {
+      "sample_order": 263,
+      "dimension": "Helpful",
+      "record_id": 262
+    },
+    {
+      "sample_order": 265,
+      "dimension": "Helpful",
+      "record_id": 264
+    },
+    {
+      "sample_order": 267,
+      "dimension": "Helpful",
+      "record_id": 266
+    },
+    {
+      "sample_order": 269,
+      "dimension": "Helpful",
+      "record_id": 268
+    },
+    {
+      "sample_order": 270,
+      "dimension": "Helpful",
+      "record_id": 269
+    },
+    {
+      "sample_order": 276,
+      "dimension": "Helpful",
+      "record_id": 275
+    },
+    {
+      "sample_order": 279,
+      "dimension": "Helpful",
+      "record_id": 278
+    },
+    {
+      "sample_order": 282,
+      "dimension": "Helpful",
+      "record_id": 281
+    },
+    {
+      "sample_order": 288,
+      "dimension": "Helpful",
+      "record_id": 287
+    },
+    {
+      "sample_order": 291,
+      "dimension": "Helpful",
+      "record_id": 290
+    },
+    {
+      "sample_order": 297,
+      "dimension": "Helpful",
+      "record_id": 296
+    },
+    {
+      "sample_order": 299,
+      "dimension": "Helpful",
+      "record_id": 298
+    },
+    {
+      "sample_order": 311,
+      "dimension": "Helpful",
+      "record_id": 310
+    },
+    {
+      "sample_order": 320,
+      "dimension": "Helpful",
+      "record_id": 319
+    },
+    {
+      "sample_order": 322,
+      "dimension": "Helpful",
+      "record_id": 321
+    },
+    {
+      "sample_order": 324,
+      "dimension": "Helpful",
+      "record_id": 323
+    },
+    {
+      "sample_order": 326,
+      "dimension": "Helpful",
+      "record_id": 325
+    },
+    {
+      "sample_order": 327,
+      "dimension": "Helpful",
+      "record_id": 326
+    },
+    {
+      "sample_order": 333,
+      "dimension": "Helpful",
+      "record_id": 332
+    },
+    {
+      "sample_order": 336,
+      "dimension": "Helpful",
+      "record_id": 335
+    },
+    {
+      "sample_order": 341,
+      "dimension": "Helpful",
+      "record_id": 340
+    },
+    {
+      "sample_order": 346,
+      "dimension": "Helpful",
+      "record_id": 345
+    },
+    {
+      "sample_order": 350,
+      "dimension": "Helpful",
+      "record_id": 349
+    },
+    {
+      "sample_order": 352,
+      "dimension": "Helpful",
+      "record_id": 351
+    },
+    {
+      "sample_order": 354,
+      "dimension": "Helpful",
+      "record_id": 353
+    },
+    {
+      "sample_order": 357,
+      "dimension": "Helpful",
+      "record_id": 356
+    },
+    {
+      "sample_order": 375,
+      "dimension": "Helpful",
+      "record_id": 374
+    },
+    {
+      "sample_order": 376,
+      "dimension": "Helpful",
+      "record_id": 375
+    },
+    {
+      "sample_order": 377,
+      "dimension": "Helpful",
+      "record_id": 376
+    },
+    {
+      "sample_order": 383,
+      "dimension": "Helpful",
+      "record_id": 382
+    },
+    {
+      "sample_order": 388,
+      "dimension": "Helpful",
+      "record_id": 387
+    },
+    {
+      "sample_order": 389,
+      "dimension": "Helpful",
+      "record_id": 388
+    },
+    {
+      "sample_order": 391,
+      "dimension": "Helpful",
+      "record_id": 390
+    },
+    {
+      "sample_order": 402,
+      "dimension": "Helpful",
+      "record_id": 401
+    },
+    {
+      "sample_order": 430,
+      "dimension": "Helpful",
+      "record_id": 429
+    },
+    {
+      "sample_order": 433,
+      "dimension": "Helpful",
+      "record_id": 432
+    },
+    {
+      "sample_order": 435,
+      "dimension": "Helpful",
+      "record_id": 434
+    },
+    {
+      "sample_order": 440,
+      "dimension": "Helpful",
+      "record_id": 439
+    },
+    {
+      "sample_order": 443,
+      "dimension": "Helpful",
+      "record_id": 442
+    },
+    {
+      "sample_order": 446,
+      "dimension": "Helpful",
+      "record_id": 445
+    },
+    {
+      "sample_order": 449,
+      "dimension": "Helpful",
+      "record_id": 448
+    },
+    {
+      "sample_order": 450,
+      "dimension": "Helpful",
+      "record_id": 449
+    },
+    {
+      "sample_order": 453,
+      "dimension": "Helpful",
+      "record_id": 452
+    },
+    {
+      "sample_order": 454,
+      "dimension": "Helpful",
+      "record_id": 453
+    },
+    {
+      "sample_order": 456,
+      "dimension": "Helpful",
+      "record_id": 455
+    },
+    {
+      "sample_order": 462,
+      "dimension": "Helpful",
+      "record_id": 461
+    },
+    {
+      "sample_order": 466,
+      "dimension": "Helpful",
+      "record_id": 465
+    },
+    {
+      "sample_order": 472,
+      "dimension": "Helpful",
+      "record_id": 471
+    },
+    {
+      "sample_order": 475,
+      "dimension": "Helpful",
+      "record_id": 474
+    },
+    {
+      "sample_order": 478,
+      "dimension": "Helpful",
+      "record_id": 477
+    },
+    {
+      "sample_order": 480,
+      "dimension": "Helpful",
+      "record_id": 479
+    },
+    {
+      "sample_order": 481,
+      "dimension": "Helpful",
+      "record_id": 480
+    },
+    {
+      "sample_order": 483,
+      "dimension": "Helpful",
+      "record_id": 482
+    },
+    {
+      "sample_order": 484,
+      "dimension": "Helpful",
+      "record_id": 483
+    },
+    {
+      "sample_order": 487,
+      "dimension": "Helpful",
+      "record_id": 486
+    },
+    {
+      "sample_order": 488,
+      "dimension": "Helpful",
+      "record_id": 487
+    },
+    {
+      "sample_order": 493,
+      "dimension": "Helpful",
+      "record_id": 492
+    },
+    {
+      "sample_order": 494,
+      "dimension": "Helpful",
+      "record_id": 493
+    },
+    {
+      "sample_order": 496,
+      "dimension": "Helpful",
+      "record_id": 495
+    },
+    {
+      "sample_order": 497,
+      "dimension": "Helpful",
+      "record_id": 496
+    },
+    {
+      "sample_order": 500,
+      "dimension": "Helpful",
+      "record_id": 499
+    },
+    {
+      "sample_order": 504,
+      "dimension": "Helpful",
+      "record_id": 503
+    },
+    {
+      "sample_order": 509,
+      "dimension": "Helpful",
+      "record_id": 508
+    },
+    {
+      "sample_order": 513,
+      "dimension": "Helpful",
+      "record_id": 512
+    },
+    {
+      "sample_order": 523,
+      "dimension": "Helpful",
+      "record_id": 522
+    },
+    {
+      "sample_order": 526,
+      "dimension": "Helpful",
+      "record_id": 525
+    },
+    {
+      "sample_order": 530,
+      "dimension": "Helpful",
+      "record_id": 529
+    },
+    {
+      "sample_order": 531,
+      "dimension": "Helpful",
+      "record_id": 530
+    },
+    {
+      "sample_order": 532,
+      "dimension": "Helpful",
+      "record_id": 531
+    },
+    {
+      "sample_order": 533,
+      "dimension": "Helpful",
+      "record_id": 532
+    },
+    {
+      "sample_order": 545,
+      "dimension": "Helpful",
+      "record_id": 544
+    },
+    {
+      "sample_order": 550,
+      "dimension": "Helpful",
+      "record_id": 549
+    },
+    {
+      "sample_order": 552,
+      "dimension": "Helpful",
+      "record_id": 551
+    },
+    {
+      "sample_order": 553,
+      "dimension": "Helpful",
+      "record_id": 552
+    },
+    {
+      "sample_order": 558,
+      "dimension": "Helpful",
+      "record_id": 557
+    },
+    {
+      "sample_order": 559,
+      "dimension": "Helpful",
+      "record_id": 558
+    },
+    {
+      "sample_order": 569,
+      "dimension": "Helpful",
+      "record_id": 568
+    },
+    {
+      "sample_order": 573,
+      "dimension": "Helpful",
+      "record_id": 572
+    },
+    {
+      "sample_order": 576,
+      "dimension": "Helpful",
+      "record_id": 575
+    },
+    {
+      "sample_order": 578,
+      "dimension": "Helpful",
+      "record_id": 577
+    },
+    {
+      "sample_order": 579,
+      "dimension": "Helpful",
+      "record_id": 578
+    },
+    {
+      "sample_order": 581,
+      "dimension": "Helpful",
+      "record_id": 580
+    },
+    {
+      "sample_order": 583,
+      "dimension": "Helpful",
+      "record_id": 582
+    },
+    {
+      "sample_order": 585,
+      "dimension": "Helpful",
+      "record_id": 584
+    },
+    {
+      "sample_order": 586,
+      "dimension": "Helpful",
+      "record_id": 585
+    },
+    {
+      "sample_order": 587,
+      "dimension": "Helpful",
+      "record_id": 586
+    },
+    {
+      "sample_order": 589,
+      "dimension": "Helpful",
+      "record_id": 588
+    },
+    {
+      "sample_order": 594,
+      "dimension": "Helpful",
+      "record_id": 593
+    },
+    {
+      "sample_order": 595,
+      "dimension": "Helpful",
+      "record_id": 594
+    },
+    {
+      "sample_order": 598,
+      "dimension": "Helpful",
+      "record_id": 597
+    },
+    {
+      "sample_order": 610,
+      "dimension": "Helpful",
+      "record_id": 609
+    },
+    {
+      "sample_order": 620,
+      "dimension": "Helpful",
+      "record_id": 619
+    },
+    {
+      "sample_order": 621,
+      "dimension": "Helpful",
+      "record_id": 620
+    },
+    {
+      "sample_order": 622,
+      "dimension": "Helpful",
+      "record_id": 621
+    },
+    {
+      "sample_order": 623,
+      "dimension": "Helpful",
+      "record_id": 622
+    },
+    {
+      "sample_order": 626,
+      "dimension": "Harmless",
+      "record_id": 0
+    },
+    {
+      "sample_order": 627,
+      "dimension": "Harmless",
+      "record_id": 1
+    },
+    {
+      "sample_order": 628,
+      "dimension": "Harmless",
+      "record_id": 2
+    },
+    {
+      "sample_order": 629,
+      "dimension": "Harmless",
+      "record_id": 3
+    },
+    {
+      "sample_order": 630,
+      "dimension": "Harmless",
+      "record_id": 4
+    },
+    {
+      "sample_order": 635,
+      "dimension": "Harmless",
+      "record_id": 9
+    },
+    {
+      "sample_order": 641,
+      "dimension": "Harmless",
+      "record_id": 15
+    },
+    {
+      "sample_order": 643,
+      "dimension": "Harmless",
+      "record_id": 17
+    },
+    {
+      "sample_order": 648,
+      "dimension": "Harmless",
+      "record_id": 22
+    },
+    {
+      "sample_order": 651,
+      "dimension": "Harmless",
+      "record_id": 25
+    },
+    {
+      "sample_order": 653,
+      "dimension": "Harmless",
+      "record_id": 27
+    },
+    {
+      "sample_order": 654,
+      "dimension": "Harmless",
+      "record_id": 28
+    },
+    {
+      "sample_order": 658,
+      "dimension": "Harmless",
+      "record_id": 32
+    },
+    {
+      "sample_order": 659,
+      "dimension": "Harmless",
+      "record_id": 33
+    },
+    {
+      "sample_order": 660,
+      "dimension": "Harmless",
+      "record_id": 34
+    },
+    {
+      "sample_order": 661,
+      "dimension": "Harmless",
+      "record_id": 35
+    },
+    {
+      "sample_order": 662,
+      "dimension": "Harmless",
+      "record_id": 36
+    },
+    {
+      "sample_order": 665,
+      "dimension": "Harmless",
+      "record_id": 39
+    },
+    {
+      "sample_order": 667,
+      "dimension": "Harmless",
+      "record_id": 41
+    },
+    {
+      "sample_order": 669,
+      "dimension": "Harmless",
+      "record_id": 43
+    },
+    {
+      "sample_order": 670,
+      "dimension": "Harmless",
+      "record_id": 44
+    },
+    {
+      "sample_order": 679,
+      "dimension": "Harmless",
+      "record_id": 53
+    },
+    {
+      "sample_order": 683,
+      "dimension": "Harmless",
+      "record_id": 57
+    },
+    {
+      "sample_order": 684,
+      "dimension": "Harmless",
+      "record_id": 58
+    },
+    {
+      "sample_order": 688,
+      "dimension": "Harmless",
+      "record_id": 62
+    },
+    {
+      "sample_order": 690,
+      "dimension": "Harmless",
+      "record_id": 64
+    },
+    {
+      "sample_order": 691,
+      "dimension": "Harmless",
+      "record_id": 65
+    },
+    {
+      "sample_order": 692,
+      "dimension": "Harmless",
+      "record_id": 66
+    },
+    {
+      "sample_order": 694,
+      "dimension": "Harmless",
+      "record_id": 68
+    },
+    {
+      "sample_order": 696,
+      "dimension": "Harmless",
+      "record_id": 70
+    },
+    {
+      "sample_order": 698,
+      "dimension": "Harmless",
+      "record_id": 72
+    },
+    {
+      "sample_order": 700,
+      "dimension": "Harmless",
+      "record_id": 74
+    },
+    {
+      "sample_order": 704,
+      "dimension": "Harmless",
+      "record_id": 78
+    },
+    {
+      "sample_order": 705,
+      "dimension": "Harmless",
+      "record_id": 79
+    },
+    {
+      "sample_order": 709,
+      "dimension": "Harmless",
+      "record_id": 83
+    },
+    {
+      "sample_order": 710,
+      "dimension": "Harmless",
+      "record_id": 84
+    },
+    {
+      "sample_order": 717,
+      "dimension": "Harmless",
+      "record_id": 91
+    },
+    {
+      "sample_order": 721,
+      "dimension": "Harmless",
+      "record_id": 95
+    },
+    {
+      "sample_order": 722,
+      "dimension": "Harmless",
+      "record_id": 96
+    },
+    {
+      "sample_order": 724,
+      "dimension": "Harmless",
+      "record_id": 98
+    },
+    {
+      "sample_order": 728,
+      "dimension": "Harmless",
+      "record_id": 102
+    },
+    {
+      "sample_order": 729,
+      "dimension": "Harmless",
+      "record_id": 103
+    },
+    {
+      "sample_order": 730,
+      "dimension": "Harmless",
+      "record_id": 104
+    },
+    {
+      "sample_order": 731,
+      "dimension": "Harmless",
+      "record_id": 105
+    },
+    {
+      "sample_order": 733,
+      "dimension": "Harmless",
+      "record_id": 107
+    },
+    {
+      "sample_order": 737,
+      "dimension": "Harmless",
+      "record_id": 111
+    },
+    {
+      "sample_order": 738,
+      "dimension": "Harmless",
+      "record_id": 112
+    },
+    {
+      "sample_order": 739,
+      "dimension": "Harmless",
+      "record_id": 113
+    },
+    {
+      "sample_order": 740,
+      "dimension": "Harmless",
+      "record_id": 114
+    },
+    {
+      "sample_order": 742,
+      "dimension": "Harmless",
+      "record_id": 116
+    },
+    {
+      "sample_order": 749,
+      "dimension": "Harmless",
+      "record_id": 123
+    },
+    {
+      "sample_order": 752,
+      "dimension": "Harmless",
+      "record_id": 126
+    },
+    {
+      "sample_order": 753,
+      "dimension": "Harmless",
+      "record_id": 127
+    },
+    {
+      "sample_order": 754,
+      "dimension": "Harmless",
+      "record_id": 128
+    },
+    {
+      "sample_order": 756,
+      "dimension": "Harmless",
+      "record_id": 130
+    },
+    {
+      "sample_order": 759,
+      "dimension": "Harmless",
+      "record_id": 133
+    },
+    {
+      "sample_order": 764,
+      "dimension": "Harmless",
+      "record_id": 138
+    },
+    {
+      "sample_order": 766,
+      "dimension": "Harmless",
+      "record_id": 140
+    },
+    {
+      "sample_order": 769,
+      "dimension": "Harmless",
+      "record_id": 143
+    },
+    {
+      "sample_order": 770,
+      "dimension": "Harmless",
+      "record_id": 144
+    },
+    {
+      "sample_order": 772,
+      "dimension": "Harmless",
+      "record_id": 146
+    },
+    {
+      "sample_order": 774,
+      "dimension": "Harmless",
+      "record_id": 148
+    },
+    {
+      "sample_order": 777,
+      "dimension": "Harmless",
+      "record_id": 151
+    },
+    {
+      "sample_order": 781,
+      "dimension": "Harmless",
+      "record_id": 155
+    },
+    {
+      "sample_order": 782,
+      "dimension": "Harmless",
+      "record_id": 156
+    },
+    {
+      "sample_order": 783,
+      "dimension": "Harmless",
+      "record_id": 157
+    },
+    {
+      "sample_order": 784,
+      "dimension": "Harmless",
+      "record_id": 158
+    },
+    {
+      "sample_order": 785,
+      "dimension": "Harmless",
+      "record_id": 159
+    },
+    {
+      "sample_order": 790,
+      "dimension": "Harmless",
+      "record_id": 164
+    },
+    {
+      "sample_order": 798,
+      "dimension": "Harmless",
+      "record_id": 172
+    },
+    {
+      "sample_order": 800,
+      "dimension": "Harmless",
+      "record_id": 174
+    },
+    {
+      "sample_order": 808,
+      "dimension": "Harmless",
+      "record_id": 182
+    },
+    {
+      "sample_order": 811,
+      "dimension": "Harmless",
+      "record_id": 185
+    },
+    {
+      "sample_order": 820,
+      "dimension": "Harmless",
+      "record_id": 194
+    },
+    {
+      "sample_order": 821,
+      "dimension": "Harmless",
+      "record_id": 195
+    },
+    {
+      "sample_order": 824,
+      "dimension": "Harmless",
+      "record_id": 198
+    },
+    {
+      "sample_order": 825,
+      "dimension": "Harmless",
+      "record_id": 199
+    },
+    {
+      "sample_order": 830,
+      "dimension": "Harmless",
+      "record_id": 204
+    },
+    {
+      "sample_order": 832,
+      "dimension": "Harmless",
+      "record_id": 206
+    },
+    {
+      "sample_order": 840,
+      "dimension": "Harmless",
+      "record_id": 214
+    },
+    {
+      "sample_order": 841,
+      "dimension": "Harmless",
+      "record_id": 215
+    },
+    {
+      "sample_order": 842,
+      "dimension": "Harmless",
+      "record_id": 216
+    },
+    {
+      "sample_order": 844,
+      "dimension": "Harmless",
+      "record_id": 218
+    },
+    {
+      "sample_order": 846,
+      "dimension": "Harmless",
+      "record_id": 220
+    },
+    {
+      "sample_order": 847,
+      "dimension": "Harmless",
+      "record_id": 221
+    },
+    {
+      "sample_order": 852,
+      "dimension": "Harmless",
+      "record_id": 226
+    },
+    {
+      "sample_order": 857,
+      "dimension": "Harmless",
+      "record_id": 231
+    },
+    {
+      "sample_order": 861,
+      "dimension": "Harmless",
+      "record_id": 235
+    },
+    {
+      "sample_order": 862,
+      "dimension": "Harmless",
+      "record_id": 236
+    },
+    {
+      "sample_order": 863,
+      "dimension": "Harmless",
+      "record_id": 237
+    },
+    {
+      "sample_order": 864,
+      "dimension": "Harmless",
+      "record_id": 238
+    },
+    {
+      "sample_order": 866,
+      "dimension": "Harmless",
+      "record_id": 240
+    },
+    {
+      "sample_order": 867,
+      "dimension": "Harmless",
+      "record_id": 241
+    },
+    {
+      "sample_order": 868,
+      "dimension": "Harmless",
+      "record_id": 242
+    },
+    {
+      "sample_order": 870,
+      "dimension": "Harmless",
+      "record_id": 244
+    },
+    {
+      "sample_order": 871,
+      "dimension": "Harmless",
+      "record_id": 245
+    },
+    {
+      "sample_order": 872,
+      "dimension": "Harmless",
+      "record_id": 246
+    },
+    {
+      "sample_order": 873,
+      "dimension": "Harmless",
+      "record_id": 247
+    },
+    {
+      "sample_order": 874,
+      "dimension": "Harmless",
+      "record_id": 248
+    },
+    {
+      "sample_order": 875,
+      "dimension": "Harmless",
+      "record_id": 249
+    },
+    {
+      "sample_order": 876,
+      "dimension": "Harmless",
+      "record_id": 250
+    },
+    {
+      "sample_order": 879,
+      "dimension": "Harmless",
+      "record_id": 253
+    },
+    {
+      "sample_order": 881,
+      "dimension": "Harmless",
+      "record_id": 255
+    },
+    {
+      "sample_order": 882,
+      "dimension": "Harmless",
+      "record_id": 256
+    },
+    {
+      "sample_order": 885,
+      "dimension": "Harmless",
+      "record_id": 259
+    },
+    {
+      "sample_order": 888,
+      "dimension": "Harmless",
+      "record_id": 262
+    },
+    {
+      "sample_order": 889,
+      "dimension": "Harmless",
+      "record_id": 263
+    },
+    {
+      "sample_order": 891,
+      "dimension": "Harmless",
+      "record_id": 265
+    },
+    {
+      "sample_order": 894,
+      "dimension": "Harmless",
+      "record_id": 268
+    },
+    {
+      "sample_order": 898,
+      "dimension": "Harmless",
+      "record_id": 272
+    },
+    {
+      "sample_order": 902,
+      "dimension": "Harmless",
+      "record_id": 276
+    },
+    {
+      "sample_order": 904,
+      "dimension": "Harmless",
+      "record_id": 278
+    },
+    {
+      "sample_order": 906,
+      "dimension": "Harmless",
+      "record_id": 280
+    },
+    {
+      "sample_order": 907,
+      "dimension": "Harmless",
+      "record_id": 281
+    },
+    {
+      "sample_order": 908,
+      "dimension": "Harmless",
+      "record_id": 282
+    },
+    {
+      "sample_order": 909,
+      "dimension": "Harmless",
+      "record_id": 283
+    },
+    {
+      "sample_order": 911,
+      "dimension": "Harmless",
+      "record_id": 285
+    },
+    {
+      "sample_order": 915,
+      "dimension": "Harmless",
+      "record_id": 289
+    },
+    {
+      "sample_order": 916,
+      "dimension": "Harmless",
+      "record_id": 290
+    },
+    {
+      "sample_order": 918,
+      "dimension": "Harmless",
+      "record_id": 292
+    },
+    {
+      "sample_order": 921,
+      "dimension": "Harmless",
+      "record_id": 295
+    },
+    {
+      "sample_order": 922,
+      "dimension": "Harmless",
+      "record_id": 296
+    },
+    {
+      "sample_order": 923,
+      "dimension": "Harmless",
+      "record_id": 297
+    },
+    {
+      "sample_order": 925,
+      "dimension": "Harmless",
+      "record_id": 299
+    },
+    {
+      "sample_order": 926,
+      "dimension": "Harmless",
+      "record_id": 300
+    },
+    {
+      "sample_order": 931,
+      "dimension": "Harmless",
+      "record_id": 305
+    },
+    {
+      "sample_order": 934,
+      "dimension": "Harmless",
+      "record_id": 308
+    },
+    {
+      "sample_order": 936,
+      "dimension": "Harmless",
+      "record_id": 310
+    },
+    {
+      "sample_order": 937,
+      "dimension": "Harmless",
+      "record_id": 311
+    },
+    {
+      "sample_order": 938,
+      "dimension": "Harmless",
+      "record_id": 312
+    },
+    {
+      "sample_order": 940,
+      "dimension": "Harmless",
+      "record_id": 314
+    },
+    {
+      "sample_order": 941,
+      "dimension": "Harmless",
+      "record_id": 315
+    },
+    {
+      "sample_order": 942,
+      "dimension": "Harmless",
+      "record_id": 316
+    },
+    {
+      "sample_order": 945,
+      "dimension": "Harmless",
+      "record_id": 319
+    },
+    {
+      "sample_order": 947,
+      "dimension": "Harmless",
+      "record_id": 321
+    },
+    {
+      "sample_order": 948,
+      "dimension": "Harmless",
+      "record_id": 322
+    },
+    {
+      "sample_order": 950,
+      "dimension": "Harmless",
+      "record_id": 324
+    },
+    {
+      "sample_order": 953,
+      "dimension": "Harmless",
+      "record_id": 327
+    },
+    {
+      "sample_order": 954,
+      "dimension": "Harmless",
+      "record_id": 328
+    },
+    {
+      "sample_order": 955,
+      "dimension": "Harmless",
+      "record_id": 329
+    },
+    {
+      "sample_order": 956,
+      "dimension": "Harmless",
+      "record_id": 330
+    },
+    {
+      "sample_order": 959,
+      "dimension": "Harmless",
+      "record_id": 333
+    },
+    {
+      "sample_order": 960,
+      "dimension": "Harmless",
+      "record_id": 334
+    },
+    {
+      "sample_order": 962,
+      "dimension": "Harmless",
+      "record_id": 336
+    },
+    {
+      "sample_order": 963,
+      "dimension": "Harmless",
+      "record_id": 337
+    },
+    {
+      "sample_order": 964,
+      "dimension": "Harmless",
+      "record_id": 338
+    },
+    {
+      "sample_order": 965,
+      "dimension": "Harmless",
+      "record_id": 339
+    },
+    {
+      "sample_order": 966,
+      "dimension": "Harmless",
+      "record_id": 340
+    },
+    {
+      "sample_order": 967,
+      "dimension": "Harmless",
+      "record_id": 341
+    },
+    {
+      "sample_order": 974,
+      "dimension": "Harmless",
+      "record_id": 348
+    },
+    {
+      "sample_order": 976,
+      "dimension": "Harmless",
+      "record_id": 350
+    },
+    {
+      "sample_order": 979,
+      "dimension": "Harmless",
+      "record_id": 353
+    },
+    {
+      "sample_order": 980,
+      "dimension": "Harmless",
+      "record_id": 354
+    },
+    {
+      "sample_order": 984,
+      "dimension": "Harmless",
+      "record_id": 358
+    },
+    {
+      "sample_order": 991,
+      "dimension": "Harmless",
+      "record_id": 365
+    },
+    {
+      "sample_order": 992,
+      "dimension": "Harmless",
+      "record_id": 366
+    },
+    {
+      "sample_order": 993,
+      "dimension": "Harmless",
+      "record_id": 367
+    },
+    {
+      "sample_order": 999,
+      "dimension": "Harmless",
+      "record_id": 373
+    },
+    {
+      "sample_order": 1002,
+      "dimension": "Harmless",
+      "record_id": 376
+    },
+    {
+      "sample_order": 1004,
+      "dimension": "Harmless",
+      "record_id": 378
+    },
+    {
+      "sample_order": 1005,
+      "dimension": "Harmless",
+      "record_id": 379
+    },
+    {
+      "sample_order": 1009,
+      "dimension": "Harmless",
+      "record_id": 383
+    },
+    {
+      "sample_order": 1011,
+      "dimension": "Harmless",
+      "record_id": 385
+    },
+    {
+      "sample_order": 1014,
+      "dimension": "Harmless",
+      "record_id": 388
+    },
+    {
+      "sample_order": 1019,
+      "dimension": "Harmless",
+      "record_id": 393
+    },
+    {
+      "sample_order": 1022,
+      "dimension": "Harmless",
+      "record_id": 396
+    },
+    {
+      "sample_order": 1024,
+      "dimension": "Harmless",
+      "record_id": 398
+    },
+    {
+      "sample_order": 1031,
+      "dimension": "Harmless",
+      "record_id": 405
+    },
+    {
+      "sample_order": 1032,
+      "dimension": "Harmless",
+      "record_id": 406
+    },
+    {
+      "sample_order": 1034,
+      "dimension": "Harmless",
+      "record_id": 408
+    },
+    {
+      "sample_order": 1036,
+      "dimension": "Harmless",
+      "record_id": 410
+    },
+    {
+      "sample_order": 1038,
+      "dimension": "Harmless",
+      "record_id": 412
+    },
+    {
+      "sample_order": 1039,
+      "dimension": "Harmless",
+      "record_id": 413
+    },
+    {
+      "sample_order": 1043,
+      "dimension": "Harmless",
+      "record_id": 417
+    },
+    {
+      "sample_order": 1045,
+      "dimension": "Harmless",
+      "record_id": 419
+    },
+    {
+      "sample_order": 1047,
+      "dimension": "Harmless",
+      "record_id": 421
+    },
+    {
+      "sample_order": 1050,
+      "dimension": "Harmless",
+      "record_id": 424
+    },
+    {
+      "sample_order": 1051,
+      "dimension": "Harmless",
+      "record_id": 425
+    },
+    {
+      "sample_order": 1056,
+      "dimension": "Harmless",
+      "record_id": 430
+    },
+    {
+      "sample_order": 1057,
+      "dimension": "Harmless",
+      "record_id": 431
+    },
+    {
+      "sample_order": 1058,
+      "dimension": "Harmless",
+      "record_id": 432
+    },
+    {
+      "sample_order": 1061,
+      "dimension": "Harmless",
+      "record_id": 435
+    },
+    {
+      "sample_order": 1066,
+      "dimension": "Harmless",
+      "record_id": 440
+    },
+    {
+      "sample_order": 1067,
+      "dimension": "Harmless",
+      "record_id": 441
+    },
+    {
+      "sample_order": 1068,
+      "dimension": "Harmless",
+      "record_id": 442
+    },
+    {
+      "sample_order": 1070,
+      "dimension": "Harmless",
+      "record_id": 444
+    },
+    {
+      "sample_order": 1074,
+      "dimension": "Harmless",
+      "record_id": 448
+    },
+    {
+      "sample_order": 1078,
+      "dimension": "Harmless",
+      "record_id": 452
+    },
+    {
+      "sample_order": 1081,
+      "dimension": "Harmless",
+      "record_id": 455
+    },
+    {
+      "sample_order": 1083,
+      "dimension": "Harmless",
+      "record_id": 457
+    },
+    {
+      "sample_order": 1084,
+      "dimension": "Harmless",
+      "record_id": 458
+    },
+    {
+      "sample_order": 1086,
+      "dimension": "Harmless",
+      "record_id": 460
+    },
+    {
+      "sample_order": 1087,
+      "dimension": "Harmless",
+      "record_id": 461
+    },
+    {
+      "sample_order": 1088,
+      "dimension": "Harmless",
+      "record_id": 462
+    },
+    {
+      "sample_order": 1089,
+      "dimension": "Harmless",
+      "record_id": 463
+    },
+    {
+      "sample_order": 1091,
+      "dimension": "Harmless",
+      "record_id": 465
+    },
+    {
+      "sample_order": 1094,
+      "dimension": "Harmless",
+      "record_id": 468
+    },
+    {
+      "sample_order": 1095,
+      "dimension": "Harmless",
+      "record_id": 469
+    },
+    {
+      "sample_order": 1096,
+      "dimension": "Harmless",
+      "record_id": 470
+    },
+    {
+      "sample_order": 1107,
+      "dimension": "Harmless",
+      "record_id": 481
+    },
+    {
+      "sample_order": 1113,
+      "dimension": "Honest",
+      "record_id": 0
+    },
+    {
+      "sample_order": 1115,
+      "dimension": "Honest",
+      "record_id": 2
+    },
+    {
+      "sample_order": 1117,
+      "dimension": "Honest",
+      "record_id": 4
+    },
+    {
+      "sample_order": 1123,
+      "dimension": "Honest",
+      "record_id": 10
+    },
+    {
+      "sample_order": 1124,
+      "dimension": "Honest",
+      "record_id": 11
+    },
+    {
+      "sample_order": 1125,
+      "dimension": "Honest",
+      "record_id": 12
+    },
+    {
+      "sample_order": 1126,
+      "dimension": "Honest",
+      "record_id": 13
+    },
+    {
+      "sample_order": 1127,
+      "dimension": "Honest",
+      "record_id": 14
+    },
+    {
+      "sample_order": 1128,
+      "dimension": "Honest",
+      "record_id": 15
+    },
+    {
+      "sample_order": 1130,
+      "dimension": "Honest",
+      "record_id": 17
+    },
+    {
+      "sample_order": 1131,
+      "dimension": "Honest",
+      "record_id": 18
+    },
+    {
+      "sample_order": 1134,
+      "dimension": "Honest",
+      "record_id": 21
+    },
+    {
+      "sample_order": 1135,
+      "dimension": "Honest",
+      "record_id": 22
+    },
+    {
+      "sample_order": 1136,
+      "dimension": "Honest",
+      "record_id": 23
+    },
+    {
+      "sample_order": 1137,
+      "dimension": "Honest",
+      "record_id": 24
+    },
+    {
+      "sample_order": 1138,
+      "dimension": "Honest",
+      "record_id": 25
+    },
+    {
+      "sample_order": 1139,
+      "dimension": "Honest",
+      "record_id": 26
+    },
+    {
+      "sample_order": 1141,
+      "dimension": "Honest",
+      "record_id": 28
+    },
+    {
+      "sample_order": 1142,
+      "dimension": "Honest",
+      "record_id": 29
+    },
+    {
+      "sample_order": 1144,
+      "dimension": "Honest",
+      "record_id": 31
+    },
+    {
+      "sample_order": 1147,
+      "dimension": "Honest",
+      "record_id": 34
+    },
+    {
+      "sample_order": 1148,
+      "dimension": "Honest",
+      "record_id": 35
+    },
+    {
+      "sample_order": 1149,
+      "dimension": "Honest",
+      "record_id": 36
+    },
+    {
+      "sample_order": 1150,
+      "dimension": "Honest",
+      "record_id": 37
+    },
+    {
+      "sample_order": 1151,
+      "dimension": "Honest",
+      "record_id": 38
+    },
+    {
+      "sample_order": 1152,
+      "dimension": "Honest",
+      "record_id": 39
+    },
+    {
+      "sample_order": 1154,
+      "dimension": "Honest",
+      "record_id": 41
+    },
+    {
+      "sample_order": 1155,
+      "dimension": "Honest",
+      "record_id": 42
+    },
+    {
+      "sample_order": 1156,
+      "dimension": "Honest",
+      "record_id": 43
+    },
+    {
+      "sample_order": 1157,
+      "dimension": "Honest",
+      "record_id": 44
+    },
+    {
+      "sample_order": 1158,
+      "dimension": "Honest",
+      "record_id": 45
+    },
+    {
+      "sample_order": 1159,
+      "dimension": "Honest",
+      "record_id": 46
+    },
+    {
+      "sample_order": 1160,
+      "dimension": "Honest",
+      "record_id": 47
+    },
+    {
+      "sample_order": 1161,
+      "dimension": "Honest",
+      "record_id": 48
+    },
+    {
+      "sample_order": 1163,
+      "dimension": "Honest",
+      "record_id": 50
+    },
+    {
+      "sample_order": 1164,
+      "dimension": "Honest",
+      "record_id": 51
+    },
+    {
+      "sample_order": 1167,
+      "dimension": "Honest",
+      "record_id": 54
+    },
+    {
+      "sample_order": 1168,
+      "dimension": "Honest",
+      "record_id": 55
+    },
+    {
+      "sample_order": 1169,
+      "dimension": "Honest",
+      "record_id": 56
+    },
+    {
+      "sample_order": 1172,
+      "dimension": "Honest",
+      "record_id": 59
+    },
+    {
+      "sample_order": 1174,
+      "dimension": "Honest",
+      "record_id": 61
+    },
+    {
+      "sample_order": 1175,
+      "dimension": "Honest",
+      "record_id": 62
+    },
+    {
+      "sample_order": 1176,
+      "dimension": "Honest",
+      "record_id": 63
+    },
+    {
+      "sample_order": 1177,
+      "dimension": "Honest",
+      "record_id": 64
+    },
+    {
+      "sample_order": 1178,
+      "dimension": "Honest",
+      "record_id": 65
+    },
+    {
+      "sample_order": 1179,
+      "dimension": "Honest",
+      "record_id": 66
+    },
+    {
+      "sample_order": 1180,
+      "dimension": "Honest",
+      "record_id": 67
+    },
+    {
+      "sample_order": 1182,
+      "dimension": "Honest",
+      "record_id": 69
+    },
+    {
+      "sample_order": 1183,
+      "dimension": "Honest",
+      "record_id": 70
+    },
+    {
+      "sample_order": 1184,
+      "dimension": "Honest",
+      "record_id": 71
+    },
+    {
+      "sample_order": 1185,
+      "dimension": "Honest",
+      "record_id": 72
+    },
+    {
+      "sample_order": 1186,
+      "dimension": "Honest",
+      "record_id": 73
+    },
+    {
+      "sample_order": 1187,
+      "dimension": "Honest",
+      "record_id": 74
+    },
+    {
+      "sample_order": 1188,
+      "dimension": "Honest",
+      "record_id": 75
+    },
+    {
+      "sample_order": 1190,
+      "dimension": "Honest",
+      "record_id": 77
+    },
+    {
+      "sample_order": 1191,
+      "dimension": "Honest",
+      "record_id": 78
+    },
+    {
+      "sample_order": 1193,
+      "dimension": "Honest",
+      "record_id": 80
+    },
+    {
+      "sample_order": 1194,
+      "dimension": "Honest",
+      "record_id": 81
+    },
+    {
+      "sample_order": 1195,
+      "dimension": "Honest",
+      "record_id": 82
+    },
+    {
+      "sample_order": 1196,
+      "dimension": "Honest",
+      "record_id": 83
+    },
+    {
+      "sample_order": 1197,
+      "dimension": "Honest",
+      "record_id": 84
+    },
+    {
+      "sample_order": 1198,
+      "dimension": "Honest",
+      "record_id": 85
+    },
+    {
+      "sample_order": 1199,
+      "dimension": "Honest",
+      "record_id": 86
+    },
+    {
+      "sample_order": 1200,
+      "dimension": "Honest",
+      "record_id": 87
+    },
+    {
+      "sample_order": 1201,
+      "dimension": "Honest",
+      "record_id": 88
+    },
+    {
+      "sample_order": 1202,
+      "dimension": "Honest",
+      "record_id": 89
+    },
+    {
+      "sample_order": 1204,
+      "dimension": "Honest",
+      "record_id": 91
+    },
+    {
+      "sample_order": 1205,
+      "dimension": "Honest",
+      "record_id": 92
+    },
+    {
+      "sample_order": 1206,
+      "dimension": "Honest",
+      "record_id": 93
+    },
+    {
+      "sample_order": 1207,
+      "dimension": "Honest",
+      "record_id": 94
+    },
+    {
+      "sample_order": 1208,
+      "dimension": "Honest",
+      "record_id": 95
+    },
+    {
+      "sample_order": 1209,
+      "dimension": "Honest",
+      "record_id": 96
+    },
+    {
+      "sample_order": 1212,
+      "dimension": "Honest",
+      "record_id": 99
+    },
+    {
+      "sample_order": 1214,
+      "dimension": "Honest",
+      "record_id": 101
+    },
+    {
+      "sample_order": 1215,
+      "dimension": "Honest",
+      "record_id": 102
+    },
+    {
+      "sample_order": 1216,
+      "dimension": "Honest",
+      "record_id": 103
+    },
+    {
+      "sample_order": 1217,
+      "dimension": "Honest",
+      "record_id": 104
+    },
+    {
+      "sample_order": 1220,
+      "dimension": "Honest",
+      "record_id": 107
+    },
+    {
+      "sample_order": 1223,
+      "dimension": "Honest",
+      "record_id": 110
+    },
+    {
+      "sample_order": 1224,
+      "dimension": "Honest",
+      "record_id": 111
+    },
+    {
+      "sample_order": 1225,
+      "dimension": "Honest",
+      "record_id": 112
+    },
+    {
+      "sample_order": 1226,
+      "dimension": "Honest",
+      "record_id": 113
+    },
+    {
+      "sample_order": 1227,
+      "dimension": "Honest",
+      "record_id": 114
+    },
+    {
+      "sample_order": 1228,
+      "dimension": "Honest",
+      "record_id": 115
+    },
+    {
+      "sample_order": 1229,
+      "dimension": "Honest",
+      "record_id": 116
+    },
+    {
+      "sample_order": 1231,
+      "dimension": "Honest",
+      "record_id": 118
+    },
+    {
+      "sample_order": 1232,
+      "dimension": "Honest",
+      "record_id": 119
+    },
+    {
+      "sample_order": 1234,
+      "dimension": "Honest",
+      "record_id": 121
+    },
+    {
+      "sample_order": 1235,
+      "dimension": "Honest",
+      "record_id": 122
+    },
+    {
+      "sample_order": 1236,
+      "dimension": "Honest",
+      "record_id": 123
+    },
+    {
+      "sample_order": 1237,
+      "dimension": "Honest",
+      "record_id": 124
+    },
+    {
+      "sample_order": 1238,
+      "dimension": "Honest",
+      "record_id": 125
+    },
+    {
+      "sample_order": 1240,
+      "dimension": "Honest",
+      "record_id": 127
+    },
+    {
+      "sample_order": 1241,
+      "dimension": "Honest",
+      "record_id": 128
+    },
+    {
+      "sample_order": 1242,
+      "dimension": "Honest",
+      "record_id": 129
+    },
+    {
+      "sample_order": 1245,
+      "dimension": "Honest",
+      "record_id": 132
+    },
+    {
+      "sample_order": 1246,
+      "dimension": "Honest",
+      "record_id": 133
+    },
+    {
+      "sample_order": 1248,
+      "dimension": "Honest",
+      "record_id": 135
+    },
+    {
+      "sample_order": 1249,
+      "dimension": "Honest",
+      "record_id": 136
+    },
+    {
+      "sample_order": 1250,
+      "dimension": "Honest",
+      "record_id": 137
+    },
+    {
+      "sample_order": 1251,
+      "dimension": "Honest",
+      "record_id": 138
+    },
+    {
+      "sample_order": 1252,
+      "dimension": "Honest",
+      "record_id": 139
+    },
+    {
+      "sample_order": 1257,
+      "dimension": "Honest",
+      "record_id": 144
+    },
+    {
+      "sample_order": 1259,
+      "dimension": "Honest",
+      "record_id": 146
+    },
+    {
+      "sample_order": 1261,
+      "dimension": "Honest",
+      "record_id": 148
+    },
+    {
+      "sample_order": 1263,
+      "dimension": "Honest",
+      "record_id": 150
+    },
+    {
+      "sample_order": 1265,
+      "dimension": "Honest",
+      "record_id": 152
+    },
+    {
+      "sample_order": 1266,
+      "dimension": "Honest",
+      "record_id": 153
+    },
+    {
+      "sample_order": 1267,
+      "dimension": "Honest",
+      "record_id": 154
+    },
+    {
+      "sample_order": 1268,
+      "dimension": "Honest",
+      "record_id": 155
+    },
+    {
+      "sample_order": 1270,
+      "dimension": "Honest",
+      "record_id": 157
+    },
+    {
+      "sample_order": 1271,
+      "dimension": "Honest",
+      "record_id": 158
+    },
+    {
+      "sample_order": 1272,
+      "dimension": "Honest",
+      "record_id": 159
+    },
+    {
+      "sample_order": 1273,
+      "dimension": "Honest",
+      "record_id": 160
+    },
+    {
+      "sample_order": 1274,
+      "dimension": "Honest",
+      "record_id": 161
+    },
+    {
+      "sample_order": 1275,
+      "dimension": "Honest",
+      "record_id": 162
+    },
+    {
+      "sample_order": 1276,
+      "dimension": "Honest",
+      "record_id": 163
+    },
+    {
+      "sample_order": 1279,
+      "dimension": "Honest",
+      "record_id": 166
+    },
+    {
+      "sample_order": 1282,
+      "dimension": "Honest",
+      "record_id": 169
+    },
+    {
+      "sample_order": 1283,
+      "dimension": "Honest",
+      "record_id": 170
+    },
+    {
+      "sample_order": 1284,
+      "dimension": "Honest",
+      "record_id": 171
+    },
+    {
+      "sample_order": 1285,
+      "dimension": "Honest",
+      "record_id": 172
+    },
+    {
+      "sample_order": 1286,
+      "dimension": "Honest",
+      "record_id": 173
+    },
+    {
+      "sample_order": 1287,
+      "dimension": "Honest",
+      "record_id": 174
+    },
+    {
+      "sample_order": 1288,
+      "dimension": "Honest",
+      "record_id": 175
+    },
+    {
+      "sample_order": 1289,
+      "dimension": "Honest",
+      "record_id": 176
+    },
+    {
+      "sample_order": 1295,
+      "dimension": "Honest",
+      "record_id": 182
+    },
+    {
+      "sample_order": 1296,
+      "dimension": "Honest",
+      "record_id": 183
+    },
+    {
+      "sample_order": 1297,
+      "dimension": "Honest",
+      "record_id": 184
+    },
+    {
+      "sample_order": 1300,
+      "dimension": "Honest",
+      "record_id": 187
+    },
+    {
+      "sample_order": 1301,
+      "dimension": "Honest",
+      "record_id": 188
+    },
+    {
+      "sample_order": 1302,
+      "dimension": "Honest",
+      "record_id": 189
+    },
+    {
+      "sample_order": 1303,
+      "dimension": "Honest",
+      "record_id": 190
+    },
+    {
+      "sample_order": 1305,
+      "dimension": "Honest",
+      "record_id": 192
+    },
+    {
+      "sample_order": 1306,
+      "dimension": "Honest",
+      "record_id": 193
+    },
+    {
+      "sample_order": 1310,
+      "dimension": "Honest",
+      "record_id": 197
+    },
+    {
+      "sample_order": 1311,
+      "dimension": "Honest",
+      "record_id": 198
+    },
+    {
+      "sample_order": 1312,
+      "dimension": "Honest",
+      "record_id": 199
+    },
+    {
+      "sample_order": 1313,
+      "dimension": "Honest",
+      "record_id": 200
+    },
+    {
+      "sample_order": 1314,
+      "dimension": "Honest",
+      "record_id": 201
+    },
+    {
+      "sample_order": 1315,
+      "dimension": "Honest",
+      "record_id": 202
+    },
+    {
+      "sample_order": 1318,
+      "dimension": "Honest",
+      "record_id": 205
+    },
+    {
+      "sample_order": 1320,
+      "dimension": "Honest",
+      "record_id": 207
+    },
+    {
+      "sample_order": 1321,
+      "dimension": "Honest",
+      "record_id": 208
+    },
+    {
+      "sample_order": 1325,
+      "dimension": "Honest",
+      "record_id": 212
+    },
+    {
+      "sample_order": 1326,
+      "dimension": "Honest",
+      "record_id": 213
+    },
+    {
+      "sample_order": 1328,
+      "dimension": "Honest",
+      "record_id": 215
+    },
+    {
+      "sample_order": 1329,
+      "dimension": "Honest",
+      "record_id": 216
+    },
+    {
+      "sample_order": 1331,
+      "dimension": "Honest",
+      "record_id": 218
+    },
+    {
+      "sample_order": 1333,
+      "dimension": "Honest",
+      "record_id": 220
+    },
+    {
+      "sample_order": 1336,
+      "dimension": "Honest",
+      "record_id": 223
+    },
+    {
+      "sample_order": 1338,
+      "dimension": "Honest",
+      "record_id": 225
+    },
+    {
+      "sample_order": 1340,
+      "dimension": "Honest",
+      "record_id": 227
+    },
+    {
+      "sample_order": 1341,
+      "dimension": "Honest",
+      "record_id": 228
+    },
+    {
+      "sample_order": 1342,
+      "dimension": "Honest",
+      "record_id": 229
+    },
+    {
+      "sample_order": 1343,
+      "dimension": "Honest",
+      "record_id": 230
+    },
+    {
+      "sample_order": 1344,
+      "dimension": "Honest",
+      "record_id": 231
+    },
+    {
+      "sample_order": 1347,
+      "dimension": "Honest",
+      "record_id": 234
+    },
+    {
+      "sample_order": 1348,
+      "dimension": "Honest",
+      "record_id": 235
+    },
+    {
+      "sample_order": 1352,
+      "dimension": "Honest",
+      "record_id": 239
+    },
+    {
+      "sample_order": 1353,
+      "dimension": "Honest",
+      "record_id": 240
+    },
+    {
+      "sample_order": 1354,
+      "dimension": "Honest",
+      "record_id": 241
+    },
+    {
+      "sample_order": 1355,
+      "dimension": "Honest",
+      "record_id": 242
+    },
+    {
+      "sample_order": 1357,
+      "dimension": "Honest",
+      "record_id": 244
+    },
+    {
+      "sample_order": 1358,
+      "dimension": "Honest",
+      "record_id": 245
+    },
+    {
+      "sample_order": 1362,
+      "dimension": "Honest",
+      "record_id": 249
+    },
+    {
+      "sample_order": 1363,
+      "dimension": "Honest",
+      "record_id": 250
+    },
+    {
+      "sample_order": 1365,
+      "dimension": "Honest",
+      "record_id": 252
+    },
+    {
+      "sample_order": 1366,
+      "dimension": "Honest",
+      "record_id": 253
+    },
+    {
+      "sample_order": 1367,
+      "dimension": "Honest",
+      "record_id": 254
+    },
+    {
+      "sample_order": 1368,
+      "dimension": "Honest",
+      "record_id": 255
+    },
+    {
+      "sample_order": 1369,
+      "dimension": "Honest",
+      "record_id": 256
+    },
+    {
+      "sample_order": 1370,
+      "dimension": "Honest",
+      "record_id": 257
+    },
+    {
+      "sample_order": 1372,
+      "dimension": "Honest",
+      "record_id": 259
+    },
+    {
+      "sample_order": 1374,
+      "dimension": "Honest",
+      "record_id": 261
+    },
+    {
+      "sample_order": 1376,
+      "dimension": "Honest",
+      "record_id": 263
+    },
+    {
+      "sample_order": 1377,
+      "dimension": "Honest",
+      "record_id": 264
+    },
+    {
+      "sample_order": 1379,
+      "dimension": "Honest",
+      "record_id": 266
+    },
+    {
+      "sample_order": 1381,
+      "dimension": "Honest",
+      "record_id": 268
+    },
+    {
+      "sample_order": 1382,
+      "dimension": "Honest",
+      "record_id": 269
+    },
+    {
+      "sample_order": 1384,
+      "dimension": "Honest",
+      "record_id": 271
+    },
+    {
+      "sample_order": 1385,
+      "dimension": "Honest",
+      "record_id": 272
+    },
+    {
+      "sample_order": 1386,
+      "dimension": "Honest",
+      "record_id": 273
+    },
+    {
+      "sample_order": 1387,
+      "dimension": "Honest",
+      "record_id": 274
+    },
+    {
+      "sample_order": 1390,
+      "dimension": "Honest",
+      "record_id": 277
+    },
+    {
+      "sample_order": 1392,
+      "dimension": "Honest",
+      "record_id": 279
+    },
+    {
+      "sample_order": 1393,
+      "dimension": "Honest",
+      "record_id": 280
+    },
+    {
+      "sample_order": 1394,
+      "dimension": "Honest",
+      "record_id": 281
+    },
+    {
+      "sample_order": 1396,
+      "dimension": "Honest",
+      "record_id": 283
+    },
+    {
+      "sample_order": 1398,
+      "dimension": "Honest",
+      "record_id": 285
+    },
+    {
+      "sample_order": 1399,
+      "dimension": "Honest",
+      "record_id": 286
+    },
+    {
+      "sample_order": 1400,
+      "dimension": "Honest",
+      "record_id": 287
+    },
+    {
+      "sample_order": 1401,
+      "dimension": "Honest",
+      "record_id": 288
+    },
+    {
+      "sample_order": 1402,
+      "dimension": "Honest",
+      "record_id": 289
+    },
+    {
+      "sample_order": 1404,
+      "dimension": "Honest",
+      "record_id": 291
+    },
+    {
+      "sample_order": 1405,
+      "dimension": "Honest",
+      "record_id": 292
+    },
+    {
+      "sample_order": 1406,
+      "dimension": "Honest",
+      "record_id": 293
+    },
+    {
+      "sample_order": 1407,
+      "dimension": "Honest",
+      "record_id": 294
+    },
+    {
+      "sample_order": 1408,
+      "dimension": "Honest",
+      "record_id": 295
+    },
+    {
+      "sample_order": 1413,
+      "dimension": "Honest",
+      "record_id": 300
+    }
+  ],
+  "candidate_models": [
+    "lfm3-vl-2b",
+    "qwen3.5-2b",
+    "gemma4-e2b",
+    "qwen2.5-vl-7b",
+    "qwen3-vl-8b",
+    "minicpm-v-4.5-8b",
+    "gemma3-12b",
+    "gemma-4-12b",
+    "pixtral-12b",
+    "gemma3-27b",
+    "qwen3.6-27b",
+    "qwen3.8-27b",
+    "qwen3.5-35b-a3b",
+    "qwen3.6-35b-a3b",
+    "minicpm-v-4.7-35b-a3b",
+    "gpt-6.1-terra",
+    "gpt-6.1-sol",
+    "gpt-6-luna",
+    "gemini-4-argon",
+    "gemini-3.8-flash",
+    "gemini-3.6-flash",
+    "claude-opus-5-5",
+    "claude-sonnet-5-5",
+    "claude-haiku-5-5"
+  ],
+  "candidate_validity_checked": true,
+  "grouping": "Use run_selector_cv.make_groups on query/image hashes for validation and cross-validation; this development sample may contain linked records, which must remain in the same fold.",
+  "outcome_labels": "GPT-4o WR and TI; Beaver-Dam SS; distinct from later human references"
+}

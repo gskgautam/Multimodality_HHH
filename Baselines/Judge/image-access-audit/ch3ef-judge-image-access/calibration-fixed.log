@@ -1,0 +1,35 @@
+Sample records=60; model responses=480; pending judge calls=144; previous estimated spend USD 12.6649; cap USD 32.00
+anthropic: 25/25; estimated spend USD 13.0089
+{
+  "updated_utc": "2026-11-05T07:32:28.268138+00:00",
+  "n_per_dimension_requested": 20,
+  "sample_seed": 20261105,
+  "planned_calls_this_invocation": 144,
+  "completed_this_invocation": {
+    "openai": 0,
+    "google": 71,
+    "anthropic": 73
+  },
+  "journal_rows_total": 2836,
+  "estimated_total_cost_usd": 13.117806,
+  "estimated_total_cost_aud_at_rate_0.70082_usd_per_aud": 18.72,
+  "cap_usd": 32.0,
+  "budget_hit": false,
+  "by_provider": {
+    "openai": {
+      "journal_rows": 854,
+      "valid": 854,
+      "estimated_cost_usd": 1.1624
+    },
+    "google": {
+      "journal_rows": 648,
+      "valid": 648,
+      "estimated_cost_usd": 1.243546
+    },
+    "anthropic": {
+      "journal_rows": 1334,
+      "valid": 1053,
+      "estimated_cost_usd": 2.28186
+    }
+  }
+}

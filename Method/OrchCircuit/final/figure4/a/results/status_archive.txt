@@ -1,0 +1,1 @@
+The initial single-seed native-initialization analysis is superseded by the matched-initialization, three-seed analysis in RESULTS.md. The archived markdown and CSV/JSON preserve its numeric record; they should not be cited as current Figure 4a results.

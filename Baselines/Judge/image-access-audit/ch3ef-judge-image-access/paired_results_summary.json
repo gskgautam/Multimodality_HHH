@@ -1,0 +1,26 @@
+{
+  "sample_seed": 20261105,
+  "records_per_dimension": 80,
+  "models": 9,
+  "baseline_models": 8,
+  "extension_models": [
+    "orchcircuit"
+  ],
+  "manifest_matched_journal_rows": 9529,
+  "matched_status_counts": {
+    "success": 9179,
+    "error": 350
+  },
+  "result_groups": 54,
+  "complete_pairs_by_task": {
+    "WR": 1417,
+    "SS": 1407,
+    "TI": 1417
+  },
+  "usage_summary_estimated_total_cost_usd": 29.77822,
+  "outputs": [
+    "paired_results.csv",
+    "paired_results.md"
+  ],
+  "deduplication": "latest successful parseable row per model/sample/judge/task/order/condition"
+}

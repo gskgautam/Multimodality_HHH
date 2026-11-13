@@ -1,0 +1,76 @@
+{
+  "comparison": {
+    "informativeness": {
+      "excluded": {},
+      "gpt4o_informative_confusion": {
+        "accuracy": 0.5133689839572193,
+        "accuracy_wilson_95": [
+          0.4421862744799072,
+          0.5840134833237562
+        ],
+        "fn": 9,
+        "fp": 82,
+        "n": 187,
+        "sensitivity": 0.9052631578947369,
+        "sensitivity_wilson_95": [
+          0.8296695632641026,
+          0.9493557659723247
+        ],
+        "specificity": 0.10869565217391304,
+        "specificity_wilson_95": [
+          0.06012152356953175,
+          0.18863782456704176
+        ],
+        "tn": 10,
+        "tp": 86
+      },
+      "human_negative_n": 92,
+      "human_positive_n": 95
+    },
+    "truthfulness": {
+      "excluded": {
+        "no_majority": 4,
+        "not_assessable": 27
+      },
+      "gpt4o_truthful_confusion": {
+        "accuracy": 0.42948717948717946,
+        "accuracy_wilson_95": [
+          0.35442497567077513,
+          0.5079386428652705
+        ],
+        "fn": 12,
+        "fp": 77,
+        "n": 156,
+        "sensitivity": 0.8095238095238095,
+        "sensitivity_wilson_95": [
+          0.6959321285012545,
+          0.8875380812770755
+        ],
+        "specificity": 0.17204301075268819,
+        "specificity_wilson_95": [
+          0.1087656386118496,
+          0.2613388523485358
+        ],
+        "tn": 16,
+        "tp": 51
+      },
+      "human_negative_n": 93,
+      "human_positive_n": 63
+    }
+  },
+  "human_majority_counts": {
+    "informativeness": {
+      "adequate": 95,
+      "low": 32,
+      "partial": 60
+    },
+    "truthfulness": {
+      "contradicted": 60,
+      "no_majority": 4,
+      "not_assessable": 27,
+      "partly_supported": 33,
+      "supported": 63
+    }
+  },
+  "status": "development-set human reference validation; not an untouched method test"
+}

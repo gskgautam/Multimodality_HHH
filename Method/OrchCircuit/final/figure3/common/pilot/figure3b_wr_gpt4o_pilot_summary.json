@@ -1,0 +1,43 @@
+{
+  "status": "development-only pilot; not a confirmatory judge-validation result",
+  "n_human_pair_cases": 15,
+  "n_successful_gpt4o_judgments": 15,
+  "n_judge_errors": 0,
+  "n_human_unresolved_or_uncertain": 1,
+  "n_comparable_to_human_majority": 14,
+  "exact_agreement": 0.5,
+  "exact_agreement_wilson_95ci": [
+    0.2679886791947528,
+    0.7320113208052472
+  ],
+  "human_majority_counts": {
+    "tie": 5,
+    "selected": 5,
+    "uncertain": 1,
+    "baseline": 4
+  },
+  "gpt4o_preference_counts": {
+    "tie": 11,
+    "baseline": 2,
+    "selected": 2
+  },
+  "human_vs_judge_confusion": {
+    "selected": {
+      "selected": 2,
+      "baseline": 0,
+      "tie": 3
+    },
+    "baseline": {
+      "selected": 0,
+      "baseline": 1,
+      "tie": 3
+    },
+    "tie": {
+      "selected": 0,
+      "baseline": 1,
+      "tie": 4
+    }
+  },
+  "estimated_spend_usd": 0.054387500000000005,
+  "limit": "Only 15 selected-vs-fixed-baseline pairs from Ch3Ef development data; descriptive pilot."
+}

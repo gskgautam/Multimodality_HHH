@@ -1,0 +1,208 @@
+{
+  "human_majority_counts": {
+    "SS_safety": {
+      "concerning": 53,
+      "harmful_unsafe": 70,
+      "safe": 71
+    },
+    "TI_informativeness": {
+      "adequate": 95,
+      "low": 32,
+      "partial": 60
+    },
+    "TI_truthfulness": {
+      "contradicted": 60,
+      "no_majority": 4,
+      "not_assessable": 27,
+      "partly_supported": 33,
+      "supported": 63
+    },
+    "WR": {
+      "A": 49,
+      "B": 51,
+      "no_majority": 2,
+      "tie": 47,
+      "uncertain": 39
+    }
+  },
+  "interrater_reliability": {
+    "SS_refusal": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 0,
+      "category_counts_all_ratings": {
+        "no": 414,
+        "unclear": 84,
+        "yes": 84
+      },
+      "fleiss_kappa": 1.0,
+      "fleiss_kappa_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "n_cases": 194,
+      "observed_agreement": 1.0,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 1.0,
+          "matches": 194,
+          "n": 194
+        },
+        "R1-R3": {
+          "agreement": 1.0,
+          "matches": 194,
+          "n": 194
+        },
+        "R2-R3": {
+          "agreement": 1.0,
+          "matches": 194,
+          "n": 194
+        }
+      },
+      "unanimous_cases": 194
+    },
+    "SS_safety": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 47,
+      "category_counts_all_ratings": {
+        "concerning": 161,
+        "harmful_unsafe": 207,
+        "safe": 214
+      },
+      "fleiss_kappa": 0.7559400066024857,
+      "fleiss_kappa_bootstrap_95": [
+        0.6931049530874973,
+        0.8164203316510454
+      ],
+      "n_cases": 194,
+      "observed_agreement": 0.8384879725085911,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 0.8865979381443299,
+          "matches": 172,
+          "n": 194
+        },
+        "R1-R3": {
+          "agreement": 0.8247422680412371,
+          "matches": 160,
+          "n": 194
+        },
+        "R2-R3": {
+          "agreement": 0.8041237113402062,
+          "matches": 156,
+          "n": 194
+        }
+      },
+      "unanimous_cases": 147
+    },
+    "TI_informativeness": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 0,
+      "category_counts_all_ratings": {
+        "adequate": 285,
+        "low": 96,
+        "partial": 180
+      },
+      "fleiss_kappa": 1.0,
+      "fleiss_kappa_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "n_cases": 187,
+      "observed_agreement": 1.0,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 1.0,
+          "matches": 187,
+          "n": 187
+        },
+        "R1-R3": {
+          "agreement": 1.0,
+          "matches": 187,
+          "n": 187
+        },
+        "R2-R3": {
+          "agreement": 1.0,
+          "matches": 187,
+          "n": 187
+        }
+      },
+      "unanimous_cases": 187
+    },
+    "TI_truthfulness": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 45,
+      "category_counts_all_ratings": {
+        "contradicted": 186,
+        "not_assessable": 81,
+        "partly_supported": 110,
+        "supported": 184
+      },
+      "fleiss_kappa": 0.7683121858634144,
+      "fleiss_kappa_bootstrap_95": [
+        0.7062696898433688,
+        0.8230252459278611
+      ],
+      "n_cases": 187,
+      "observed_agreement": 0.8324420677361853,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 0.8877005347593583,
+          "matches": 166,
+          "n": 187
+        },
+        "R1-R3": {
+          "agreement": 0.8235294117647058,
+          "matches": 154,
+          "n": 187
+        },
+        "R2-R3": {
+          "agreement": 0.786096256684492,
+          "matches": 147,
+          "n": 187
+        }
+      },
+      "unanimous_cases": 142
+    },
+    "WR_helpfulness": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 58,
+      "category_counts_all_ratings": {
+        "A": 144,
+        "B": 146,
+        "tie": 150,
+        "uncertain": 124
+      },
+      "fleiss_kappa": 0.7205669947264115,
+      "fleiss_kappa_bootstrap_95": [
+        0.6588681020505884,
+        0.7790664997573001
+      ],
+      "n_cases": 188,
+      "observed_agreement": 0.7907801418439716,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 0.8723404255319149,
+          "matches": 164,
+          "n": 188
+        },
+        "R1-R3": {
+          "agreement": 0.7712765957446809,
+          "matches": 145,
+          "n": 188
+        },
+        "R2-R3": {
+          "agreement": 0.7287234042553191,
+          "matches": 137,
+          "n": 188
+        }
+      },
+      "unanimous_cases": 130
+    }
+  },
+  "n_cases": {
+    "SS": 194,
+    "TI": 187,
+    "WR": 188
+  },
+  "status": "development-set human reference validation; not an untouched method test"
+}

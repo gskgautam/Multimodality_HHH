@@ -1,0 +1,262 @@
+Sample records=240; model responses=1920; pending judge calls=5766; previous estimated spend USD 13.2978; cap USD 32.00
+openai: 25/480; estimated spend USD 13.5224
+openai: 25/480; estimated spend USD 13.5389
+openai: 25/480; estimated spend USD 13.5789
+anthropic: 25/842; estimated spend USD 13.6847
+anthropic: 25/842; estimated spend USD 13.7083
+anthropic: 25/842; estimated spend USD 13.7103
+openai: 50/480; estimated spend USD 13.8314
+openai: 50/480; estimated spend USD 13.8468
+openai: 50/480; estimated spend USD 13.9114
+openai: 75/480; estimated spend USD 14.0741
+anthropic: 50/842; estimated spend USD 14.0851
+anthropic: 50/842; estimated spend USD 14.1166
+openai: 75/480; estimated spend USD 14.1272
+anthropic: 50/842; estimated spend USD 14.1590
+openai: 75/480; estimated spend USD 14.2010
+openai: 100/480; estimated spend USD 14.3291
+openai: 100/480; estimated spend USD 14.3795
+openai: 100/480; estimated spend USD 14.4146
+anthropic: 75/842; estimated spend USD 14.4545
+anthropic: 75/842; estimated spend USD 14.5166
+anthropic: 75/842; estimated spend USD 14.5241
+openai: 125/480; estimated spend USD 14.6199
+openai: 125/480; estimated spend USD 14.6208
+openai: 125/480; estimated spend USD 14.6602
+openai: 150/480; estimated spend USD 14.8571
+anthropic: 100/842; estimated spend USD 14.8623
+openai: 150/480; estimated spend USD 14.8920
+openai: 150/480; estimated spend USD 14.8932
+anthropic: 100/842; estimated spend USD 14.9026
+anthropic: 100/842; estimated spend USD 15.0404
+openai: 175/480; estimated spend USD 15.1185
+openai: 175/480; estimated spend USD 15.1406
+openai: 175/480; estimated spend USD 15.1686
+google: 25/600; estimated spend USD 15.1724
+anthropic: 125/842; estimated spend USD 15.2432
+anthropic: 125/842; estimated spend USD 15.2476
+openai: 200/480; estimated spend USD 15.3207
+openai: 200/480; estimated spend USD 15.3240
+google: 25/600; estimated spend USD 15.3343
+anthropic: 125/842; estimated spend USD 15.3816
+openai: 200/480; estimated spend USD 15.3999
+google: 25/600; estimated spend USD 15.4831
+openai: 225/480; estimated spend USD 15.5530
+openai: 225/480; estimated spend USD 15.5582
+anthropic: 150/842; estimated spend USD 15.6092
+anthropic: 150/842; estimated spend USD 15.6485
+openai: 225/480; estimated spend USD 15.6820
+anthropic: 150/842; estimated spend USD 15.8206
+openai: 250/480; estimated spend USD 15.8212
+openai: 250/480; estimated spend USD 15.8413
+openai: 250/480; estimated spend USD 15.9323
+anthropic: 175/842; estimated spend USD 15.9866
+anthropic: 175/842; estimated spend USD 16.0606
+openai: 275/480; estimated spend USD 16.0724
+openai: 275/480; estimated spend USD 16.0912
+openai: 275/480; estimated spend USD 16.1799
+anthropic: 175/842; estimated spend USD 16.2396
+openai: 300/480; estimated spend USD 16.3497
+openai: 300/480; estimated spend USD 16.3586
+anthropic: 200/842; estimated spend USD 16.3735
+openai: 300/480; estimated spend USD 16.4674
+anthropic: 200/842; estimated spend USD 16.5254
+openai: 325/480; estimated spend USD 16.6707
+openai: 325/480; estimated spend USD 16.6812
+anthropic: 200/842; estimated spend USD 16.7721
+anthropic: 225/842; estimated spend USD 16.7955
+openai: 325/480; estimated spend USD 16.8034
+anthropic: 225/842; estimated spend USD 16.8937
+openai: 350/480; estimated spend USD 16.9021
+openai: 350/480; estimated spend USD 16.9279
+openai: 350/480; estimated spend USD 17.0527
+anthropic: 225/842; estimated spend USD 17.1254
+openai: 375/480; estimated spend USD 17.1656
+anthropic: 250/842; estimated spend USD 17.1770
+openai: 375/480; estimated spend USD 17.1965
+anthropic: 250/842; estimated spend USD 17.2394
+openai: 375/480; estimated spend USD 17.2957
+openai: 400/480; estimated spend USD 17.4043
+openai: 400/480; estimated spend USD 17.4437
+anthropic: 250/842; estimated spend USD 17.5233
+google: 50/600; estimated spend USD 17.5649
+openai: 400/480; estimated spend USD 17.5848
+anthropic: 275/842; estimated spend USD 17.6115
+google: 50/600; estimated spend USD 17.6197
+anthropic: 275/842; estimated spend USD 17.6811
+openai: 425/480; estimated spend USD 17.7077
+openai: 425/480; estimated spend USD 17.7453
+google: 50/600; estimated spend USD 17.7678
+openai: 425/480; estimated spend USD 17.8738
+anthropic: 275/842; estimated spend USD 17.9983
+openai: 450/480; estimated spend USD 18.0027
+anthropic: 300/842; estimated spend USD 18.0123
+openai: 450/480; estimated spend USD 18.0470
+openai: 450/480; estimated spend USD 18.0972
+anthropic: 300/842; estimated spend USD 18.1430
+openai: 475/480; estimated spend USD 18.3003
+openai: 475/480; estimated spend USD 18.3180
+openai: 475/480; estimated spend USD 18.3847
+anthropic: 300/842; estimated spend USD 18.3903
+anthropic: 325/842; estimated spend USD 18.4019
+anthropic: 325/842; estimated spend USD 18.4882
+anthropic: 325/842; estimated spend USD 18.6369
+anthropic: 350/842; estimated spend USD 18.6616
+anthropic: 350/842; estimated spend USD 18.7256
+anthropic: 350/842; estimated spend USD 18.8194
+anthropic: 375/842; estimated spend USD 18.8461
+anthropic: 375/842; estimated spend USD 18.9302
+anthropic: 375/842; estimated spend USD 19.0198
+anthropic: 400/842; estimated spend USD 19.0352
+google: 75/600; estimated spend USD 19.1068
+anthropic: 400/842; estimated spend USD 19.1112
+google: 75/600; estimated spend USD 19.1250
+anthropic: 425/842; estimated spend USD 19.2068
+anthropic: 400/842; estimated spend USD 19.2220
+anthropic: 425/842; estimated spend USD 19.3081
+anthropic: 425/842; estimated spend USD 19.4444
+anthropic: 450/842; estimated spend USD 19.4497
+anthropic: 450/842; estimated spend USD 19.5268
+anthropic: 450/842; estimated spend USD 19.6396
+anthropic: 475/842; estimated spend USD 19.6506
+anthropic: 475/842; estimated spend USD 19.7343
+anthropic: 475/842; estimated spend USD 19.8411
+google: 75/600; estimated spend USD 19.8492
+anthropic: 500/842; estimated spend USD 19.8664
+anthropic: 500/842; estimated spend USD 19.9754
+anthropic: 500/842; estimated spend USD 20.0995
+anthropic: 525/842; estimated spend USD 20.1038
+anthropic: 525/842; estimated spend USD 20.2349
+google: 100/600; estimated spend USD 20.2777
+anthropic: 550/842; estimated spend USD 20.3151
+anthropic: 525/842; estimated spend USD 20.3313
+anthropic: 550/842; estimated spend USD 20.4343
+anthropic: 575/842; estimated spend USD 20.5079
+anthropic: 550/842; estimated spend USD 20.5095
+google: 100/600; estimated spend USD 20.6255
+anthropic: 575/842; estimated spend USD 20.6576
+anthropic: 575/842; estimated spend USD 20.7008
+anthropic: 600/842; estimated spend USD 20.7196
+google: 100/600; estimated spend USD 20.7783
+anthropic: 600/842; estimated spend USD 20.8899
+anthropic: 600/842; estimated spend USD 20.8920
+anthropic: 625/842; estimated spend USD 20.9509
+anthropic: 625/842; estimated spend USD 21.0930
+anthropic: 625/842; estimated spend USD 21.1329
+anthropic: 650/842; estimated spend USD 21.1378
+google: 125/600; estimated spend USD 21.2684
+anthropic: 650/842; estimated spend USD 21.2777
+anthropic: 650/842; estimated spend USD 21.3117
+anthropic: 675/842; estimated spend USD 21.3446
+anthropic: 675/842; estimated spend USD 21.5133
+anthropic: 675/842; estimated spend USD 21.5300
+google: 125/600; estimated spend USD 21.5902
+anthropic: 700/842; estimated spend USD 21.6045
+anthropic: 700/842; estimated spend USD 21.7243
+anthropic: 700/842; estimated spend USD 21.7495
+anthropic: 725/842; estimated spend USD 21.7828
+anthropic: 725/842; estimated spend USD 21.9324
+anthropic: 725/842; estimated spend USD 21.9913
+anthropic: 750/842; estimated spend USD 22.0029
+anthropic: 750/842; estimated spend USD 22.0985
+anthropic: 750/842; estimated spend USD 22.1744
+anthropic: 775/842; estimated spend USD 22.2208
+google: 125/600; estimated spend USD 22.2665
+anthropic: 775/842; estimated spend USD 22.3013
+google: 150/600; estimated spend USD 22.3894
+anthropic: 775/842; estimated spend USD 22.4011
+anthropic: 800/842; estimated spend USD 22.4906
+google: 150/600; estimated spend USD 22.5241
+anthropic: 800/842; estimated spend USD 22.5507
+anthropic: 800/842; estimated spend USD 22.6046
+anthropic: 825/842; estimated spend USD 22.7424
+anthropic: 825/842; estimated spend USD 22.7797
+anthropic: 825/842; estimated spend USD 22.8425
+google: 150/600; estimated spend USD 22.9893
+google: 175/600; estimated spend USD 23.1089
+google: 175/600; estimated spend USD 23.1289
+google: 175/600; estimated spend USD 23.1683
+google: 200/600; estimated spend USD 23.2925
+google: 200/600; estimated spend USD 23.3133
+google: 200/600; estimated spend USD 23.3727
+google: 225/600; estimated spend USD 23.4926
+google: 225/600; estimated spend USD 23.5203
+google: 225/600; estimated spend USD 23.6327
+google: 250/600; estimated spend USD 23.6538
+google: 250/600; estimated spend USD 23.7106
+google: 250/600; estimated spend USD 23.7983
+google: 275/600; estimated spend USD 23.8088
+google: 275/600; estimated spend USD 23.8397
+google: 275/600; estimated spend USD 23.9464
+google: 300/600; estimated spend USD 23.9508
+google: 300/600; estimated spend USD 24.1976
+google: 325/600; estimated spend USD 24.6183
+google: 300/600; estimated spend USD 25.0983
+google: 325/600; estimated spend USD 25.4829
+google: 350/600; estimated spend USD 25.5942
+google: 325/600; estimated spend USD 25.6147
+google: 350/600; estimated spend USD 25.6647
+google: 375/600; estimated spend USD 25.7430
+google: 375/600; estimated spend USD 25.8106
+google: 350/600; estimated spend USD 25.8271
+google: 400/600; estimated spend USD 25.9614
+google: 400/600; estimated spend USD 25.9787
+google: 375/600; estimated spend USD 26.0239
+google: 425/600; estimated spend USD 26.1135
+google: 425/600; estimated spend USD 26.1166
+google: 400/600; estimated spend USD 26.2065
+google: 450/600; estimated spend USD 26.2831
+google: 450/600; estimated spend USD 26.3479
+google: 425/600; estimated spend USD 26.4200
+google: 475/600; estimated spend USD 26.4689
+google: 475/600; estimated spend USD 26.5245
+google: 500/600; estimated spend USD 26.6034
+google: 450/600; estimated spend USD 26.6060
+google: 500/600; estimated spend USD 26.7406
+google: 475/600; estimated spend USD 26.8015
+google: 525/600; estimated spend USD 26.8023
+google: 525/600; estimated spend USD 26.9160
+google: 550/600; estimated spend USD 26.9446
+google: 500/600; estimated spend USD 26.9841
+google: 550/600; estimated spend USD 27.0619
+google: 575/600; estimated spend USD 27.0748
+google: 525/600; estimated spend USD 27.2022
+google: 600/600; estimated spend USD 27.2664
+google: 575/600; estimated spend USD 27.2802
+google: 550/600; estimated spend USD 27.3258
+google: 600/600; estimated spend USD 27.4127
+google: 575/600; estimated spend USD 27.4457
+google: 600/600; estimated spend USD 27.5205
+{
+  "updated_utc": "2026-11-05T09:16:22.721585+00:00",
+  "n_per_dimension_requested": 80,
+  "sample_seed": 20261105,
+  "planned_calls_this_invocation": 5766,
+  "completed_this_invocation": {
+    "openai": 1440,
+    "google": 1800,
+    "anthropic": 2526
+  },
+  "journal_rows_total": 8608,
+  "estimated_total_cost_usd": 27.520502,
+  "estimated_total_cost_aud_at_rate_0.70082_usd_per_aud": 39.27,
+  "cap_usd": 32.0,
+  "budget_hit": false,
+  "by_provider": {
+    "openai": {
+      "journal_rows": 2294,
+      "valid": 2294,
+      "estimated_cost_usd": 3.58031
+    },
+    "google": {
+      "journal_rows": 2448,
+      "valid": 2402,
+      "estimated_cost_usd": 5.546776
+    },
+    "anthropic": {
+      "journal_rows": 3866,
+      "valid": 3568,
+      "estimated_cost_usd": 8.073416
+    }
+  }
+}

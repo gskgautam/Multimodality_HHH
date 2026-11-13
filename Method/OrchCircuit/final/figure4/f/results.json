@@ -1,0 +1,112 @@
+{
+  "status": "descriptive tipping-point audit of saved results; not a correction of scores and not confirmatory",
+  "primary_results": [
+    {
+      "cohort": "Full-set strict common-valid OOF",
+      "metric": "WR",
+      "n": 498,
+      "orch_counts": "192 wins",
+      "comparator": "Gemini 4 Argon",
+      "comparator_counts": "209 wins",
+      "delta_pp": -3.4136546184738954,
+      "min_adverse_outcome_flips_to_tie_or_erase": 17,
+      "tipping_share_of_outcomes_pct": 3.4136546184738954,
+      "interpretation": "OrchCircuit already trails; it would need this many net additional wins (corrections favoring OrchCircuit or adverse corrections to comparator) to tie."
+    },
+    {
+      "cohort": "Full-set strict common-valid OOF",
+      "metric": "SS",
+      "n": 445,
+      "orch_counts": "96 unsafe",
+      "comparator": "Gemma 3 12B",
+      "comparator_counts": "118 unsafe",
+      "delta_pp": 4.943820224719101,
+      "min_adverse_outcome_flips_to_tie_or_erase": 22,
+      "tipping_share_of_outcomes_pct": 4.943820224719101,
+      "interpretation": "Adverse flips mean OrchCircuit safe->unsafe, or comparator unsafe->safe; this many erases the observed advantage."
+    },
+    {
+      "cohort": "Full-set strict common-valid OOF",
+      "metric": "TI",
+      "n": 298,
+      "orch_counts": "281 truthful, 282 informative",
+      "comparator": "Gemini 4 Argon",
+      "comparator_counts": "280 truthful, 280 informative",
+      "delta_pp": 0.9481554884915094,
+      "min_adverse_outcome_flips_to_tie_or_erase": 3,
+      "tipping_share_of_outcomes_pct": 0.5033557046979866,
+      "interpretation": "Adverse flips among OrchCircuit labels alone: 0 truthful-positive to negative and 3 informative-positive to negative reach or cross the comparator product."
+    }
+  ],
+  "same_prompt_600_results": [
+    {
+      "cohort": "600-prompt joint-label development cohort",
+      "metric": "WR",
+      "n": 600,
+      "orch_counts": "194 wins",
+      "comparator": "Gemini 4 Argon",
+      "comparator_counts": "196 wins",
+      "delta_pp": -0.3333333333333333,
+      "min_adverse_outcome_flips_to_tie_or_erase": 2,
+      "tipping_share_of_outcomes_pct": 0.3333333333333333,
+      "interpretation": "OrchCircuit already trails; it would need this many net additional wins (corrections favoring OrchCircuit or adverse corrections to comparator) to tie."
+    },
+    {
+      "cohort": "600-prompt joint-label development cohort",
+      "metric": "SS",
+      "n": 600,
+      "orch_counts": "221 unsafe",
+      "comparator": "Gemma 3 12B",
+      "comparator_counts": "251 unsafe",
+      "delta_pp": 5.0,
+      "min_adverse_outcome_flips_to_tie_or_erase": 30,
+      "tipping_share_of_outcomes_pct": 5.0,
+      "interpretation": "Adverse flips mean OrchCircuit safe->unsafe, or comparator unsafe->safe; this many erases the observed advantage."
+    },
+    {
+      "cohort": "600-prompt joint-label development cohort",
+      "metric": "TI",
+      "n": 600,
+      "orch_counts": "542 truthful, 565 informative",
+      "comparator": "Gemini 4 Argon",
+      "comparator_counts": "543 truthful, 560 informative",
+      "delta_pp": 0.5972222222222222,
+      "min_adverse_outcome_flips_to_tie_or_erase": 4,
+      "tipping_share_of_outcomes_pct": 0.3333333333333333,
+      "interpretation": "Adverse flips among OrchCircuit labels alone: 0 truthful-positive to negative and 4 informative-positive to negative reach or cross the comparator product."
+    }
+  ],
+  "figure3_human_judge_disagreement_context": [
+    {
+      "metric": "WR exact 3-way preference",
+      "n": 147,
+      "disagreement_pct": 67.34693877551021,
+      "ci_low_pct": 59.408572289635366,
+      "ci_high_pct": 74.40176102239121
+    },
+    {
+      "metric": "SS binary safety",
+      "n": 141,
+      "disagreement_pct": 43.26241134751773,
+      "ci_low_pct": 35.370632602610264,
+      "ci_high_pct": 51.51157629344829
+    },
+    {
+      "metric": "TI truthfulness",
+      "n": 156,
+      "disagreement_pct": 57.05128205128205,
+      "ci_low_pct": 49.20613571347295,
+      "ci_high_pct": 64.55750243292249
+    },
+    {
+      "metric": "TI informativeness",
+      "n": 187,
+      "disagreement_pct": 48.66310160427807,
+      "ci_low_pct": 41.598651667624374,
+      "ci_high_pct": 55.78137255200928
+    }
+  ],
+  "selection_stability": "not estimated; outcome aggregates do not encode candidate-choice changes under retraining. Estimating that requires refitting the selector after label perturbation under an explicit transition model and evaluating against independent human labels.",
+  "transfer_warning": "Figure 3 human-judge disagreement was measured on a separate human-validation sample. It is not assumed to be a transferable error rate for all 1,416 or 600 prompts; disagreement may reflect rubric ambiguity or pluralistic judgments rather than judge error.",
+  "confirmatory_status": "Retrospective sensitivity audit on Ch3EF development data; not confirmatory."
+}

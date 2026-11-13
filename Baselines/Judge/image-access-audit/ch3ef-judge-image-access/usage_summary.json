@@ -1,0 +1,70 @@
+{
+  "updated_utc": "2026-11-05T09:16:22.721585+00:00",
+  "n_per_dimension_requested": 80,
+  "sample_seed": 20261105,
+  "planned_calls_this_invocation": 5766,
+  "completed_this_invocation": {
+    "openai": 1440,
+    "google": 1800,
+    "anthropic": 2526
+  },
+  "journal_rows_total": 9529,
+  "estimated_total_cost_usd": 29.77822,
+  "estimated_total_cost_aud_at_rate_0.70082_usd_per_aud": 39.27,
+  "cap_usd": 32.0,
+  "budget_hit": false,
+  "by_provider": {
+    "openai": {
+      "journal_rows": 2294,
+      "valid": 2294,
+      "estimated_cost_usd": 3.58031,
+      "errors": 0
+    },
+    "google": {
+      "journal_rows": 2906,
+      "valid": 2860,
+      "estimated_cost_usd": 6.59606,
+      "errors": 46
+    },
+    "anthropic": {
+      "journal_rows": 4329,
+      "valid": 4025,
+      "estimated_cost_usd": 9.10185,
+      "errors": 304
+    }
+  },
+  "orchcircuit_extension": {
+    "attempt_rows": 921,
+    "success_attempt_rows": 915,
+    "error_attempt_rows": 6,
+    "planned_condition_judge_keys": 916,
+    "condition_judge_keys_with_success": 915,
+    "unresolved_condition_judge_keys": [
+      {
+        "record_id": "73",
+        "dimension": "Harmless",
+        "condition": "image_present",
+        "judge_provider": "anthropic",
+        "sample_order": 699
+      }
+    ],
+    "paired_complete_counts": {
+      "SS_anthropic": 74,
+      "TI_anthropic": 77,
+      "WR_anthropic": 77,
+      "SS_google": 75,
+      "TI_google": 77,
+      "WR_google": 77
+    },
+    "estimated_incremental_cost_usd": 2.257718,
+    "eligible_records_by_dimension": {
+      "Helpful": 77,
+      "Harmless": 75,
+      "Honest": 77
+    },
+    "judges": [
+      "google",
+      "anthropic"
+    ]
+  }
+}

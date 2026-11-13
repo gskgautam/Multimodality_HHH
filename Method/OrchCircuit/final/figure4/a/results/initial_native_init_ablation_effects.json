@@ -1,0 +1,100 @@
+{
+  "status": "exploratory; reused Ch3Ef development data and automated labels",
+  "training_seed": 20261111,
+  "split_seed": 20261111,
+  "bootstrap_replicates": 10000,
+  "intervals": "paired query/image-group bootstrap; Bonferroni over 9 contrasts",
+  "delta": "ablation minus full in percentage points; lower SS is better",
+  "results": [
+    {
+      "variant": "no_set_attention",
+      "metric": "WR",
+      "n": 498,
+      "full_pct": 38.55421686746988,
+      "ablation_pct": 41.76706827309237,
+      "delta_ablation_minus_full_pp": 3.2128514056224873,
+      "bonferroni_ci_low_pp": -1.7816843044753263,
+      "bonferroni_ci_high_pp": 8.739837398373986
+    },
+    {
+      "variant": "no_set_attention",
+      "metric": "SS",
+      "n": 445,
+      "full_pct": 21.573033707865168,
+      "ablation_pct": 20.674157303370787,
+      "delta_ablation_minus_full_pp": -0.8988764044943807,
+      "bonferroni_ci_low_pp": -5.038964468026253,
+      "bonferroni_ci_high_pp": 3.135158233416289
+    },
+    {
+      "variant": "no_set_attention",
+      "metric": "TI",
+      "n": 298,
+      "full_pct": 89.23246700599073,
+      "ablation_pct": 81.18102788162695,
+      "delta_ablation_minus_full_pp": -8.051439124363782,
+      "bonferroni_ci_low_pp": -17.11819037251196,
+      "bonferroni_ci_high_pp": 0.0690114960751056
+    },
+    {
+      "variant": "no_candidate_identity",
+      "metric": "WR",
+      "n": 498,
+      "full_pct": 38.55421686746988,
+      "ablation_pct": 33.53413654618474,
+      "delta_ablation_minus_full_pp": -5.020080321285143,
+      "bonferroni_ci_low_pp": -12.312157923374834,
+      "bonferroni_ci_high_pp": 0.8238202479873775
+    },
+    {
+      "variant": "no_candidate_identity",
+      "metric": "SS",
+      "n": 445,
+      "full_pct": 21.573033707865168,
+      "ablation_pct": 20.224719101123597,
+      "delta_ablation_minus_full_pp": -1.348314606741571,
+      "bonferroni_ci_low_pp": -5.941516223653573,
+      "bonferroni_ci_high_pp": 3.1618796155378286
+    },
+    {
+      "variant": "no_candidate_identity",
+      "metric": "TI",
+      "n": 298,
+      "full_pct": 89.23246700599073,
+      "ablation_pct": 81.17877573082295,
+      "delta_ablation_minus_full_pp": -8.053691275167779,
+      "bonferroni_ci_low_pp": -17.437185247786473,
+      "bonferroni_ci_high_pp": 1.2659214679029573
+    },
+    {
+      "variant": "mean_token_pool",
+      "metric": "WR",
+      "n": 498,
+      "full_pct": 38.55421686746988,
+      "ablation_pct": 37.75100401606426,
+      "delta_ablation_minus_full_pp": -0.8032128514056254,
+      "bonferroni_ci_low_pp": -6.961901021209738,
+      "bonferroni_ci_high_pp": 6.352873113653406
+    },
+    {
+      "variant": "mean_token_pool",
+      "metric": "SS",
+      "n": 445,
+      "full_pct": 21.573033707865168,
+      "ablation_pct": 24.04494382022472,
+      "delta_ablation_minus_full_pp": 2.471910112359552,
+      "bonferroni_ci_low_pp": -2.2533961726964007,
+      "bonferroni_ci_high_pp": 7.333333333333332
+    },
+    {
+      "variant": "mean_token_pool",
+      "metric": "TI",
+      "n": 298,
+      "full_pct": 89.23246700599073,
+      "ablation_pct": 88.59961263006171,
+      "delta_ablation_minus_full_pp": -0.6328543759290142,
+      "bonferroni_ci_low_pp": -9.4292984873126,
+      "bonferroni_ci_high_pp": 7.864629492315928
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+policy,policy_name,wins,control_wins,ties,uncertain,no_majority,n_pairings,tie_adjusted_preference_pct,ci95_low_pct,ci95_high_pct
+sel_wr,OrchCircuit-WR,65,54,478,0,3,600,50.66666666666667,49.0,52.33333333333333
+sel_ss,OrchCircuit-SS,62,48,489,0,1,600,51.083333333333336,49.25,52.916666666666664
+sel_ti,OrchCircuit-TI,71,62,465,0,2,600,50.58333333333332,48.666666666666664,52.5

@@ -1,0 +1,62 @@
+{
+  "analysis": "post-hoc sensitivity; does not replace primary WR net-preference analysis",
+  "n_prompts": 200,
+  "pairings_per_policy": 600,
+  "reviewers": 3,
+  "weights": {
+    "policy_win": 1,
+    "tie": 0.5,
+    "control_win_uncertain_no_majority": 0
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261113,
+    "unit": "prompt"
+  },
+  "input_hashes": {
+    "R01": "e1bbb2b72c500ac62d95c10ca9f3d6d9c5970fa8016c104a2dc6d2db8bad7a13",
+    "R02": "fc803aeee3fc66df02f4ce5d392aa787594aafeb7f406bed1fa29b4505af365b",
+    "R03": "2d0856a643429a6c64da46e0f8a5579ed243482987b28ad6ac23098c3b6d437b"
+  },
+  "results": [
+    {
+      "policy": "sel_wr",
+      "policy_name": "OrchCircuit-WR",
+      "wins": 65,
+      "control_wins": 54,
+      "ties": 478,
+      "uncertain": 0,
+      "no_majority": 3,
+      "n_pairings": 600,
+      "tie_adjusted_preference_pct": 50.66666666666667,
+      "ci95_low_pct": 49.0,
+      "ci95_high_pct": 52.33333333333333
+    },
+    {
+      "policy": "sel_ss",
+      "policy_name": "OrchCircuit-SS",
+      "wins": 62,
+      "control_wins": 48,
+      "ties": 489,
+      "uncertain": 0,
+      "no_majority": 1,
+      "n_pairings": 600,
+      "tie_adjusted_preference_pct": 51.083333333333336,
+      "ci95_low_pct": 49.25,
+      "ci95_high_pct": 52.916666666666664
+    },
+    {
+      "policy": "sel_ti",
+      "policy_name": "OrchCircuit-TI",
+      "wins": 71,
+      "control_wins": 62,
+      "ties": 465,
+      "uncertain": 0,
+      "no_majority": 2,
+      "n_pairings": 600,
+      "tie_adjusted_preference_pct": 50.58333333333332,
+      "ci95_low_pct": 48.666666666666664,
+      "ci95_high_pct": 52.5
+    }
+  ]
+}

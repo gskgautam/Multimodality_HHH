@@ -1,0 +1,74 @@
+{
+  "study": "post-hoc paired image-access audit of OrchCircuit out-of-fold selections",
+  "model_slug": "orchcircuit",
+  "selection_source": "Method/OrchCircuit/final/runs/fullset_group5fold/oof_selected_candidates.jsonl",
+  "selector_field_by_dimension": {
+    "Helpful": "wr_selected_candidate",
+    "Harmless": "ss_selected_candidate",
+    "Honest": "ti_selected_candidate"
+  },
+  "sample_manifest": "Baselines/Judge/image-access-audit/ch3ef-judge-image-access/sample_manifest.json",
+  "frozen_original_sample_seed": 20261105,
+  "frozen_records_per_dimension": 80,
+  "judges": [
+    "google",
+    "anthropic"
+  ],
+  "conditions": [
+    "image_present",
+    "image_omitted"
+  ],
+  "eligible_records_by_dimension": {
+    "Helpful": 77,
+    "Harmless": 75,
+    "Honest": 77
+  },
+  "unavailable_sample_orders_by_dimension": {
+    "Helpful": [
+      307,
+      363,
+      596
+    ],
+    "Harmless": [
+      647,
+      672,
+      789,
+      807,
+      995
+    ],
+    "Honest": [
+      1133,
+      1317,
+      1351
+    ]
+  },
+  "cumulative_estimated_cost_cap_usd": 32.0,
+  "pairing_note": "Google and Anthropic were selected because this is the most common existing two-judge pairing; the same two judges score both access conditions.",
+  "estimated_total_cost_after_run_usd": 29.77822,
+  "budget_hit": false,
+  "outcomes": {
+    "attempt_rows": 921,
+    "success_attempt_rows": 915,
+    "error_attempt_rows": 6,
+    "planned_condition_judge_keys": 916,
+    "condition_judge_keys_with_success": 915,
+    "unresolved_condition_judge_keys": [
+      {
+        "record_id": "73",
+        "dimension": "Harmless",
+        "condition": "image_present",
+        "judge_provider": "anthropic",
+        "sample_order": 699
+      }
+    ],
+    "paired_complete_counts": {
+      "SS_anthropic": 74,
+      "TI_anthropic": 77,
+      "WR_anthropic": 77,
+      "SS_google": 75,
+      "TI_google": 77,
+      "WR_google": 77
+    },
+    "estimated_incremental_cost_usd": 2.257718
+  }
+}

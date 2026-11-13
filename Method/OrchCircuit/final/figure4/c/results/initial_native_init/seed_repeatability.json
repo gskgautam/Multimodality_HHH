@@ -1,0 +1,102 @@
+{
+  "status": "exploratory; same Ch3Ef groups and automated labels across seeds",
+  "training_seeds": [
+    20261111,
+    20261112,
+    20261113
+  ],
+  "fixed_split_seed": 20261111,
+  "bootstrap_replicates": 10000,
+  "interpretation": "per-seed group-bootstrap intervals describe sampling uncertainty; seed range is descriptive training variation, not a confidence interval over independent test sets",
+  "seed_level_results": [
+    {
+      "training_seed": 20261111,
+      "metric": "WR",
+      "n": 498,
+      "score_pct": 38.55421686746988,
+      "group_bootstrap_ci_low_pct": 33.40033443906683,
+      "group_bootstrap_ci_high_pct": 44.06393842507097
+    },
+    {
+      "training_seed": 20261111,
+      "metric": "SS",
+      "n": 445,
+      "score_pct": 21.573033707865168,
+      "group_bootstrap_ci_low_pct": 17.712708107829492,
+      "group_bootstrap_ci_high_pct": 25.517241379310345
+    },
+    {
+      "training_seed": 20261111,
+      "metric": "TI",
+      "n": 298,
+      "score_pct": 89.23246700599073,
+      "group_bootstrap_ci_low_pct": 84.62770729206714,
+      "group_bootstrap_ci_high_pct": 93.64153824795223
+    },
+    {
+      "training_seed": 20261112,
+      "metric": "WR",
+      "n": 498,
+      "score_pct": 40.562248995983936,
+      "group_bootstrap_ci_low_pct": 35.09789694241813,
+      "group_bootstrap_ci_high_pct": 46.2103152552419
+    },
+    {
+      "training_seed": 20261112,
+      "metric": "SS",
+      "n": 445,
+      "score_pct": 20.44943820224719,
+      "group_bootstrap_ci_low_pct": 16.70378619153675,
+      "group_bootstrap_ci_high_pct": 24.330357142857142
+    },
+    {
+      "training_seed": 20261112,
+      "metric": "TI",
+      "n": 298,
+      "score_pct": 86.09071663438584,
+      "group_bootstrap_ci_low_pct": 80.51536448315952,
+      "group_bootstrap_ci_high_pct": 91.2929548226684
+    },
+    {
+      "training_seed": 20261113,
+      "metric": "WR",
+      "n": 498,
+      "score_pct": 38.35341365461847,
+      "group_bootstrap_ci_low_pct": 32.557890543299635,
+      "group_bootstrap_ci_high_pct": 44.6581715210356
+    },
+    {
+      "training_seed": 20261113,
+      "metric": "SS",
+      "n": 445,
+      "score_pct": 22.02247191011236,
+      "group_bootstrap_ci_low_pct": 18.058690744920995,
+      "group_bootstrap_ci_high_pct": 26.00896860986547
+    },
+    {
+      "training_seed": 20261113,
+      "metric": "TI",
+      "n": 298,
+      "score_pct": 89.54889419395523,
+      "group_bootstrap_ci_low_pct": 84.5627842437283,
+      "group_bootstrap_ci_high_pct": 94.00680241051862
+    }
+  ],
+  "seed_range": {
+    "WR": {
+      "min_pct": 38.35341365461847,
+      "max_pct": 40.562248995983936,
+      "range_pp": 2.2088353413654644
+    },
+    "SS": {
+      "min_pct": 20.44943820224719,
+      "max_pct": 22.02247191011236,
+      "range_pp": 1.573033707865168
+    },
+    "TI": {
+      "min_pct": 86.09071663438584,
+      "max_pct": 89.54889419395523,
+      "range_pp": 3.4581775595693927
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "status": "exploratory; repeated Ch3Ef development cohort and automated judge labels",
+  "initialization": "module-wise deterministic initialization; matching shared parameter fingerprints across variants per seed and fold",
+  "training_seeds": [
+    20261111,
+    20261112,
+    20261113
+  ],
+  "split_seed": 20261111,
+  "bootstrap_replicates": 10000,
+  "interval": "paired connected query/image-group bootstrap over groups; calculate paired variant-minus-full difference within each seed and average across three seeds per draw; Bonferroni over 9 variant-metric contrasts",
+  "note": "Intervals are conditional on the three selected training seeds; no result is selected based on direction.",
+  "results": [
+    {
+      "variant": "no_set_attention",
+      "metric": "WR",
+      "n": 498,
+      "full_mean_pct": 39.2904953145917,
+      "ablation_mean_pct": 39.08969210174029,
+      "mean_delta_pp": -0.20080321285140693,
+      "seed_deltas_pp": "20261111:+0.00; 20261112:+0.20; 20261113:-0.80",
+      "bonferroni_group_bootstrap_low_pp": -2.175139958694325,
+      "bonferroni_group_bootstrap_high_pp": 1.4987597585569663
+    },
+    {
+      "variant": "no_candidate_identity",
+      "metric": "WR",
+      "n": 498,
+      "full_mean_pct": 39.2904953145917,
+      "ablation_mean_pct": 33.400267737617135,
+      "mean_delta_pp": -5.890227576974564,
+      "seed_deltas_pp": "20261111:-6.43; 20261112:-6.63; 20261113:-4.62",
+      "bonferroni_group_bootstrap_low_pp": -11.81980702999711,
+      "bonferroni_group_bootstrap_high_pp": -1.455711863444216
+    },
+    {
+      "variant": "mean_token_pool",
+      "metric": "WR",
+      "n": 498,
+      "full_mean_pct": 39.2904953145917,
+      "ablation_mean_pct": 37.61713520749666,
+      "mean_delta_pp": -1.6733601070950452,
+      "seed_deltas_pp": "20261111:-1.61; 20261112:-1.41; 20261113:-2.01",
+      "bonferroni_group_bootstrap_low_pp": -4.33762786441358,
+      "bonferroni_group_bootstrap_high_pp": 0.6261817226890773
+    },
+    {
+      "variant": "no_set_attention",
+      "metric": "SS",
+      "n": 445,
+      "full_mean_pct": 20.749063670411985,
+      "ablation_mean_pct": 21.64794007490637,
+      "mean_delta_pp": 0.8988764044943807,
+      "seed_deltas_pp": "20261111:+1.35; 20261112:+1.12; 20261113:+0.22",
+      "bonferroni_group_bootstrap_low_pp": -0.8262452633220131,
+      "bonferroni_group_bootstrap_high_pp": 2.6697177726926005
+    },
+    {
+      "variant": "no_candidate_identity",
+      "metric": "SS",
+      "n": 445,
+      "full_mean_pct": 20.749063670411985,
+      "ablation_mean_pct": 20.224719101123597,
+      "mean_delta_pp": -0.5243445692883905,
+      "seed_deltas_pp": "20261111:+0.67; 20261112:-2.25; 20261113:+0.00",
+      "bonferroni_group_bootstrap_low_pp": -3.3441204167351763,
+      "bonferroni_group_bootstrap_high_pp": 2.2786208873267073
+    },
+    {
+      "variant": "mean_token_pool",
+      "metric": "SS",
+      "n": 445,
+      "full_mean_pct": 20.749063670411985,
+      "ablation_mean_pct": 25.393258426966288,
+      "mean_delta_pp": 4.644194756554305,
+      "seed_deltas_pp": "20261111:+5.17; 20261112:+6.29; 20261113:+2.47",
+      "bonferroni_group_bootstrap_low_pp": 1.713418998885584,
+      "bonferroni_group_bootstrap_high_pp": 7.651515151515151
+    },
+    {
+      "variant": "no_set_attention",
+      "metric": "TI",
+      "n": 298,
+      "full_mean_pct": 87.97801900815278,
+      "ablation_mean_pct": 85.6136360224014,
+      "mean_delta_pp": -2.364382985751386,
+      "seed_deltas_pp": "20261111:-6.45; 20261112:+0.31; 20261113:-0.96",
+      "bonferroni_group_bootstrap_low_pp": -5.843299123669285,
+      "bonferroni_group_bootstrap_high_pp": 0.9188941239123438
+    },
+    {
+      "variant": "no_candidate_identity",
+      "metric": "TI",
+      "n": 298,
+      "full_mean_pct": 87.97801900815278,
+      "ablation_mean_pct": 83.61973184391093,
+      "mean_delta_pp": -4.358287164241848,
+      "seed_deltas_pp": "20261111:-4.94; 20261112:-3.40; 20261113:-4.74",
+      "bonferroni_group_bootstrap_low_pp": -10.425570545835951,
+      "bonferroni_group_bootstrap_high_pp": 1.647237035581621
+    },
+    {
+      "variant": "mean_token_pool",
+      "metric": "TI",
+      "n": 298,
+      "full_mean_pct": 87.97801900815278,
+      "ablation_mean_pct": 81.82026335150069,
+      "mean_delta_pp": -6.1577556566521,
+      "seed_deltas_pp": "20261111:-6.45; 20261112:-7.92; 20261113:-4.10",
+      "bonferroni_group_bootstrap_low_pp": -11.937693618994324,
+      "bonferroni_group_bootstrap_high_pp": -0.6324377921866031
+    }
+  ]
+}

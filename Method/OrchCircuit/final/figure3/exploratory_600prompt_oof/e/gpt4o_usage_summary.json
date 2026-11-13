@@ -1,0 +1,10 @@
+{
+  "expected_rows": 600,
+  "completed_wr": 600,
+  "completed_ti": 600,
+  "prior_run_upper_bound_usd": 0.35,
+  "v2_spend_usd": 11.887893,
+  "total_estimated_usd": 12.237893,
+  "cap_usd": 20.0,
+  "journal": "Datasets/Ch3EF/data/ch3ef_full1416/joint_hhh_labels_600_PRIVATE/gpt4o_joint_labels_v2.jsonl"
+}
