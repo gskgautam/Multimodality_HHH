@@ -1,0 +1,369 @@
+{
+ "fig5": {
+  "n": 200,
+  "accuracy_pct": {
+   "gpt-6.1-terra": 93.0,
+   "minicpm-v-4.7-35b-a3b": 93.0,
+   "gemini-4-argon": 92.5,
+   "claude-opus-5-5": 92.0,
+   "gemini-3.6-flash": 91.5,
+   "gemini-3.8-flash": 91.5,
+   "claude-sonnet-5-5": 91.0,
+   "OrchCircuit-WR": 91.0,
+   "qwen3.6-35b-a3b": 87.5,
+   "qwen3.5-35b-a3b": 86.5,
+   "qwen3.6-27b": 86.5,
+   "qwen3.8-27b": 86.5,
+   "claude-haiku-5-5": 85.5,
+   "gemma-4-12b": 85.5,
+   "qwen2.5-vl-7b": 85.5,
+   "OrchCircuit-TI": 85.5,
+   "gpt-6-luna": 84.0,
+   "gemma3-12b": 82.5,
+   "qwen3-vl-8b": 82.0,
+   "OrchCircuit-SS": 80.5,
+   "qwen3.5-2b": 79.0,
+   "gemma3-27b": 78.0,
+   "gpt-6.1-sol": 78.0,
+   "minicpm-v-4.5-8b": 77.5,
+   "gemma4-e2b": 74.5,
+   "lfm3-vl-2b": 73.5,
+   "pixtral-12b": 69.0
+  },
+  "contrasts": {
+   "OrchCircuit-WR vs gemini-4-argon": {
+    "diff_pp": -1.5,
+    "ci95": [
+     -5.0,
+     1.5
+    ]
+   },
+   "OrchCircuit-WR vs gemma3-12b": {
+    "diff_pp": 8.5,
+    "ci95": [
+     3.0,
+     14.0
+    ]
+   },
+   "OrchCircuit-WR vs claude-opus-5-5": {
+    "diff_pp": -1.0,
+    "ci95": [
+     -4.0,
+     2.0
+    ]
+   },
+   "OrchCircuit-SS vs gemini-4-argon": {
+    "diff_pp": -12.0,
+    "ci95": [
+     -17.5,
+     -7.0
+    ]
+   },
+   "OrchCircuit-SS vs gemma3-12b": {
+    "diff_pp": -2.0,
+    "ci95": [
+     -7.5,
+     3.5
+    ]
+   },
+   "OrchCircuit-SS vs claude-opus-5-5": {
+    "diff_pp": -11.5,
+    "ci95": [
+     -17.0,
+     -6.5
+    ]
+   },
+   "OrchCircuit-TI vs gemini-4-argon": {
+    "diff_pp": -7.0,
+    "ci95": [
+     -11.0,
+     -3.5
+    ]
+   },
+   "OrchCircuit-TI vs gemma3-12b": {
+    "diff_pp": 3.0,
+    "ci95": [
+     -3.5,
+     9.5
+    ]
+   },
+   "OrchCircuit-TI vs claude-opus-5-5": {
+    "diff_pp": -6.5,
+    "ci95": [
+     -10.5,
+     -2.5
+    ]
+   },
+   "OrchCircuit-WR vs best generator (gpt-6.1-terra, chosen on this sample)": {
+    "diff_pp": -2.0,
+    "ci95": [
+     -6.5,
+     2.5
+    ]
+   },
+   "OrchCircuit-SS vs best generator (gpt-6.1-terra, chosen on this sample)": {
+    "diff_pp": -12.5,
+    "ci95": [
+     -18.5,
+     -7.0
+    ]
+   },
+   "OrchCircuit-TI vs best generator (gpt-6.1-terra, chosen on this sample)": {
+    "diff_pp": -7.5,
+    "ci95": [
+     -12.0,
+     -3.0
+    ]
+   }
+  }
+ },
+ "o3": {
+  "n": 300,
+  "accuracy_pct": {
+   "gemini-4-argon": 82.0,
+   "claude-opus-5-5": 81.3,
+   "gemini-3.6-flash": 80.0,
+   "qwen3.6-35b-a3b": 80.0,
+   "gemini-3.8-flash": 79.3,
+   "qwen3.8-27b": 79.0,
+   "gpt-6.1-terra": 78.3,
+   "OrchCircuit-TI": 77.7,
+   "gemma-4-12b": 76.7,
+   "qwen3.5-35b-a3b": 76.7,
+   "qwen3.6-27b": 76.7,
+   "OrchCircuit-WR": 76.7,
+   "qwen2.5-vl-7b": 76.3,
+   "claude-sonnet-5-5": 76.0,
+   "gemma3-27b": 76.0,
+   "gpt-6-luna": 75.7,
+   "qwen3-vl-8b": 75.7,
+   "minicpm-v-4.7-35b-a3b": 75.3,
+   "gemma3-12b": 74.0,
+   "claude-haiku-5-5": 73.0,
+   "gemma4-e2b": 70.3,
+   "minicpm-v-4.5-8b": 70.0,
+   "OrchCircuit-SS": 69.3,
+   "gpt-6.1-sol": 69.0,
+   "qwen3.5-2b": 68.3,
+   "pixtral-12b": 66.3,
+   "lfm3-vl-2b": 65.3
+  },
+  "contrasts": {
+   "OrchCircuit-WR vs gemini-4-argon": {
+    "diff_pp": -5.3,
+    "ci95": [
+     -8.7,
+     -2.3
+    ]
+   },
+   "OrchCircuit-WR vs gemma3-12b": {
+    "diff_pp": 2.7,
+    "ci95": [
+     -1.7,
+     7.0
+    ]
+   },
+   "OrchCircuit-WR vs claude-opus-5-5": {
+    "diff_pp": -4.7,
+    "ci95": [
+     -7.7,
+     -2.0
+    ]
+   },
+   "OrchCircuit-SS vs gemini-4-argon": {
+    "diff_pp": -12.7,
+    "ci95": [
+     -16.7,
+     -8.7
+    ]
+   },
+   "OrchCircuit-SS vs gemma3-12b": {
+    "diff_pp": -4.7,
+    "ci95": [
+     -8.3,
+     -0.7
+    ]
+   },
+   "OrchCircuit-SS vs claude-opus-5-5": {
+    "diff_pp": -12.0,
+    "ci95": [
+     -16.0,
+     -8.0
+    ]
+   },
+   "OrchCircuit-TI vs gemini-4-argon": {
+    "diff_pp": -4.3,
+    "ci95": [
+     -7.0,
+     -2.0
+    ]
+   },
+   "OrchCircuit-TI vs gemma3-12b": {
+    "diff_pp": 3.7,
+    "ci95": [
+     -0.3,
+     7.7
+    ]
+   },
+   "OrchCircuit-TI vs claude-opus-5-5": {
+    "diff_pp": -3.7,
+    "ci95": [
+     -6.0,
+     -1.3
+    ]
+   },
+   "OrchCircuit-WR vs best generator (gemini-4-argon, chosen on this sample)": {
+    "diff_pp": -5.3,
+    "ci95": [
+     -8.7,
+     -2.3
+    ]
+   },
+   "OrchCircuit-SS vs best generator (gemini-4-argon, chosen on this sample)": {
+    "diff_pp": -12.7,
+    "ci95": [
+     -16.7,
+     -8.7
+    ]
+   },
+   "OrchCircuit-TI vs best generator (gemini-4-argon, chosen on this sample)": {
+    "diff_pp": -4.3,
+    "ci95": [
+     -7.0,
+     -2.0
+    ]
+   }
+  }
+ },
+ "pooled_500": {
+  "accuracy_pct": {
+   "gemini-4-argon": 86.2,
+   "claude-opus-5-5": 85.6,
+   "gemini-3.6-flash": 84.6,
+   "gemini-3.8-flash": 84.2,
+   "gpt-6.1-terra": 84.2,
+   "qwen3.6-35b-a3b": 83.0,
+   "minicpm-v-4.7-35b-a3b": 82.4,
+   "OrchCircuit-WR": 82.4,
+   "claude-sonnet-5-5": 82.0,
+   "qwen3.8-27b": 82.0,
+   "OrchCircuit-TI": 80.8,
+   "qwen3.5-35b-a3b": 80.6,
+   "qwen3.6-27b": 80.6,
+   "gemma-4-12b": 80.2,
+   "qwen2.5-vl-7b": 80.0,
+   "gpt-6-luna": 79.0,
+   "qwen3-vl-8b": 78.2,
+   "claude-haiku-5-5": 78.0,
+   "gemma3-12b": 77.4,
+   "gemma3-27b": 76.8,
+   "OrchCircuit-SS": 73.8,
+   "minicpm-v-4.5-8b": 73.0,
+   "gpt-6.1-sol": 72.6,
+   "qwen3.5-2b": 72.6,
+   "gemma4-e2b": 72.0,
+   "lfm3-vl-2b": 68.6,
+   "pixtral-12b": 67.4
+  },
+  "contrasts": {
+   "OrchCircuit-WR vs gemini-4-argon": {
+    "diff_pp": -3.8,
+    "ci95": [
+     -6.2,
+     -1.6
+    ]
+   },
+   "OrchCircuit-WR vs gemma3-12b": {
+    "diff_pp": 5.0,
+    "ci95": [
+     1.4,
+     8.6
+    ]
+   },
+   "OrchCircuit-WR vs claude-opus-5-5": {
+    "diff_pp": -3.2,
+    "ci95": [
+     -5.4,
+     -1.2
+    ]
+   },
+   "OrchCircuit-SS vs gemini-4-argon": {
+    "diff_pp": -12.4,
+    "ci95": [
+     -15.6,
+     -9.4
+    ]
+   },
+   "OrchCircuit-SS vs gemma3-12b": {
+    "diff_pp": -3.6,
+    "ci95": [
+     -6.8,
+     -0.4
+    ]
+   },
+   "OrchCircuit-SS vs claude-opus-5-5": {
+    "diff_pp": -11.8,
+    "ci95": [
+     -15.0,
+     -8.6
+    ]
+   },
+   "OrchCircuit-TI vs gemini-4-argon": {
+    "diff_pp": -5.4,
+    "ci95": [
+     -7.6,
+     -3.4
+    ]
+   },
+   "OrchCircuit-TI vs gemma3-12b": {
+    "diff_pp": 3.4,
+    "ci95": [
+     -0.2,
+     7.0
+    ]
+   },
+   "OrchCircuit-TI vs claude-opus-5-5": {
+    "diff_pp": -4.8,
+    "ci95": [
+     -7.0,
+     -2.6
+    ]
+   }
+  }
+ },
+ "fig5_single_rater_truth_vs_key": {
+  "R01": {
+   "n": 1050,
+   "kappa_vs_key": 0.178,
+   "supported_given_correct_pct": 77.1,
+   "supported_given_incorrect_pct": 49.2
+  },
+  "R02": {
+   "n": 1015,
+   "kappa_vs_key": 0.148,
+   "supported_given_correct_pct": 64.2,
+   "supported_given_incorrect_pct": 32.4
+  },
+  "R03": {
+   "n": 912,
+   "kappa_vs_key": 0.209,
+   "supported_given_correct_pct": 79.9,
+   "supported_given_incorrect_pct": 48.0
+  }
+ },
+ "image_descriptives": {
+  "fig4_ch3ef_rater_packet_montages": {
+   "n": 569,
+   "median_long_side_px": 640,
+   "share_long_side_over_2000px_pct": 5.4,
+   "share_aspect_over_2_pct": 11.8
+  },
+  "fig5_humanibench": {
+   "n": 200,
+   "median_long_side_px": 224,
+   "share_long_side_over_2000px_pct": 10.0,
+   "share_aspect_over_2_pct": 11.5
+  },
+  "ch3ef_multi_image_item_share_pct": 21.3
+ }
+}

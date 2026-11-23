@@ -1,0 +1,440 @@
+{
+ "judge_vs_human_prompt_cluster": {
+  "WR|gpt4o_original": {
+   "n": 147,
+   "clusters": 147,
+   "kappa": -0.008663709453839772,
+   "ci95": [
+    -0.12292949175832663,
+    0.11009518366256828
+   ]
+  },
+  "WR|claude_sonnet_5_5": {
+   "n": 147,
+   "clusters": 147,
+   "kappa": -0.006849315068493216,
+   "ci95": [
+    -0.11341215743033553,
+    0.10335905987820747
+   ]
+  },
+  "WR|gpt_6_1_sol": {
+   "n": 147,
+   "clusters": 147,
+   "kappa": 0.01403678606001931,
+   "ci95": [
+    -0.09427855693059864,
+    0.12584855845061524
+   ]
+  },
+  "WR|gemini_4_argon": {
+   "n": 147,
+   "clusters": 147,
+   "kappa": 0.01239783903587752,
+   "ci95": [
+    -0.09952525292810677,
+    0.13529561357447278
+   ]
+  },
+  "SS|beaverdam_original": {
+   "n": 141,
+   "clusters": 141,
+   "kappa": 0.133225838959992,
+   "ci95": [
+    -0.02483565138469846,
+    0.2915997510906861
+   ]
+  },
+  "SS|claude_sonnet_5_5": {
+   "n": 141,
+   "clusters": 141,
+   "kappa": 0.015980580560331546,
+   "ci95": [
+    -0.08849233338233956,
+    0.12494828299544902
+   ]
+  },
+  "SS|gpt_6_1_sol": {
+   "n": 141,
+   "clusters": 141,
+   "kappa": -0.012951532935343641,
+   "ci95": [
+    -0.10722871083847317,
+    0.08174100089676947
+   ]
+  },
+  "SS|gemini_4_argon": {
+   "n": 141,
+   "clusters": 141,
+   "kappa": -0.05607287449392713,
+   "ci95": [
+    -0.14146933819064958,
+    0.028007585999562268
+   ]
+  },
+  "TI_truth|gpt4o_original": {
+   "n": 156,
+   "clusters": 156,
+   "kappa": -0.015803336259877166,
+   "ci95": [
+    -0.12511018951175734,
+    0.08954469708545015
+   ]
+  },
+  "TI_truth|claude_sonnet_5_5": {
+   "n": 156,
+   "clusters": 156,
+   "kappa": -0.04324565314311188,
+   "ci95": [
+    -0.16471341310350598,
+    0.07296849087893864
+   ]
+  },
+  "TI_truth|gpt_6_1_sol": {
+   "n": 156,
+   "clusters": 156,
+   "kappa": -0.11777877295118669,
+   "ci95": [
+    -0.24108593737895279,
+    0.0028109330056520568
+   ]
+  },
+  "TI_truth|gemini_4_argon": {
+   "n": 156,
+   "clusters": 156,
+   "kappa": 0.015066724063710651,
+   "ci95": [
+    -0.07692750287686992,
+    0.10056732616342746
+   ]
+  },
+  "TI_info|gpt4o_original": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.014135913330629954,
+   "ci95": [
+    -0.07478186616462833,
+    0.10117217083468436
+   ]
+  },
+  "TI_info|claude_sonnet_5_5": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.0052041170348098974,
+   "ci95": [
+    -0.10462159404020821,
+    0.11217319744255223
+   ]
+  },
+  "TI_info|gpt_6_1_sol": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": -0.007181328545780848,
+   "ci95": [
+    -0.10019061168549176,
+    0.08577601537449053
+   ]
+  },
+  "TI_info|gemini_4_argon": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.00034863451481696104,
+   "ci95": [
+    -0.03203359328134366,
+    0.03108808290155439
+   ]
+  }
+ },
+ "judge_vs_judge": {
+  "WR|gpt4o_original~claude_sonnet_5_5": {
+   "n": 188,
+   "clusters": 188,
+   "kappa": 0.34807108799306463,
+   "ci95": [
+    0.23729611301917328,
+    0.4500982351115527
+   ]
+  },
+  "WR|gpt4o_original~gpt_6_1_sol": {
+   "n": 188,
+   "clusters": 188,
+   "kappa": 0.36425908263244605,
+   "ci95": [
+    0.25691618912035674,
+    0.4664322700826474
+   ]
+  },
+  "WR|gpt4o_original~gemini_4_argon": {
+   "n": 188,
+   "clusters": 188,
+   "kappa": 0.3078174501241544,
+   "ci95": [
+    0.19657175025296794,
+    0.41045907808891724
+   ]
+  },
+  "WR|claude_sonnet_5_5~gpt_6_1_sol": {
+   "n": 188,
+   "clusters": 188,
+   "kappa": 0.6931221599682358,
+   "ci95": [
+    0.6018860676829507,
+    0.7799792374733088
+   ]
+  },
+  "WR|claude_sonnet_5_5~gemini_4_argon": {
+   "n": 188,
+   "clusters": 188,
+   "kappa": 0.7248385708136031,
+   "ci95": [
+    0.6383346594004013,
+    0.805056140110217
+   ]
+  },
+  "WR|gpt_6_1_sol~gemini_4_argon": {
+   "n": 188,
+   "clusters": 188,
+   "kappa": 0.7732109775537459,
+   "ci95": [
+    0.6921927670840522,
+    0.8463726945335085
+   ]
+  },
+  "SS|beaverdam_original~claude_sonnet_5_5": {
+   "n": 194,
+   "clusters": 194,
+   "kappa": 0.28475666979487857,
+   "ci95": [
+    0.16726668512877324,
+    0.4054634517980681
+   ]
+  },
+  "SS|beaverdam_original~gpt_6_1_sol": {
+   "n": 194,
+   "clusters": 194,
+   "kappa": 0.21634944543338344,
+   "ci95": [
+    0.10404781309426779,
+    0.32747307168503165
+   ]
+  },
+  "SS|beaverdam_original~gemini_4_argon": {
+   "n": 194,
+   "clusters": 194,
+   "kappa": 0.16761245674740485,
+   "ci95": [
+    0.06946487760043582,
+    0.2746430999320189
+   ]
+  },
+  "SS|claude_sonnet_5_5~gpt_6_1_sol": {
+   "n": 194,
+   "clusters": 194,
+   "kappa": 0.8254349130173967,
+   "ci95": [
+    0.6671749904689293,
+    0.9466152999449644
+   ]
+  },
+  "SS|claude_sonnet_5_5~gemini_4_argon": {
+   "n": 194,
+   "clusters": 194,
+   "kappa": 0.6568028304921193,
+   "ci95": [
+    0.44359464627151063,
+    0.822705847203104
+   ]
+  },
+  "SS|gpt_6_1_sol~gemini_4_argon": {
+   "n": 194,
+   "clusters": 194,
+   "kappa": 0.8138195777351247,
+   "ci95": [
+    0.6172731258220083,
+    0.9537875178656505
+   ]
+  },
+  "TI_truth|gpt4o_original~claude_sonnet_5_5": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.5794602698650676,
+   "ci95": [
+    0.41379310344827613,
+    0.7196401799100449
+   ]
+  },
+  "TI_truth|gpt4o_original~gpt_6_1_sol": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.4863578099249222,
+   "ci95": [
+    0.3173043597351225,
+    0.6369573653706443
+   ]
+  },
+  "TI_truth|gpt4o_original~gemini_4_argon": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.5115174542863926,
+   "ci95": [
+    0.32015064758009537,
+    0.6752767527675276
+   ]
+  },
+  "TI_truth|claude_sonnet_5_5~gpt_6_1_sol": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.5230402992688318,
+   "ci95": [
+    0.3651559335374391,
+    0.6622886225578721
+   ]
+  },
+  "TI_truth|claude_sonnet_5_5~gemini_4_argon": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.5316217908578588,
+   "ci95": [
+    0.3653829836470228,
+    0.6802242722180403
+   ]
+  },
+  "TI_truth|gpt_6_1_sol~gemini_4_argon": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.4317260940032414,
+   "ci95": [
+    0.2578523642136297,
+    0.5890155033894047
+   ]
+  },
+  "TI_info|gpt4o_original~claude_sonnet_5_5": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.18422036644646667,
+   "ci95": [
+    0.010842384013974011,
+    0.3643183683038333
+   ]
+  },
+  "TI_info|gpt4o_original~gpt_6_1_sol": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.27237354085603077,
+   "ci95": [
+    0.06630716996205355,
+    0.46495311708706977
+   ]
+  },
+  "TI_info|gpt4o_original~gemini_4_argon": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.17450012983640617,
+   "ci95": [
+    0.0,
+    0.40081561316632613
+   ]
+  },
+  "TI_info|claude_sonnet_5_5~gpt_6_1_sol": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.43518182916515635,
+   "ci95": [
+    0.24054982817869433,
+    0.6084865430622011
+   ]
+  },
+  "TI_info|claude_sonnet_5_5~gemini_4_argon": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.043315143246930365,
+   "ci95": [
+    -0.029357798165137918,
+    0.16268656716417929
+   ]
+  },
+  "TI_info|gpt_6_1_sol~gemini_4_argon": {
+   "n": 187,
+   "clusters": 187,
+   "kappa": 0.15745790846573487,
+   "ci95": [
+    0.0,
+    0.358744394618835
+   ]
+  }
+ },
+ "wr_choice_rates": {
+  "gpt4o_original": {
+   "A": 30.9,
+   "B": 28.7,
+   "tie": 40.4,
+   "n": 188
+  },
+  "claude_sonnet_5_5": {
+   "tie": 46.3,
+   "B": 26.1,
+   "A": 27.7,
+   "n": 188
+  },
+  "gpt_6_1_sol": {
+   "tie": 46.3,
+   "B": 25.5,
+   "A": 28.2,
+   "n": 188
+  },
+  "gemini_4_argon": {
+   "tie": 37.8,
+   "B": 26.1,
+   "A": 36.2,
+   "n": 188
+  },
+  "human_majority": {
+   "B": 34.7,
+   "A": 33.3,
+   "tie": 32.0
+  }
+ },
+ "complete_judges": {
+  "WR": [
+   "gpt4o_original",
+   "claude_sonnet_5_5",
+   "gpt_6_1_sol",
+   "gemini_4_argon"
+  ],
+  "SS": [
+   "beaverdam_original",
+   "claude_sonnet_5_5",
+   "gpt_6_1_sol",
+   "gemini_4_argon"
+  ],
+  "TI_truth": [
+   "gpt4o_original",
+   "claude_sonnet_5_5",
+   "gpt_6_1_sol",
+   "gemini_4_argon"
+  ],
+  "TI_info": [
+   "gpt4o_original",
+   "claude_sonnet_5_5",
+   "gpt_6_1_sol",
+   "gemini_4_argon"
+  ]
+ },
+ "sampling_manifest_keys": {
+  "purpose": "Blinded independent human validation of automated HHH judges and human label reliability.",
+  "evidence_status": "Development-set validation; the same 600 prompts were used for automated labels and OrchCircuit development, so this is not a confirmatory method test.",
+  "dataset": "Ch3Ef; 200 randomly sampled all-24-valid prompts per HHH dimension from the 600-prompt joint-label development set.",
+  "source_manifest": "Datasets/Ch3EF/data/ch3ef_full1416/joint_hhh_labels_600_PRIVATE/sample_manifest.json",
+  "prior_pilot_exclusion": "Exclude matching (dimension, sample_order) cases from the 45-case rubric pilot.",
+  "sampling_seed": 2026111202,
+  "selection": "Use every eligible prompt in the 600-prompt development set after excluding the prior 45-case pilot. Select one candidate response per prompt, with generator models balanced as evenly as possible. WR compares one non-anchor model response against the Qwen2.5-VL 7B anchor, matching the existing GPT-4o WR label.",
+  "raters": [
+   "R01",
+   "R02",
+   "R03"
+  ],
+  "independence": "All three raters receive the same cases in the same randomized order, rate independently, and do not see model identities or automated judge labels.",
+  "panels": "<dict len 3>",
+  "data_handling": "Human-facing workbook and image assets contain prompts and model responses and must remain private. The identity key must never be given to raters or committed to GitHub."
+ }
+}

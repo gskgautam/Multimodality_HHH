@@ -1,0 +1,521 @@
+{
+ "a_fig2a_joint_ti_vs_24": {
+  "orch_joint_pct": 93.95973154362416,
+  "n_beaten": 14,
+  "not_beaten": [
+   "qwen2.5-vl-7b",
+   "qwen3.8-27b",
+   "gpt-6.1-terra",
+   "gpt-6.1-sol",
+   "gemini-4-argon",
+   "gemini-3.8-flash",
+   "gemini-3.6-flash",
+   "claude-opus-5-5",
+   "claude-sonnet-5-5",
+   "claude-haiku-5-5"
+  ],
+  "per_model": {
+   "lfm3-vl-2b": {
+    "delta_pp": 9.731543624161077,
+    "adj_ci": [
+     1.3337693271994306,
+     18.451346219853534
+    ],
+    "beats": true
+   },
+   "qwen3.5-2b": {
+    "delta_pp": 18.456375838926174,
+    "adj_ci": [
+     9.23257507860267,
+     28.47776813271608
+    ],
+    "beats": true
+   },
+   "gemma4-e2b": {
+    "delta_pp": 21.81208053691275,
+    "adj_ci": [
+     13.026087616248002,
+     30.797305139487978
+    ],
+    "beats": true
+   },
+   "qwen2.5-vl-7b": {
+    "delta_pp": 6.040268456375841,
+    "adj_ci": [
+     -0.7042253521126751,
+     13.783001838169694
+    ],
+    "beats": false
+   },
+   "qwen3-vl-8b": {
+    "delta_pp": 7.0469798657718075,
+    "adj_ci": [
+     0.6318260701681754,
+     14.653342525569489
+    ],
+    "beats": true
+   },
+   "minicpm-v-4.5-8b": {
+    "delta_pp": 15.771812080536908,
+    "adj_ci": [
+     7.638376448386815,
+     24.91247883316597
+    ],
+    "beats": true
+   },
+   "gemma3-12b": {
+    "delta_pp": 13.087248322147648,
+    "adj_ci": [
+     4.853493536207674,
+     21.807309775017405
+    ],
+    "beats": true
+   },
+   "gemma-4-12b": {
+    "delta_pp": 9.731543624161077,
+    "adj_ci": [
+     2.4911656955161963,
+     17.674874285147446
+    ],
+    "beats": true
+   },
+   "pixtral-12b": {
+    "delta_pp": 13.422818791946312,
+    "adj_ci": [
+     5.394273165106502,
+     22.51541802589966
+    ],
+    "beats": true
+   },
+   "gemma3-27b": {
+    "delta_pp": 11.409395973154357,
+    "adj_ci": [
+     3.388554407857611,
+     20.21572963054595
+    ],
+    "beats": true
+   },
+   "qwen3.6-27b": {
+    "delta_pp": 7.0469798657718075,
+    "adj_ci": [
+     0.9045653936827155,
+     14.34224537037042
+    ],
+    "beats": true
+   },
+   "qwen3.8-27b": {
+    "delta_pp": 4.36241610738255,
+    "adj_ci": [
+     -1.67945297368629,
+     11.446258788750505
+    ],
+    "beats": false
+   },
+   "qwen3.5-35b-a3b": {
+    "delta_pp": 9.395973154362414,
+    "adj_ci": [
+     2.0572907806244474,
+     17.755390370856716
+    ],
+    "beats": true
+   },
+   "qwen3.6-35b-a3b": {
+    "delta_pp": 8.389261744966436,
+    "adj_ci": [
+     1.2102082723562841,
+     16.321914895482617
+    ],
+    "beats": true
+   },
+   "minicpm-v-4.7-35b-a3b": {
+    "delta_pp": 7.7181208053691215,
+    "adj_ci": [
+     1.269226083370816,
+     14.644696946611422
+    ],
+    "beats": true
+   },
+   "gpt-6.1-terra": {
+    "delta_pp": 5.7046979865771785,
+    "adj_ci": [
+     -0.9948149581470083,
+     13.609203186932621
+    ],
+    "beats": false
+   },
+   "gpt-6.1-sol": {
+    "delta_pp": 5.7046979865771785,
+    "adj_ci": [
+     -1.6037275802900746,
+     13.862371001335017
+    ],
+    "beats": false
+   },
+   "gpt-6-luna": {
+    "delta_pp": 10.067114093959727,
+    "adj_ci": [
+     2.2522384201819583,
+     18.864975657374476
+    ],
+    "beats": true
+   },
+   "gemini-4-argon": {
+    "delta_pp": 0.0,
+    "adj_ci": [
+     -5.334330484330485,
+     5.580438656463596
+    ],
+    "beats": false
+   },
+   "gemini-3.8-flash": {
+    "delta_pp": 1.6778523489932917,
+    "adj_ci": [
+     -3.9867109634551428,
+     8.137513001120102
+    ],
+    "beats": false
+   },
+   "gemini-3.6-flash": {
+    "delta_pp": 4.026845637583887,
+    "adj_ci": [
+     -1.5673259864184579,
+     10.55024958891241
+    ],
+    "beats": false
+   },
+   "claude-opus-5-5": {
+    "delta_pp": 0.3355704697986517,
+    "adj_ci": [
+     -5.031470020972215,
+     6.298519908567559
+    ],
+    "beats": false
+   },
+   "claude-sonnet-5-5": {
+    "delta_pp": 1.342281879194629,
+    "adj_ci": [
+     -4.989338529474826,
+     8.043535472811797
+    ],
+    "beats": false
+   },
+   "claude-haiku-5-5": {
+    "delta_pp": 3.691275167785235,
+    "adj_ci": [
+     -2.7002245508981972,
+     10.43242454052645
+    ],
+    "beats": false
+   }
+  }
+ },
+ "b_fig3c_joint_ti": {
+  "claude-sonnet-5-5|google": {
+   "pairs": 75,
+   "joint_image_pct": 86.66666666666667,
+   "joint_omitted_pct": 4.0,
+   "delta_pp": 82.66666666666667
+  },
+  "claude-sonnet-5-5|openai": {
+   "pairs": 80,
+   "joint_image_pct": 95.0,
+   "joint_omitted_pct": 67.5,
+   "delta_pp": 27.499999999999993
+  },
+  "gemini-4-argon|anthropic": {
+   "pairs": 80,
+   "joint_image_pct": 75.0,
+   "joint_omitted_pct": 16.25,
+   "delta_pp": 58.75
+  },
+  "gemini-4-argon|openai": {
+   "pairs": 80,
+   "joint_image_pct": 100.0,
+   "joint_omitted_pct": 61.25000000000001,
+   "delta_pp": 38.74999999999999
+  },
+  "gemma-4-12b|anthropic": {
+   "pairs": 80,
+   "joint_image_pct": 57.49999999999999,
+   "joint_omitted_pct": 17.5,
+   "delta_pp": 40.0
+  },
+  "gemma-4-12b|openai": {
+   "pairs": 80,
+   "joint_image_pct": 86.25,
+   "joint_omitted_pct": 57.49999999999999,
+   "delta_pp": 28.750000000000007
+  },
+  "gpt-6.1-terra|anthropic": {
+   "pairs": 80,
+   "joint_image_pct": 77.5,
+   "joint_omitted_pct": 22.5,
+   "delta_pp": 55.00000000000001
+  },
+  "gpt-6.1-terra|google": {
+   "pairs": 79,
+   "joint_image_pct": 89.87341772151899,
+   "joint_omitted_pct": 17.72151898734177,
+   "delta_pp": 72.15189873417722
+  },
+  "lfm3-vl-2b|anthropic": {
+   "pairs": 80,
+   "joint_image_pct": 71.25,
+   "joint_omitted_pct": 15.0,
+   "delta_pp": 56.25
+  },
+  "lfm3-vl-2b|openai": {
+   "pairs": 80,
+   "joint_image_pct": 91.25,
+   "joint_omitted_pct": 53.75,
+   "delta_pp": 37.5
+  },
+  "minicpm-v-4.7-35b-a3b|anthropic": {
+   "pairs": 80,
+   "joint_image_pct": 71.25,
+   "joint_omitted_pct": 20.0,
+   "delta_pp": 51.24999999999999
+  },
+  "minicpm-v-4.7-35b-a3b|google": {
+   "pairs": 76,
+   "joint_image_pct": 85.52631578947368,
+   "joint_omitted_pct": 10.526315789473683,
+   "delta_pp": 75.0
+  },
+  "orchcircuit|anthropic": {
+   "pairs": 77,
+   "joint_image_pct": 76.62337662337663,
+   "joint_omitted_pct": 19.480519480519483,
+   "delta_pp": 57.14285714285714
+  },
+  "orchcircuit|google": {
+   "pairs": 77,
+   "joint_image_pct": 90.9090909090909,
+   "joint_omitted_pct": 11.688311688311687,
+   "delta_pp": 79.2207792207792
+  },
+  "qwen2.5-vl-7b|anthropic": {
+   "pairs": 80,
+   "joint_image_pct": 63.74999999999999,
+   "joint_omitted_pct": 18.75,
+   "delta_pp": 44.99999999999999
+  },
+  "qwen2.5-vl-7b|google": {
+   "pairs": 76,
+   "joint_image_pct": 86.8421052631579,
+   "joint_omitted_pct": 25.0,
+   "delta_pp": 61.8421052631579
+  },
+  "qwen3.8-27b|anthropic": {
+   "pairs": 80,
+   "joint_image_pct": 67.5,
+   "joint_omitted_pct": 18.75,
+   "delta_pp": 48.75000000000001
+  },
+  "qwen3.8-27b|google": {
+   "pairs": 77,
+   "joint_image_pct": 92.20779220779221,
+   "joint_omitted_pct": 15.584415584415584,
+   "delta_pp": 76.62337662337661
+  }
+ },
+ "c_fig3d_joint_ti_did": {
+  "anthropic": {
+   "common_prompts": 77,
+   "orch_shift_pp": 57.14285714285714,
+   "qwen_shift_pp": 46.75324675324675,
+   "did_pp": 10.389610389610388,
+   "ci95": [
+    -1.3157894736842035,
+    22.368421052631582
+   ]
+  },
+  "google": {
+   "common_prompts": 74,
+   "orch_shift_pp": 78.37837837837837,
+   "qwen_shift_pp": 62.16216216216217,
+   "did_pp": 16.216216216216207,
+   "ci95": [
+    2.6666666666666727,
+    30.555555555555557
+   ]
+  }
+ },
+ "d_fig4e_order_balanced_wr": {
+  "gemini-4-argon": {
+   "order_balanced_wr_pct": 41.598679098679106,
+   "ci95": [
+    34.21938370477724,
+    49.13723429658805
+   ]
+  },
+  "claude-opus-5-5": {
+   "order_balanced_wr_pct": 40.60314685314685,
+   "ci95": [
+    35.6757413117938,
+    46.23255687113809
+   ]
+  },
+  "claude-sonnet-5-5": {
+   "order_balanced_wr_pct": 39.272533022533025,
+   "ci95": [
+    34.479387815865785,
+    44.75667254695364
+   ]
+  },
+  "OrchCircuit": {
+   "order_balanced_wr_pct": 38.03904428904429,
+   "ci95": [
+    33.10511365362887,
+    43.39312789933882
+   ]
+  },
+  "claude-haiku-5-5": {
+   "order_balanced_wr_pct": 31.88616938616938,
+   "ci95": [
+    27.672617827470102,
+    36.678515241462705
+   ]
+  },
+  "gemini-3.8-flash": {
+   "order_balanced_wr_pct": 31.11888111888112,
+   "ci95": [
+    25.326059131604495,
+    37.546899252064534
+   ]
+  },
+  "qwen3.6-27b": {
+   "order_balanced_wr_pct": 27.044483294483296,
+   "ci95": [
+    21.228077189183846,
+    32.787224108456876
+   ]
+  },
+  "gemini-3.6-flash": {
+   "order_balanced_wr_pct": 26.806526806526808,
+   "ci95": [
+    20.9978869816535,
+    33.01634097217871
+   ]
+  },
+  "qwen3.8-27b": {
+   "order_balanced_wr_pct": 25.713869463869464,
+   "ci95": [
+    21.40824663928379,
+    30.54418121777929
+   ]
+  },
+  "minicpm-v-4.7-35b-a3b": {
+   "order_balanced_wr_pct": 25.461344211344212,
+   "ci95": [
+    20.488667320475102,
+    31.3913934288757
+   ]
+  },
+  "lfm3-vl-2b": {
+   "order_balanced_wr_pct": 23.941336441336443,
+   "ci95": [
+    18.57039464097748,
+    28.995514698106568
+   ]
+  },
+  "qwen3.6-35b-a3b": {
+   "order_balanced_wr_pct": 22.159090909090907,
+   "ci95": [
+    16.629967797373013,
+    27.923965699564892
+   ]
+  },
+  "gpt-6.1-sol": {
+   "order_balanced_wr_pct": 21.9017094017094,
+   "ci95": [
+    17.241188259210467,
+    26.718368545603433
+   ]
+  },
+  "qwen3.5-35b-a3b": {
+   "order_balanced_wr_pct": 20.857614607614607,
+   "ci95": [
+    16.06170469273722,
+    26.022239767994343
+   ]
+  },
+  "qwen3-vl-8b": {
+   "order_balanced_wr_pct": 20.0514763014763,
+   "ci95": [
+    15.067686689564491,
+    25.274319286725746
+   ]
+  },
+  "gemma-4-12b": {
+   "order_balanced_wr_pct": 18.939393939393938,
+   "ci95": [
+    13.914276961476219,
+    24.38777797094619
+   ]
+  },
+  "gpt-6-luna": {
+   "order_balanced_wr_pct": 17.424242424242426,
+   "ci95": [
+    12.93220823339494,
+    22.342718672693266
+   ]
+  },
+  "gpt-6.1-terra": {
+   "order_balanced_wr_pct": 17.210567210567213,
+   "ci95": [
+    13.09893340436843,
+    21.542255887733948
+   ]
+  },
+  "qwen3.5-2b": {
+   "order_balanced_wr_pct": 17.11344211344211,
+   "ci95": [
+    13.694498085678791,
+    20.931640404294345
+   ]
+  },
+  "gemma3-27b": {
+   "order_balanced_wr_pct": 12.184343434343434,
+   "ci95": [
+    9.38196873254746,
+    15.73198536878872
+   ]
+  },
+  "minicpm-v-4.5-8b": {
+   "order_balanced_wr_pct": 11.68900543900544,
+   "ci95": [
+    8.605744582783911,
+    14.961029221387507
+   ]
+  },
+  "gemma3-12b": {
+   "order_balanced_wr_pct": 10.785742035742036,
+   "ci95": [
+    8.263081457184752,
+    13.274917426015367
+   ]
+  },
+  "gemma4-e2b": {
+   "order_balanced_wr_pct": 9.838772338772339,
+   "ci95": [
+    6.718118205338183,
+    13.538982837857246
+   ]
+  },
+  "pixtral-12b": {
+   "order_balanced_wr_pct": 8.653846153846153,
+   "ci95": [
+    6.356751843528671,
+    11.21199032123594
+   ]
+  },
+  "qwen2.5-vl-7b": {
+   "order_balanced_wr_pct": 7.93997668997669,
+   "ci95": [
+    5.287898194427699,
+    11.015180356813968
+   ]
+  }
+ }
+}

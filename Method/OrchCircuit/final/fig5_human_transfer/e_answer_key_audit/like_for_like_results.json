@@ -1,0 +1,90 @@
+{
+ "gpt4o": {
+  "subset_n": 831,
+  "key_diff_pp": 51.0,
+  "key_diff_ci95_pp": [
+   33.9,
+   65.9
+  ],
+  "key_kappa": 0.264,
+  "key_kappa_ci95": [
+   0.165,
+   0.371
+  ],
+  "judge_vs_human_truth_kappa": 0.209,
+  "judge_vs_human_truth_kappa_ci95": [
+   0.11,
+   0.309
+  ],
+  "judge_truthful_rate_pct": 67.5,
+  "human_supported_rate_pct": 74.1,
+  "WR_on_raters_decisive_one_correct_n": 38,
+  "WR_prefers_correct_pct": 71.1
+ },
+ "sonnet": {
+  "subset_n": 831,
+  "key_diff_pp": 57.7,
+  "key_diff_ci95_pp": [
+   44.3,
+   70.7
+  ],
+  "key_kappa": 0.366,
+  "key_kappa_ci95": [
+   0.262,
+   0.472
+  ],
+  "judge_vs_human_truth_kappa": 0.16,
+  "judge_vs_human_truth_kappa_ci95": [
+   0.066,
+   0.255
+  ],
+  "judge_truthful_rate_pct": 75.8,
+  "human_supported_rate_pct": 74.1,
+  "WR_on_raters_decisive_one_correct_n": 38,
+  "WR_prefers_correct_pct": 92.1
+ },
+ "gpt61sol": {
+  "subset_n": 831,
+  "key_diff_pp": 32.2,
+  "key_diff_ci95_pp": [
+   17.5,
+   49.1
+  ],
+  "key_kappa": 0.242,
+  "key_kappa_ci95": [
+   0.131,
+   0.358
+  ],
+  "judge_vs_human_truth_kappa": 0.102,
+  "judge_vs_human_truth_kappa_ci95": [
+   0.011,
+   0.193
+  ],
+  "judge_truthful_rate_pct": 81.7,
+  "human_supported_rate_pct": 74.1,
+  "WR_on_raters_decisive_one_correct_n": 38,
+  "WR_prefers_correct_pct": 81.6
+ },
+ "gemini": {
+  "subset_n": 831,
+  "key_diff_pp": 52.8,
+  "key_diff_ci95_pp": [
+   35.7,
+   72.8
+  ],
+  "key_kappa": 0.563,
+  "key_kappa_ci95": [
+   0.403,
+   0.709
+  ],
+  "judge_vs_human_truth_kappa": 0.156,
+  "judge_vs_human_truth_kappa_ci95": [
+   0.077,
+   0.24
+  ],
+  "judge_truthful_rate_pct": 91.0,
+  "human_supported_rate_pct": 74.1,
+  "WR_on_raters_decisive_one_correct_n": 38,
+  "WR_prefers_correct_pct": 81.6
+ }
+}

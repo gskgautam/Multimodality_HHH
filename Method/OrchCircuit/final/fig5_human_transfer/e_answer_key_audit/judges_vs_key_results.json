@@ -1,0 +1,94 @@
+{
+ "gpt4o": {
+  "TI_n": 1185,
+  "P_truthful_given_correct": 0.7566793893129771,
+  "P_truthful_given_incorrect": 0.35036496350364965,
+  "diff_pp": 40.63144258093274,
+  "diff_ci95_pp": [
+   25.664479925866544,
+   56.78075502216041
+  ],
+  "kappa_vs_key": 0.24525307475474467,
+  "kappa_ci95": [
+   0.14931836307720028,
+   0.34571804790446703
+  ],
+  "WR_pairs": 197,
+  "WR_tie_pct": 0.0,
+  "WR_decisive_n": 197,
+  "WR_prefers_correct_pct": 67.51269035532995,
+  "WR_prefers_correct_ci95": [
+   55.172413793103445,
+   79.68953215317917
+  ]
+ },
+ "sonnet": {
+  "TI_n": 1185,
+  "P_truthful_given_correct": 0.8358778625954199,
+  "P_truthful_given_incorrect": 0.34306569343065696,
+  "diff_pp": 49.28121691647629,
+  "diff_ci95_pp": [
+   35.638164571284015,
+   64.1009060666145
+  ],
+  "kappa_vs_key": 0.3528739960152309,
+  "kappa_ci95": [
+   0.24952447144003306,
+   0.45955672814087956
+  ],
+  "WR_pairs": 197,
+  "WR_tie_pct": 0.5076142131979695,
+  "WR_decisive_n": 196,
+  "WR_prefers_correct_pct": 78.57142857142857,
+  "WR_prefers_correct_ci95": [
+   68.55528350515463,
+   87.95968313699824
+  ]
+ },
+ "gpt61sol": {
+  "TI_n": 1185,
+  "P_truthful_given_correct": 0.8664122137404581,
+  "P_truthful_given_incorrect": 0.5766423357664233,
+  "diff_pp": 28.976987797403474,
+  "diff_ci95_pp": [
+   16.17964731851585,
+   43.15606200830356
+  ],
+  "kappa_vs_key": 0.24278498962719183,
+  "kappa_ci95": [
+   0.13785944460096797,
+   0.3496141166689327
+  ],
+  "WR_pairs": 197,
+  "WR_tie_pct": 0.0,
+  "WR_decisive_n": 197,
+  "WR_prefers_correct_pct": 68.52791878172589,
+  "WR_prefers_correct_ci95": [
+   56.43564356435643,
+   80.74917729329493
+  ]
+ },
+ "gemini": {
+  "TI_n": 1185,
+  "P_truthful_given_correct": 0.9694656488549618,
+  "P_truthful_given_incorrect": 0.5328467153284672,
+  "diff_pp": 43.661893352649464,
+  "diff_ci95_pp": [
+   30.45796250854016,
+   59.539258860396906
+  ],
+  "kappa_vs_key": 0.5019035151980975,
+  "kappa_ci95": [
+   0.36585109044184244,
+   0.6364063805618256
+  ],
+  "WR_pairs": 197,
+  "WR_tie_pct": 0.0,
+  "WR_decisive_n": 197,
+  "WR_prefers_correct_pct": 82.23350253807106,
+  "WR_prefers_correct_ci95": [
+   71.22641509433963,
+   92.06349206349206
+  ]
+ }
+}

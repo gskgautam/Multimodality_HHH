@@ -1,1 +1,0 @@
-../common/pilot/analyze_figure3cd_pilot.py

@@ -1,0 +1,347 @@
+{
+  "analysis_rules": {
+    "SS": "Beaver-Dam True is unsafe; safe and harmful/unsafe included; concerning/no-majority excluded",
+    "TI_informativeness": "adequate positive; partial and low negative; no-majority excluded",
+    "TI_truthfulness": "supported positive; partly_supported and contradicted negative; not_assessable/no-majority excluded",
+    "WR": "GPT-4o candidate win/loss is mapped to displayed A/B using candidate position; human uncertain/no-majority excluded; tie retained",
+    "human_majority": "at least 2 of 3 raters agree; no majority is excluded",
+    "uncertainty": "Wilson 95% intervals for proportions; percentile 95% intervals for Fleiss kappa from 2,000 case-level bootstrap resamples; cases are unique record IDs in the selected set"
+  },
+  "automated_judge_comparison": {
+    "SS": {
+      "beaver_unsafe_confusion": {
+        "accuracy": 0.5673758865248227,
+        "accuracy_wilson_95": [
+          0.4848842370655171,
+          0.6462936739738974
+        ],
+        "fn": 39,
+        "fp": 22,
+        "n": 141,
+        "sensitivity": 0.44285714285714284,
+        "sensitivity_wilson_95": [
+          0.3324952890930533,
+          0.55916448946812
+        ],
+        "specificity": 0.6901408450704225,
+        "specificity_wilson_95": [
+          0.5751598742905824,
+          0.7856027354373607
+        ],
+        "tn": 49,
+        "tp": 31
+      },
+      "excluded": {
+        "concerning": 53
+      },
+      "human_safe_n": 71,
+      "human_unsafe_n": 70
+    },
+    "TI": {
+      "informativeness": {
+        "excluded": {},
+        "gpt4o_informative_confusion": {
+          "accuracy": 0.5133689839572193,
+          "accuracy_wilson_95": [
+            0.4421862744799072,
+            0.5840134833237562
+          ],
+          "fn": 9,
+          "fp": 82,
+          "n": 187,
+          "sensitivity": 0.9052631578947369,
+          "sensitivity_wilson_95": [
+            0.8296695632641026,
+            0.9493557659723247
+          ],
+          "specificity": 0.10869565217391304,
+          "specificity_wilson_95": [
+            0.06012152356953175,
+            0.18863782456704176
+          ],
+          "tn": 10,
+          "tp": 86
+        },
+        "human_negative_n": 92,
+        "human_positive_n": 95
+      },
+      "truthfulness": {
+        "excluded": {
+          "no_majority": 4,
+          "not_assessable": 27
+        },
+        "gpt4o_truthful_confusion": {
+          "accuracy": 0.42948717948717946,
+          "accuracy_wilson_95": [
+            0.35442497567077513,
+            0.5079386428652705
+          ],
+          "fn": 12,
+          "fp": 77,
+          "n": 156,
+          "sensitivity": 0.8095238095238095,
+          "sensitivity_wilson_95": [
+            0.6959321285012545,
+            0.8875380812770755
+          ],
+          "specificity": 0.17204301075268819,
+          "specificity_wilson_95": [
+            0.1087656386118496,
+            0.2613388523485358
+          ],
+          "tn": 16,
+          "tp": 51
+        },
+        "human_negative_n": 93,
+        "human_positive_n": 63
+      }
+    },
+    "WR": {
+      "directional_accuracy": 0.31,
+      "directional_accuracy_wilson_95": [
+        0.22779697212376038,
+        0.40626055719489407
+      ],
+      "directional_correct": 31,
+      "directional_preference_n": 100,
+      "eligible_exact_match_n": 147,
+      "exact_match": 0.32653061224489793,
+      "exact_match_wilson_95": [
+        0.2559823897760879,
+        0.40591427710364636
+      ],
+      "excluded": {
+        "no_majority": 2,
+        "uncertain": 39
+      },
+      "human_by_judge_confusion": {
+        "A": {
+          "A": 15,
+          "B": 14,
+          "tie": 20
+        },
+        "B": {
+          "A": 15,
+          "B": 16,
+          "tie": 20
+        },
+        "tie": {
+          "A": 14,
+          "B": 16,
+          "tie": 17
+        }
+      }
+    }
+  },
+  "human_majority_counts": {
+    "SS_safety": {
+      "concerning": 53,
+      "harmful_unsafe": 70,
+      "safe": 71
+    },
+    "TI_informativeness": {
+      "adequate": 95,
+      "low": 32,
+      "partial": 60
+    },
+    "TI_truthfulness": {
+      "contradicted": 60,
+      "no_majority": 4,
+      "not_assessable": 27,
+      "partly_supported": 33,
+      "supported": 63
+    },
+    "WR": {
+      "A": 49,
+      "B": 51,
+      "no_majority": 2,
+      "tie": 47,
+      "uncertain": 39
+    }
+  },
+  "interrater_reliability": {
+    "SS_refusal": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 0,
+      "category_counts_all_ratings": {
+        "no": 414,
+        "unclear": 84,
+        "yes": 84
+      },
+      "fleiss_kappa": 1.0,
+      "fleiss_kappa_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "n_cases": 194,
+      "observed_agreement": 1.0,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 1.0,
+          "matches": 194,
+          "n": 194
+        },
+        "R1-R3": {
+          "agreement": 1.0,
+          "matches": 194,
+          "n": 194
+        },
+        "R2-R3": {
+          "agreement": 1.0,
+          "matches": 194,
+          "n": 194
+        }
+      },
+      "unanimous_cases": 194
+    },
+    "SS_safety": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 47,
+      "category_counts_all_ratings": {
+        "concerning": 161,
+        "harmful_unsafe": 207,
+        "safe": 214
+      },
+      "fleiss_kappa": 0.7559400066024857,
+      "fleiss_kappa_bootstrap_95": [
+        0.6931049530874973,
+        0.8164203316510454
+      ],
+      "n_cases": 194,
+      "observed_agreement": 0.8384879725085911,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 0.8865979381443299,
+          "matches": 172,
+          "n": 194
+        },
+        "R1-R3": {
+          "agreement": 0.8247422680412371,
+          "matches": 160,
+          "n": 194
+        },
+        "R2-R3": {
+          "agreement": 0.8041237113402062,
+          "matches": 156,
+          "n": 194
+        }
+      },
+      "unanimous_cases": 147
+    },
+    "TI_informativeness": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 0,
+      "category_counts_all_ratings": {
+        "adequate": 285,
+        "low": 96,
+        "partial": 180
+      },
+      "fleiss_kappa": 1.0,
+      "fleiss_kappa_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "n_cases": 187,
+      "observed_agreement": 1.0,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 1.0,
+          "matches": 187,
+          "n": 187
+        },
+        "R1-R3": {
+          "agreement": 1.0,
+          "matches": 187,
+          "n": 187
+        },
+        "R2-R3": {
+          "agreement": 1.0,
+          "matches": 187,
+          "n": 187
+        }
+      },
+      "unanimous_cases": 187
+    },
+    "TI_truthfulness": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 45,
+      "category_counts_all_ratings": {
+        "contradicted": 186,
+        "not_assessable": 81,
+        "partly_supported": 110,
+        "supported": 184
+      },
+      "fleiss_kappa": 0.7683121858634144,
+      "fleiss_kappa_bootstrap_95": [
+        0.7062696898433688,
+        0.8230252459278611
+      ],
+      "n_cases": 187,
+      "observed_agreement": 0.8324420677361853,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 0.8877005347593583,
+          "matches": 166,
+          "n": 187
+        },
+        "R1-R3": {
+          "agreement": 0.8235294117647058,
+          "matches": 154,
+          "n": 187
+        },
+        "R2-R3": {
+          "agreement": 0.786096256684492,
+          "matches": 147,
+          "n": 187
+        }
+      },
+      "unanimous_cases": 142
+    },
+    "WR_helpfulness": {
+      "bootstrap_replicates": 2000,
+      "cases_with_any_disagreement": 58,
+      "category_counts_all_ratings": {
+        "A": 144,
+        "B": 146,
+        "tie": 150,
+        "uncertain": 124
+      },
+      "fleiss_kappa": 0.7205669947264115,
+      "fleiss_kappa_bootstrap_95": [
+        0.6588681020505884,
+        0.7790664997573001
+      ],
+      "n_cases": 188,
+      "observed_agreement": 0.7907801418439716,
+      "pairwise_agreement": {
+        "R1-R2": {
+          "agreement": 0.8723404255319149,
+          "matches": 164,
+          "n": 188
+        },
+        "R1-R3": {
+          "agreement": 0.7712765957446809,
+          "matches": 145,
+          "n": 188
+        },
+        "R2-R3": {
+          "agreement": 0.7287234042553191,
+          "matches": 137,
+          "n": 188
+        }
+      },
+      "unanimous_cases": 130
+    }
+  },
+  "n_cases": {
+    "SS": 194,
+    "TI": 187,
+    "WR": 188
+  },
+  "reviewer_files": [
+    "R01_Figure3a-d_RatingForm.xlsx",
+    "R02_Figure3a-d_RatingForm.xlsx",
+    "R03_Figure3a-d_RatingForm.xlsx"
+  ],
+  "status": "development-set human reference validation; not an untouched method test"
+}

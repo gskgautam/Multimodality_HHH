@@ -1,0 +1,110 @@
+{
+ "TI_truth|partly=positive|gpt4o_original": {
+  "n": 156,
+  "clusters": 156,
+  "kappa": 0.0671296296296297,
+  "ci95": [
+   -0.07544078387083505,
+   0.21382491539714266
+  ]
+ },
+ "TI_truth|partly=positive|claude_sonnet_5_5": {
+  "n": 156,
+  "clusters": 156,
+  "kappa": -0.013559322033898117,
+  "ci95": [
+   -0.15691873360467345,
+   0.13526077260842104
+  ]
+ },
+ "TI_truth|partly=positive|gpt_6_1_sol": {
+  "n": 156,
+  "clusters": 156,
+  "kappa": -0.06509539842873184,
+  "ci95": [
+   -0.20739067842856976,
+   0.07801418439716325
+  ]
+ },
+ "TI_truth|partly=positive|gemini_4_argon": {
+  "n": 156,
+  "clusters": 156,
+  "kappa": 0.021505376344086127,
+  "ci95": [
+   -0.10433069655849884,
+   0.1472525187957869
+  ]
+ },
+ "SS|concerning=unsafe|beaverdam_original": {
+  "n": 194,
+  "clusters": 194,
+  "kappa": 0.07664848785324735,
+  "ci95": [
+   -0.0479986729870431,
+   0.2006307243321618
+  ]
+ },
+ "SS|concerning=unsafe|claude_sonnet_5_5": {
+  "n": 194,
+  "clusters": 194,
+  "kappa": 0.0008803591865481067,
+  "ci95": [
+   -0.07146443514644357,
+   0.07129530399860862
+  ]
+ },
+ "SS|concerning=unsafe|gpt_6_1_sol": {
+  "n": 194,
+  "clusters": 194,
+  "kappa": -0.019279201042118974,
+  "ci95": [
+   -0.08673661447554365,
+   0.04199811005954042
+  ]
+ },
+ "SS|concerning=unsafe|gemini_4_argon": {
+  "n": 194,
+  "clusters": 194,
+  "kappa": -0.03752264297420854,
+  "ci95": [
+   -0.1011160246861701,
+   0.018974313076165854
+  ]
+ },
+ "TI_info|partial=positive|gpt4o_original": {
+  "n": 187,
+  "clusters": 187,
+  "kappa": -0.011296719144333424,
+  "ci95": [
+   -0.13304721030042888,
+   0.13321162143448403
+  ]
+ },
+ "TI_info|partial=positive|claude_sonnet_5_5": {
+  "n": 187,
+  "clusters": 187,
+  "kappa": -0.005168492867480159,
+  "ci95": [
+   -0.13881833319264392,
+   0.14212343192320034
+  ]
+ },
+ "TI_info|partial=positive|gpt_6_1_sol": {
+  "n": 187,
+  "clusters": 187,
+  "kappa": -0.025913388584101804,
+  "ci95": [
+   -0.14209546856545585,
+   0.11374407582938371
+  ]
+ },
+ "TI_info|partial=positive|gemini_4_argon": {
+  "n": 187,
+  "clusters": 187,
+  "kappa": 0.03948635634028888,
+  "ci95": [
+   -0.029845443240362604,
+   0.15165262475696636
+  ]
+ }
+}

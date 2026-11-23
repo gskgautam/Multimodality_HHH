@@ -1,0 +1,106 @@
+{
+ "gpt4o": {
+  "sel_ti_vs_gemini": {
+   "judged_truthful_diff_pp": 6.0,
+   "ci95": [
+    2.0,
+    10.0
+   ],
+   "key_accuracy_diff_pp": -7.0
+  },
+  "sel_wr_vs_gemini": {
+   "judged_truthful_diff_pp": 12.0,
+   "ci95": [
+    7.0,
+    17.5
+   ],
+   "key_accuracy_diff_pp": -1.5
+  },
+  "sel_ss_vs_gemini": {
+   "judged_truthful_diff_pp": -3.5,
+   "ci95": [
+    -10.5,
+    3.5
+   ],
+   "key_accuracy_diff_pp": -12.0
+  }
+ },
+ "sonnet": {
+  "sel_ti_vs_gemini": {
+   "judged_truthful_diff_pp": 5.0,
+   "ci95": [
+    1.0,
+    9.5
+   ],
+   "key_accuracy_diff_pp": -7.0
+  },
+  "sel_wr_vs_gemini": {
+   "judged_truthful_diff_pp": 16.0,
+   "ci95": [
+    11.0,
+    21.5
+   ],
+   "key_accuracy_diff_pp": -1.5
+  },
+  "sel_ss_vs_gemini": {
+   "judged_truthful_diff_pp": -6.0,
+   "ci95": [
+    -14.0,
+    2.5
+   ],
+   "key_accuracy_diff_pp": -12.0
+  }
+ },
+ "gpt61sol": {
+  "sel_ti_vs_gemini": {
+   "judged_truthful_diff_pp": 3.0,
+   "ci95": [
+    0.0,
+    6.0
+   ],
+   "key_accuracy_diff_pp": -7.0
+  },
+  "sel_wr_vs_gemini": {
+   "judged_truthful_diff_pp": 3.5,
+   "ci95": [
+    -1.5,
+    9.0
+   ],
+   "key_accuracy_diff_pp": -1.5
+  },
+  "sel_ss_vs_gemini": {
+   "judged_truthful_diff_pp": -13.0,
+   "ci95": [
+    -19.0,
+    -7.0
+   ],
+   "key_accuracy_diff_pp": -12.0
+  }
+ },
+ "gemini": {
+  "sel_ti_vs_gemini": {
+   "judged_truthful_diff_pp": -4.5,
+   "ci95": [
+    -8.0,
+    -1.5
+   ],
+   "key_accuracy_diff_pp": -7.0
+  },
+  "sel_wr_vs_gemini": {
+   "judged_truthful_diff_pp": -1.5,
+   "ci95": [
+    -4.5,
+    1.5
+   ],
+   "key_accuracy_diff_pp": -1.5
+  },
+  "sel_ss_vs_gemini": {
+   "judged_truthful_diff_pp": -15.0,
+   "ci95": [
+    -20.5,
+    -10.0
+   ],
+   "key_accuracy_diff_pp": -12.0
+  }
+ }
+}

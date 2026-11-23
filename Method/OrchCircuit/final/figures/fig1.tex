@@ -1,0 +1,116 @@
+%% Fig. 1 — study design, hand-drawn sketch style (pastel dashed panels, sketchy borders, fat arrows, handwriting font).
+%% Font: augie (TeX Live, T1). Libraries: shapes.arrows, decorations.pathmorphing (loaded in the preamble).
+\definecolor{skyF}{RGB}{217,234,251}\definecolor{skyB}{RGB}{66,133,200}%
+\definecolor{peachF}{RGB}{253,226,200}\definecolor{peachB}{RGB}{236,132,48}%
+\definecolor{sunF}{RGB}{255,245,200}\definecolor{sunB}{RGB}{238,200,20}%
+\definecolor{mintF}{RGB}{217,242,210}\definecolor{mintB}{RGB}{72,170,86}%
+\definecolor{lavF}{RGB}{238,226,248}\definecolor{lavB}{RGB}{150,100,190}%
+\definecolor{cBlue}{RGB}{190,216,246}\definecolor{cPink}{RGB}{250,214,214}\definecolor{cKey}{RGB}{255,236,160}%
+\definecolor{cLav}{RGB}{222,204,245}\definecolor{cMint}{RGB}{205,238,200}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  font=\usefont{T1}{augie}{m}{n}\normalsize,
+  every node/.style={align=center},
+  sk/.style={decorate,decoration={random steps,segment length=5pt,amplitude=0.45pt}},
+  panel/.style={sk,draw=#1B,fill=#1F,dashed,line width=1.1pt,rounded corners=10pt},
+  core/.style={sk,draw=#1B,fill=#1F,line width=2.6pt,rounded corners=12pt},
+  card/.style={sk,draw=black!80,fill=#1,line width=0.9pt,rounded corners=6pt,minimum width=3.5cm,minimum height=5.3cm},
+  stage/.style={sk,draw=black!80,fill=#1,line width=0.9pt,rounded corners=6pt,minimum width=3.0cm,minimum height=3.2cm},
+  fat/.style={single arrow,draw=black!85,fill=#1,line width=0.9pt,minimum height=1.15cm,minimum width=0.7cm,single arrow head extend=0.18cm,inner sep=0pt},
+  lnk/.style={-{Stealth[length=2.6mm]},line width=0.9pt,draw=black!75},
+  ttl/.style={font=\usefont{T1}{augie}{m}{n}\Large},
+  hd/.style={font=\usefont{T1}{augie}{m}{n}\large},
+  sm/.style={font=\usefont{T1}{augie}{m}{n}\small},
+]
+\pgfmathsetseed{20261123}
+%% ---------- small hand-drawn icons
+\tikzset{
+  doc/.pic={\draw[sk,fill=white,line width=0.8pt] (0,0) -- (1.05,0) -- (1.05,1.05) -- (0.8,1.3) -- (0,1.3) -- cycle;
+            \draw[line width=0.6pt] (0.8,1.3) -- (0.8,1.05) -- (1.05,1.05);
+            \foreach \y in {0.95,0.78,0.61,0.44} \draw[line width=0.5pt,black!70] (0.15,\y) -- (0.85,\y);
+            \draw[fill=mintF,line width=0.5pt] (0.15,0.1) rectangle (0.62,0.34);
+            \draw[fill=mintB,draw=none] (0.17,0.12) -- (0.3,0.27) -- (0.42,0.16) -- (0.5,0.24) -- (0.6,0.12) -- cycle;},
+  person/.pic={\draw[line width=0.8pt,fill=white] (0,0.42) circle (0.17);
+               \draw[line width=0.8pt,fill=white] (-0.3,0) arc (180:0:0.3) -- cycle;},
+  scales/.pic={\draw[line width=0.9pt] (0,0) -- (0,0.75); \draw[line width=0.9pt] (-0.45,0.72) -- (0.45,0.72);
+               \draw[line width=0.6pt,fill=white] (-0.45,0.72) -- (-0.6,0.42) -- (-0.3,0.42) -- cycle; \draw[line width=0.6pt,fill=white] (0.45,0.72) -- (0.3,0.42) -- (0.6,0.42) -- cycle;
+               \draw[line width=0.9pt] (-0.22,0) -- (0.22,0); \fill[peachB] (0,0.78) circle (0.06);},
+  key/.pic={\draw[line width=0.9pt,fill=sunB] (0,0.3) circle (0.2); \fill[white] (0,0.3) circle (0.07);
+            \draw[line width=0.9pt] (0.2,0.3) -- (0.85,0.3) (0.62,0.3) -- (0.62,0.14) (0.78,0.3) -- (0.78,0.18);},
+  tick/.pic={\draw[mintB!80!black,line width=2.2pt,line cap=round,line join=round] (0,0.12) -- (0.12,0) -- (0.34,0.3);},
+  chip/.pic={\draw[fill=white,line width=0.8pt] (-0.3,-0.3) rectangle (0.3,0.3); \draw[fill=skyB!40,line width=0.5pt] (-0.14,-0.14) rectangle (0.14,0.14);
+             \foreach \t in {-0.17,0,0.17} {\draw[line width=0.6pt] (\t,0.3) -- (\t,0.42) (\t,-0.3) -- (\t,-0.42) (0.3,\t) -- (0.42,\t) (-0.3,\t) -- (-0.42,\t);}},
+}
+%% ================= (a) top row: items -> answers -> evaluation
+\node[hd,anchor=west] at (0,12.75) {(a)\enspace Generation and Evaluation};
+% Items
+\draw[panel=sky] (0,5.2) rectangle (4.2,12.2);
+\node[ttl] at (2.1,11.6) {Items};
+\pic at (1.25,9.55) {doc}; \pic at (1.45,9.4) {doc}; \pic at (1.65,9.25) {doc};
+\node at (2.1,8.55) {Ch3EF};
+\node[sm] at (2.1,8.05) {1,416 items};
+\pic at (1.57,6.55) {doc};
+\node at (2.1,6.1) {HumaniBench};
+\node[sm] at (2.1,5.6) {500 items + key};
+% Answers
+\draw[panel=peach] (4.9,5.2) rectangle (9.1,12.2);
+\node[ttl] at (7.0,11.6) {24 VLMs};
+\foreach \y/\t in {10.35/{$a_{i,1}$},9.15/{$a_{i,2}$},7.15/{$a_{i,24}$}}{
+  \draw[sk,fill=white,line width=0.9pt,rounded corners=3pt] (5.45,\y-0.45) -- (8.55,\y-0.45) -- (8.55,\y+0.28) -- (8.33,\y+0.48) -- (5.45,\y+0.48) -- cycle;
+  \node at (7.0,\y) {Answer \t};}
+\node at (7.0,8.25) {\Large$\vdots$};
+\node[sm] at (7.0,5.95) {15 open-weight\\[-1pt] 9 closed-weight};
+% Evaluation (highlighted core)
+\draw[core=sun] (9.8,5.2) rectangle (21.6,12.2);
+\node[ttl] at (15.7,11.6) {Evaluation};
+\node[card=cBlue] (J) at (11.85,8.25) {};
+\pic at (11.85,10.0) {scales};
+\node[hd] at (11.85,9.45) {Judges};
+\node[sm] at (11.85,8.4) {GPT-4o,\\[-1pt] Beaver-Dam-7B,\\[-1pt] 3 frontier judges};
+\node at (11.85,6.75) {$\mathrm{WR}_m,\ \mathrm{SS}_m,\ \mathrm{TI}_m$};
+\node[card=cPink] (R) at (15.7,8.25) {};
+\pic at (15.25,9.9) {person}; \pic at (15.7,10.0) {person}; \pic at (16.15,9.9) {person};
+\node[hd] at (15.7,9.45) {Human raters};
+\node[sm] at (15.7,8.55) {3, blinded\\[-1pt] 569 + 200 items};
+\node at (15.7,6.75) {$\kappa=\dfrac{p_o-p_e}{1-p_e}$};
+\node[card=cKey] (K) at (19.55,8.25) {};
+\pic at (19.15,9.95) {key};
+\node[hd] at (19.55,9.45) {Answer key};
+\node[sm] at (19.55,8.55) {500 external\\[-1pt] items};
+\node at (19.55,6.65) {$\mathrm{Acc}_m=$\\[2pt] $\frac{1}{|\mathcal{I}|}\sum_i\mathbf{1}[\hat y_{im}{=}y_i]$};
+% Findings
+\draw[panel=mint] (22.3,5.2) rectangle (28.0,12.2);
+\node[hd,anchor=west] at (22.3,12.75) {(c)\enspace Analyses};
+\node[ttl] at (25.15,11.6) {Findings};
+\foreach \y/\t in {10.5/{Judge validity\enspace(Fig.~2)},9.4/{Image access\enspace(Fig.~3)},8.3/{Judge scores\enspace(Fig.~4)},7.2/{Answer key\enspace(Fig.~5)},6.1/{Robustness\enspace(Fig.~6)}}{
+  \pic at (22.6,\y-0.12) {tick}; \node[anchor=west] at (23.1,\y) {\t};}
+% fat arrows along the top row
+\node[fat=black!12] at (4.55,8.6) {};
+\node[fat=peachF] at (9.45,8.6) {};
+\node[fat=mintF] at (21.95,8.6) {};
+%% ================= (b) bottom row: OrchCircuit
+\draw[panel=lav] (4.9,0) rectangle (21.6,4.2);
+\node[hd,anchor=west] at (4.9,-0.55) {(b)\enspace OrchCircuit, a Judge-Trained Selector};
+\node[stage=cBlue] (S1) at (6.6,2.1) {};
+\pic at (6.6,3.05) {chip};
+\node at (6.6,2.0) {Frozen\\[-1pt] Qwen2-VL-7B};
+\node[font=\small] at (6.6,0.95) {$\mathbf{e}_{ijl}\in\mathbb{R}^{3584}$};
+\node[stage=cLav] (S2) at (9.95,2.1) {};
+\node at (9.95,3.05) {Attention\\[-1pt] pooling};
+\node[font=\small] at (9.95,1.4) {$\mathbf{z}_{ij}=\sum_l\alpha_{ijl}\mathbf{h}_{ijl}$\\[2pt] $+\ \mathbf{u}_j$};
+\node[stage=cLav] (S3) at (13.3,2.1) {};
+\node at (13.3,3.05) {Set\\[-1pt] attention};
+\node[font=\small] at (13.3,1.4) {over 24 candidates\\[2pt] $\tilde{\mathbf{Z}}_i$};
+\node[stage=cPink] (S4) at (16.65,2.1) {};
+\node at (16.65,3.05) {Criterion\\[-1pt] heads};
+\node[font=\small] at (16.65,1.4) {WR, SS, TI\\[2pt] $\mathcal{L}=\frac{1}{|\mathcal{C}|}\sum_c\mathcal{L}_c$};
+\node[stage=cMint] (S5) at (20.0,2.1) {};
+\node at (20.0,3.05) {Select one\\[-1pt] answer};
+\node[font=\small] at (20.0,1.4) {$j^{\ast}=\arg\max_j\,p_{ij}$};
+\foreach \a/\b in {S1/S2,S2/S3,S3/S4,S4/S5} \draw[lnk] (\a.east) -- (\b.west);
+%% ---------- links between rows (all in the gap between the rows)
+\node[fat=peachF,rotate=-90] at (6.6,4.7) {};
+\draw[lnk,draw=skyB,dashed] (J.south) to[out=-90,in=90] node[pos=0.5,fill=white,inner sep=1.5pt,font=\usefont{T1}{augie}{m}{n}\small] {judge labels} (S4.north);
+\draw[lnk,draw=mintB!80!black] (S5.north) to[out=90,in=-90] node[pos=0.45,right,font=\usefont{T1}{augie}{m}{n}\small] {selected answer} (K.south);
+\end{tikzpicture}}
