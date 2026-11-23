@@ -1,32 +1,32 @@
 # Teaching to the AI Judge Makes Multimodal Models Less Accurate
 
-Code for evaluating 24 vision-language models (VLMs) with automated judges, blinded human raters and an answer key, and for the OrchCircuit selector trained on judge labels. Sections 6–12 reproduce Figures 1–6 of the paper.
+Code for evaluating 24 VLMs with automated judges, blinded human raters and an answer key, and for the OrchCircuit selector trained on judge labels. Sections 6–12 reproduce Figures 1–6 of the paper.
 
-## Repository map
+## Repository Map
 
 ~~~text
 Baselines/
-  Open/                         15 open-weight model launchers
-  Closed/                       Hosted VLM launchers and provider bridge
-  Judge/                        WR/TI and SS scoring, image-access audit (Fig. 3)
-Datasets/Ch3EF/                 Dataset setup and evaluation prompt
+  Open/                         15 Open-Weight Model Launchers
+  Closed/                       Hosted VLM Launchers and Provider Bridge
+  Judge/                        WR/TI and SS Scoring, Image-Access Audit (Fig. 3)
+Datasets/Ch3EF/                 Dataset Setup and Evaluation Prompt
 Method/OrchCircuit/final/
-  run_selector_cv.py            OrchCircuit grouped five-fold run (Fig. 4)
-  extract_features.py           Frozen Qwen2-VL-7B feature extraction
-  runs/fullset_group5fold/      Saved selector results (Fig. 4)
-  fig2_judge_validity/          Judges vs human raters (Fig. 2)
-  fig3_image_access/            Image-access audit, panel d (Fig. 3)
-  fig5_human_transfer/          External items, ratings and answer key (Fig. 5)
-  fig6_robustness/              Ablations, seeds, strata, trade-off, tipping points (Fig. 6)
-  review/                       Analysis scripts behind Figs. 2, 4, 5 and 6, and the held-out-item pipeline
-  shared/human_rating_pipeline/ Human-rating analysis, external generation and final selector
-  figures/                      Paper panels (fig1-fig6.tex) and their renderer
-README.md                       Setup and figure-by-figure reproduction guide
+  run_selector_cv.py            OrchCircuit Grouped Five-Fold Run (Fig. 4)
+  extract_features.py           Frozen Qwen2-VL-7B Feature Extraction
+  runs/fullset_group5fold/      Saved Selector Results (Fig. 4)
+  fig2_judge_validity/          Judges vs Human Raters (Fig. 2)
+  fig3_image_access/            Image-Access Audit, Panel d (Fig. 3)
+  fig5_human_transfer/          External Items, Ratings and Answer Key (Fig. 5)
+  fig6_robustness/              Ablations, Seeds, Strata, Trade-off, Tipping Points (Fig. 6)
+  review/                       Analysis Scripts Behind Figs. 2, 4, 5 and 6, and the Held-Out-Item Pipeline
+  shared/human_rating_pipeline/ Human-Rating Analysis, External Generation and Final Selector
+  figures/                      Paper Panels (Fig1-Fig6.tex) and Their Renderer
+README.md                       Setup and Figure-by-Figure Reproduction Guide
 ~~~
 
 The primary comparison includes 15 completed open-weight baselines. Each has a folder and `run.py` launcher under `Baselines/Open/`; ten use the shared Ollama runner, while five retain model-specific adapters. The nine hosted launchers are under `Baselines/Closed/`.
 
-| Size group | Completed open-weight models |
+| Size Group | Open-Weight Models |
 |---|---|
 | ~2B | LFM3-VL 2B, Qwen3.5 2B, Gemma 4 E2B |
 | ~7–8B | Qwen2.5-VL 7B, Qwen3-VL 8B, MiniCPM-V 4.5 8B |
